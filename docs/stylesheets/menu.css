@@ -16,7 +16,7 @@
 .md-sidebar--primary .md-nav {
   font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
-  font-size: 0.55rem;
+  font-size: 0.65rem;
 }
 
 .md-nav,
@@ -62,4 +62,9 @@
   color: #000000;
   font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
+}
+
+.md-sidebar--primary .md-sidebar__title .md-sidebar__title__inner::before {
+  content: "Навигация";
+  color: #1953ff;
 }

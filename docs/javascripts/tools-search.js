@@ -1,57 +1,59 @@
-// Предполагаем, что lunr уже загружен Material'ом
-(function () {
-  let index = null;
-  let data = [];
+document.addEventListener("DOMContentLoaded", function () {
   const input = document.getElementById("tools-search-input");
   const resultsList = document.getElementById("tools-search-results");
 
-  if (!input || !resultsList) return;
+  if (!input || !resultsList) {
+    return;
+  }
 
-  function renderResults(results) {
+  let tools = [];
+
+  fetch("/assets/search/tools.json")
+    .then((r) => r.json())
+    .then((data) => {
+      tools = data;
+    })
+    .catch((err) => {
+      console.error("[tools-search] failed to load tools.json", err);
+    });
+
+  function renderResults(items) {
     resultsList.innerHTML = "";
-    if (!results.length) {
-      resultsList.innerHTML = "<li>Ничего не найдено</li>";
+    if (!items.length) {
       return;
     }
-    results.forEach(res => {
-      const item = data.find(d => d.id === res.ref);
-      if (!item) return;
+    items.slice(0, 30).forEach((tool) => {
       const li = document.createElement("li");
-      li.innerHTML = `<strong>${item.name}</strong> — ${item.vendor} (${item.type}, ${item.tool_class})`;
+      li.textContent = `${tool.name} — ${tool.vendor || ""} (${tool.kind})`;
       resultsList.appendChild(li);
     });
   }
 
-  function init() {
-    fetch("assets/search/tools.json")
-      .then(r => r.json())
-      .then(json => {
-        data = json;
-        index = lunr(function () {
-          this.ref("id");
-          this.field("name");
-          this.field("vendor");
-          this.field("type");
-          this.field("tool_class");
-          this.field("description");
+  function onSearch() {
+    const q = input.value.trim().toLowerCase();
+    if (!q || !tools.length) {
+      resultsList.innerHTML = "";
+      return;
+    }
 
-          json.forEach(doc => this.add(doc), this);
-        });
-      })
-      .catch(err => {
-        console.error("Failed to load tools.json", err);
-      });
+    const filtered = tools.filter((t) => {
+      const haystack = [
+        t.name,
+        t.vendor,
+        t.description,
+        t.type,
+        t.toolclass,
+        t.division
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
 
-    input.addEventListener("input", function () {
-      const q = this.value.trim();
-      if (!index || !q) {
-        resultsList.innerHTML = "";
-        return;
-      }
-      const results = index.search(q);
-      renderResults(results);
+      return haystack.includes(q);
     });
+
+    renderResults(filtered);
   }
 
-  document.addEventListener("DOMContentLoaded", init);
-})();
+  input.addEventListener("input", onSearch);
+});

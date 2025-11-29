@@ -38,6 +38,22 @@ markdown_extensions:
   - attr_list
 
 extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/geminishkv
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/shmakovis_appsec
+    - icon: fontawesome/regular/envelope
+      link: mailto:shmakovis@inbox.ru
+    - icon: fontawesome/regular/address-card
+      link: 
+  
+  favicon: assets/logotype/favicon.ico
+  
+  font:
+    text: Montserrat
+    code: Roboto Mono
+
   table:
     - division: AppSec
       type:
@@ -120,13 +136,3 @@ extra:
     - division: MLSecOps
       OSS_tools: docs/tools/MLSecOps/OSS_tools.yaml
       PS_tools: docs/tools/MLSecOps/PS_tools.yaml
-
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/geminishkv
-
-  favicon: assets/logotype/favicon.ico
-  
-  font:
-    text: Montserrat
-    code: Roboto Mono

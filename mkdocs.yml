@@ -1,0 +1,16 @@
+site_name: Тестовый проект сайта
+
+nav:
+  - 'Главная': 'index.md'
+  - 'Заметки по инструментам': 'research-notes.md'
+
+extra_css:
+  - stylesheets/custom_table.css
+
+plugins:
+  - search
+  - macros:
+
+markdown_extensions: 
+  - def_list
+  - md_in_html

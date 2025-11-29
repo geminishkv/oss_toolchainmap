@@ -1,0 +1,83 @@
+table:
+  - division: AppSec
+    type:
+
+      - name: SAST
+        class:
+          - name: "Статический анализатор"
+            OSS_tools: !include tools/AppSec/SAST/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/SAST/PS_tools.yaml
+
+      - name: Attack Surface Analysis
+        class:
+          - name: "Анализ поверхности атаки"
+            OSS_tools: !include tools/AppSec/Attack_Surface_Analysis/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/Attack_Surface_Analysis/PS_tools.yaml
+
+      - name: IAST
+        class:
+          - name: "Интерактивный анализатор"
+            OSS_tools: !include tools/AppSec/IAST/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/IAST/PS_tools.yaml
+
+      - name: SCA/OSA
+        class:
+          - name: "Анализатор"
+            OSS_tools: !include tools/AppSec/SCA_OSA/Analizator/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/SCA_OSA/Analizator/PS_tools.yaml
+          - name: "SBOM"
+            OSS_tools: !include tools/AppSec/SCA_OSA/SBOM/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/SCA_OSA/SBOM/PS_tools.yaml
+
+      - name: BCA
+        class:
+          - name: "Бинарный анализатор"
+            OSS_tools: !include tools/AppSec/BCA/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/BCA/PS_tools.yaml
+
+      - name: DAST
+        class:
+          - name: "Whitebox Fuzzing"
+            OSS_tools: !include tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml
+          - name: "DAST"
+            OSS_tools: !include tools/AppSec/DAST/DAST/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/DAST/DAST/PS_tools.yaml
+
+      - name: MAST
+        class:
+          - name: "Анализатор MobApp"
+            OSS_tools: !include tools/AppSec/MAST/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/MAST/PS_tools.yaml
+
+      - name: RASP
+        class:
+          - name: "Анализатор при Runtime"
+            OSS_tools: !include tools/AppSec/RASP/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/RASP/PS_tools.yaml
+
+      - name: API
+        class:
+          - name: "ApiSec_WAF"
+            OSS_tools: !include tools/AppSec/API/OSS_tools.yaml
+            PS_tools: !include tools/AppSec/API/PS_tools.yaml
+
+  - division: codecoverage
+    OSS_tools: !include tools/codecoverage/OSS_tools.yaml
+    PS_tools: !include tools/codecoverage/PS_tools.yaml
+
+  - division: Application Security Posture Management
+    OSS_tools: !include tools/ASPM/OSS_tools.yaml
+    PS_tools: !include tools/ASPM/PS_tools.yaml
+
+  - division: Container Security
+    OSS_tools: !include tools/Container_Security/OSS_tools.yaml
+    PS_tools: !include tools/Container_Security/PS_tools.yaml
+
+  - division: Secrets Management
+    OSS_tools: !include tools/Secrets_Management/OSS_tools.yaml
+    PS_tools: !include tools/Secrets_Management/PS_tools.yaml
+
+  - division: MLSecOps
+    OSS_tools: !include tools/MLSecOps/OSS_tools.yaml
+    PS_tools: !include tools/MLSecOps/PS_tools.yaml

@@ -1,0 +1,14 @@
+stages:
+  - deploy
+
+# Pages
+pages: 
+  stage: deploy
+  image: javanile/mkdocs
+  script: mkdocs build
+  artifacts:
+    paths:
+      - public # public deploy
+  needs: []
+  only:
+    - master

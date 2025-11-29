@@ -1,0 +1,739 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Home</h1>
+
+<table border="1" style="border-collapse: collapse;">
+<thead>
+                            <tr>
+                                <th>Division</th>
+                                <th>Type</th>
+                                <th>Class</th>
+                                <th colspan="5">PS Tools</th>  
+                                <th colspan="5">OSS Tools</th>
+                            </tr>
+                        </thead>
+<tbody>
+<tr>
+<td rowspan="25">AppSec</td>
+<td rowspan="4">SAST</td>
+<td rowspan="4">Статический анализатор</td>
+<td>BlackDuck</td>
+<td>SASTAV</td>
+<td>Solar appScreener (SAST)</td>
+<td>PT Application Inspector</td>
+<td>CheckMarx</td>
+<td>Bandit</td>
+<td>Weggli</td>
+<td>tfsec</td>
+<td>clj-holmes</td>
+<td>PMD</td>
+</tr>
+<tr>
+<td>Klockwork</td>
+<td>SonarQube EE</td>
+<td>ИСП РАН Svace</td>
+<td>PVS-Studio</td>
+<td>GitLab SAST</td>
+<td>Terrascan</td>
+<td>Joern</td>
+<td>kics</td>
+<td>git-secrets</td>
+<td>Retire.js</td>
+</tr>
+<tr>
+<td>Microfocus Fortify</td>
+<td>Coverity</td>
+<td colspan="3"></td>
+<td>CodeQL</td>
+<td>Osquery</td>
+<td>bearer</td>
+<td>detect-secrets</td>
+<td>js-x-ray</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Checkov</td>
+<td>Semgrep</td>
+<td>njsscan</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td rowspan="2">Attack Surface Analysis</td>
+<td rowspan="2">Анализ поверхности атаки</td>
+<td>PVS Studio</td>
+<td>ИСП РАН Natch</td>
+<td>Qodana</td>
+<td colspan="2"></td>
+<td>pyre-check</td>
+<td>FlowDroid</td>
+<td>airbus-seclab (bincat)</td>
+<td>polytracker</td>
+<td>Ponce"</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>psalm</td>
+<td>find-sec-bugs</td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td rowspan="2">IAST</td>
+<td rowspan="2">Интерактивный анализатор</td>
+<td>PT Application Inspector</td>
+<td>Synopsys Seeker</td>
+<td>Hdiv Detection (IAST)</td>
+<td>Contrast Assess</td>
+<td>CAST</td>
+<td>Contrast</td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td>Codename SCNR (Arachni)</td>
+<td>Microfocus Fortify WebInspect</td>
+<td>Veracode Interactive Analysis</td>
+<td>Checkmarx CxIAST</td>
+<td colspan="1"></td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td rowspan="4">SCA/OSA</td>
+<td rowspan="3">Анализатор</td>
+<td>CodeScoring</td>
+<td>Сканер уязвимостей Ya Cloud</td>
+<td>AppSec.Track</td>
+<td>Snyk</td>
+<td>JFrog Xray</td>
+<td>Grype</td>
+<td>OpenSCAP</td>
+<td>Dependency Track</td>
+<td>Debricked</td>
+<td>Dependency Check</td>
+</tr>
+<tr>
+<td>Solar AppScreener (SCA)</td>
+<td>PT Application Inspector</td>
+<td>Spectral</td>
+<td>Azul</td>
+<td>BlackDuck</td>
+<td>Trivy</td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td>Mend SCA</td>
+<td>Sonatype Repository Firewall</td>
+<td colspan="3"></td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td rowspan="1">SBOM</td>
+<td>Spectral</td>
+<td>endorlabs</td>
+<td>Cybeats SBOM Studio</td>
+<td>Codenotary</td>
+<td>Sonatype SBOM Manager</td>
+<td>Trivy</td>
+<td>Jit</td>
+<td>spdx-sbom-generator</td>
+<td>CycloneDX (CDXGen)</td>
+<td colspan="1"></td>
+</tr>
+<tr>
+<td rowspan="2">BCA</td>
+<td rowspan="2">Бинарный анализатор</td>
+<td>rezilion</td>
+<td>Procyon</td>
+<td>IDAPRO</td>
+<td colspan="2"></td>
+<td>Syft</td>
+<td>BinaryNinja</td>
+<td>JADX</td>
+<td>JDCore</td>
+<td>ILSpy</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Dotpeek</td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td rowspan="5">DAST</td>
+<td rowspan="3">Whitebox Fuzzing</td>
+<td>Crusher</td>
+<td colspan="4"></td>
+<td>OlydDBG</td>
+<td>Ghidra (Hydra)</td>
+<td>Fernflower</td>
+<td>DNSpy</td>
+<td>BinSide</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Sydr/Sydr-fuzz</td>
+<td>go-fuzz</td>
+<td>Jazzer и Jazzer.js</td>
+<td>JQF + Zest</td>
+<td>SharpFuzz</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>LLVM libFuzzer</td>
+<td>cargo-fuzz</td>
+<td>jsfuzz</td>
+<td>Javafuzz</td>
+<td>pythonfuzz</td>
+</tr>
+<tr>
+<td rowspan="2">DAST</td>
+<td>Acunetix</td>
+<td>PT Black Box</td>
+<td>SolidPoint DAST</td>
+<td>HCL AppScan</td>
+<td>Burp Suite EE (Intruder)</td>
+<td>OWASP ZAP</td>
+<td>w3af</td>
+<td>Burp Suite CE</td>
+<td>OpenVAS</td>
+<td>BooFuzz</td>
+</tr>
+<tr>
+<td>InsightAppSec</td>
+<td>Solar AppScreener</td>
+<td>Checkmarx DAST</td>
+<td>Veracode DAST</td>
+<td colspan="1"></td>
+<td>golismero</td>
+<td>nikto</td>
+<td>Wapiti</td>
+<td>Nuclei</td>
+<td>RESTler</td>
+</tr>
+<tr>
+<td rowspan="2">MAST</td>
+<td rowspan="2">Анализатор MobApp</td>
+<td>Стингрей</td>
+<td>App-Ray</td>
+<td>Codified Security</td>
+<td>ImmuniWeb</td>
+<td>Quixxi</td>
+<td>Cycript</td>
+<td>QARK</td>
+<td>RMS</td>
+<td>MobSF</td>
+<td>Objection</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>SandDroid</td>
+<td>dexcalibur</td>
+<td>MitmProxy</td>
+<td>Drozer</td>
+<td>ostorlab</td>
+</tr>
+<tr>
+<td rowspan="2">RASP</td>
+<td rowspan="2">Анализатор при Runtime</td>
+<td>Fortify</td>
+<td>Jscrambler</td>
+<td>Signal Sciences</td>
+<td>Appdome</td>
+<td>Falco</td>
+<td>OpenRASP</td>
+<td>Baiduʼs OpenRASP</td>
+<td>hdiv</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td>Liapp</td>
+<td>Imperva</td>
+<td>Appsealing</td>
+<td colspan="2"></td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td rowspan="2">API</td>
+<td rowspan="2">ApiSec_WAF</td>
+<td>Akto</td>
+<td>brightsec</td>
+<td>fastly</td>
+<td>Fortify Webinspect</td>
+<td>Вебмониторэкс</td>
+<td>42Crunch</td>
+<td>API Security Empire</td>
+<td>Astra</td>
+<td>SSL Kill Switch 2</td>
+<td>Gravitee</td>
+</tr>
+<tr>
+<td>appsentinels</td>
+<td>stackhawk</td>
+<td>PT Application Firewall</td>
+<td>QAPISec</td>
+<td>SolidWall WAF</td>
+<td>LAST (latio)</td>
+<td>UsageFinder</td>
+<td>WSO2</td>
+<td>Probely</td>
+<td>gcov</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="3">codecoverage</td>
+<td>SonarQube EE</td>
+<td colspan="4"></td>
+<td>llvm-cov</td>
+<td>JaCoCo</td>
+<td>Codacy</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td rowspan="3" colspan="3">Application Security Posture Management</td>
+<td>Phoenix Security Platform</td>
+<td>OX Security Platform</td>
+<td>Reliability</td>
+<td>AppSOC ASPM</td>
+<td>Kondukto</td>
+<td>Defect Dojo</td>
+<td colspan="4"></td>
+</tr>
+<tr>
+<td>Legit Security</td>
+<td>ArmorCode</td>
+<td>Hexway</td>
+<td>Veracode ASPM</td>
+<td>AppSec.Hub</td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td>TARS</td>
+<td>CyberCodeRevie</td>
+<td>Defect Dojo Pro</td>
+<td colspan="2"></td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td rowspan="3" colspan="3">Container Security</td>
+<td>Qualys Kubernetes and Container Security</td>
+<td>Deepfence ThreatStryker</td>
+<td>Aqua Container Security</td>
+<td>AccuKnox Container Security</td>
+<td>Kaspersky Container Security</td>
+<td>Deepfence ThreatMapper</td>
+<td>cilium</td>
+<td>Stackrox</td>
+<td>Tetragon</td>
+<td>Harbor</td>
+</tr>
+<tr>
+<td>Luntry</td>
+<td>PT Container Security</td>
+<td>НОТА КУПОЛ.Контейнеры</td>
+<td>CrossTech Container Security</td>
+<td>Snyk Container</td>
+<td>Calico</td>
+<td>Falco</td>
+<td>Talos Linux</td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td>Red Hat Advanced Cluster Security for Kubernetes</td>
+<td>Prisma Cloud</td>
+<td>Aqua Security</td>
+<td>GitLab Container Scanning</td>
+<td colspan="1"></td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td rowspan="4" colspan="3">Secrets Management</td>
+<td>Hashicorp Vault</td>
+<td>Senhasegura</td>
+<td>AppSec.Code</td>
+<td>Cloud KMS</td>
+<td>Keywhiz</td>
+<td>AppArmor</td>
+<td>OPA Gatefeeper</td>
+<td>Infisical</td>
+<td>OpenBAO</td>
+<td>Gitleaks</td>
+</tr>
+<tr>
+<td>BitWarden</td>
+<td>Harbor</td>
+<td>Spectral Secret Scanner</td>
+<td>Azure Key Vault</td>
+<td>Knox</td>
+<td>Spring Cloud Config</td>
+<td>Gerrit</td>
+<td>Mozilla SOPS</td>
+<td>CheckMate</td>
+<td colspan="1"></td>
+</tr>
+<tr>
+<td>Consul</td>
+<td>CoSign</td>
+<td>AWS Secrets Manager</td>
+<td>Strongbox</td>
+<td>CyberArk Conjur</td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td>Yandex Lockbox</td>
+<td>Confidant</td>
+<td>Nexus Repository Management</td>
+<td>ЦУП 2.0</td>
+<td colspan="1"></td>
+<td colspan="5"></td>
+</tr>
+<tr>
+<td rowspan="9" colspan="3">MLSecOps</td>
+<td>Сitadel</td>
+<td>AI Validation</td>
+<td>Guardian</td>
+<td>Veil</td>
+<td>Guard-ai</td>
+<td>Advbox</td>
+<td>ARX</td>
+<td>Foolbox</td>
+<td>Models-are-code</td>
+<td>PyRIT</td>
+</tr>
+<tr>
+<td>АI-guard</td>
+<td>model-scanner</td>
+<td>Patronus</td>
+<td>advai-versus</td>
+<td>modelscan</td>
+<td>Adversarial_ml_ctf</td>
+<td>AugLy</td>
+<td>Garak</td>
+<td>ModelScan</td>
+<td>Raze_to_the_ground_aisec23</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Advertorch</td>
+<td>Awesome-MLSecOps</td>
+<td>Giskard</td>
+<td>NB Defense</td>
+<td>Safetensors</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Advmlthreatmatrix</td>
+<td>CleverHans</td>
+<td>Knockoffnets</td>
+<td>NeMo Guardrails</td>
+<td>Stealing_DL_Models</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Ai-exploits</td>
+<td>DamnVulnerableLLMProject</td>
+<td>LintML</td>
+<td>OpenAttack</td>
+<td>Tensorflow Model-analysis</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Ai-goat</td>
+<td>Deep-pwning</td>
+<td>ML_security_study_map</td>
+<td>Pallms</td>
+<td>TensorFlow Privacy</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>AnonLLM</td>
+<td>Differential-privacy-library</td>
+<td>MLSploit</td>
+<td>Privacy Meter</td>
+<td>TextAttack</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>ART(Adversarial-robustness-toolbox)</td>
+<td>Fml-security</td>
+<td>Model-Inversion-Attack-ToolBox</td>
+<td>PromptInject</td>
+<td>TextFooler</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td>Vger</td>
+<td>Vigil-llm</td>
+<td>Watchtower</td>
+<td>Аudit-ai</td>
+<td>awesome-security-for-ai</td>
+</tr>
+</tbody></table>
+
+<p>Виды лицензий:</p>
+<ul>
+<li><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>;</li>
+<li><a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3.0</a>;</li>
+<li><a href="https://opensource.org/license/mit/">MIT License</a>;</li>
+<li><a href="https://opensource.org/license/bsd-2-clause/">BSD 2-Clause "Simplified" License</a>;</li>
+<li><a href="https://opensource.org/license/bsd-3-clause/">BSD 3-Clause "New" or "Revised" License</a>;</li>
+<li><a href="https://www.boost.org/users/license.html">Boost Software License 1.0</a>;</li>
+<li><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal</a>;</li>
+<li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License 2.0</a>;</li>
+<li><a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v3.0</a>;</li>
+<li><a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU General Public License v2.0</a>;</li>
+<li><a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html">GNU Lesser General Public License v2.1</a>;</li>
+<li><a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License 2.0</a>;</li>
+<li>The Unlicense — лицензия, которая свидетельствует об отказе от авторских прав.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

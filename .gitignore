@@ -45,12 +45,7 @@ logs/
 *.odt
 *.xlsx
 *.xls
-reports/
-output/
-# sbom/git/*
-# sbom/images/*
-secgensbom_out/
-.dependency-check-data/
+site
 
 # Databases
 *.sqlite

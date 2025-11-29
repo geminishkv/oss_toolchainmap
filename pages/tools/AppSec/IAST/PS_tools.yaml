@@ -1,0 +1,134 @@
+Tools:
+  - name: PT Application Inspector
+    meta:
+      description: "PT Application Inspector — российский инструмент анализа безопасности приложений, сочетающий статический, динамический, интерактивный анализ и проверку компонентов. Поддерживает автоматическую верификацию уязвимостей, гибкое масштабирование и развёртывание on-premise. Работает с Java, JavaScript, C#, Kotlin, Python, PHP, PL/SQL и др."
+      link_URL: "https://ptsecurity.com/ru-ru/products/ai/"
+      ver_edition: "5.0.0"
+      FSTEK_cert: "Сертификат ФСТЭК России №4000 от 03.09.2018"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON", "XML", "HTML"]
+      detect_methods: ["OWASP Top 10", "PCI DSS", "NIST 800-53 Rev.4", "SANS Top 25", "ОУД4"]
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: 'Positive Technologies'
+      lic: ''
+  - name: Synopsys Seeker
+    meta:
+      description: "IAST-решение для выявления уязвимостей в веб-приложениях в реальном времени путем анализа их поведения.\
+       Интегрируется с процессами разработки и поддерживает соответствие стандартам, таким как OWASP Top 10, предоставя рекомендации по устранению уязвимостей."
+      link_URL: "https://www.blackduck.com/interactive-application-security-testing.html"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF", "XML", "JSON"]
+      detect_metods: ["OWASP Top 10", "PCI DSS", "GDPR", "CAPEC", "CWE/SANS Top 25"]
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: 'Synopsys'
+      lic: ''
+  - name: Hdiv Detection (IAST) 
+    meta:
+      description: ""
+      link_URL: "https://hdivsecurity.com/interactive-application-security-testing-iast"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: ''
+      lic: ''
+  - name: Contrast Assess
+    meta:
+      description: "инструмент интерактивного тестирования безопасности приложений (IAST), разработанный компанией Contrast Security.\
+       Он предназначен для выявления уязвимостей в веб-приложениях в реальном времени путем встраивания агентов в приложение, что позволяет анализировать его поведение во время выполнения.\
+       Поддерживаемые языки: Java, .NET, Node.js, Python, Ruby, Go, PHP"
+      link_URL: "https://www.contrastsecurity.com/contrast-assess"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF", "CSV", "XML"]
+      detect_metods: ["OWASP Top 10", "CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: "Contrast Security"
+      lic: "Коммерческая лицензия (подписка, по количеству приложений)"
+  - name: CAST
+    meta:
+      description: ""
+      link_URL: "https://www.castsoftware.com/"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: ''
+      lic: ''
+  - name: Codename SCNR (Arachni)
+    meta:
+      description: ""
+      link_URL: "https://ecsypno.com/pages/codename-scnr"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: ''
+      lic: ''
+  - name: Microfocus Fortify WebInspect
+    meta:
+      description: ""
+      link_URL: "https://www.microfocus.com/ru-ru/documentation/fortify-webinspect/"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: ''
+      lic: ''
+  - name: Veracode Interactive Analysis
+    meta:
+      description: "Veracode Interactive Analysis — IAST-решение для выявления уязвимостей в реальном времени, являющееся частью платформы Veracode.\
+       Особенности: интеграция с Veracode SAST и DAST, а также автоматизация отчетов для соответствия стандартам PCI DSS.\
+       Поддерживаемые языки: Java, .NET, JavaScript, Python, PHP, Ruby, C/C++"
+      link_URL: "https://www.veracode.com/products/fix/, https://github.com/-iast?q=&type=all&language=&sort="
+      ver_edition: "June 25, 2025"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF", "XML", "JSON", "PCI Compliance Report"]
+      detect_metods: ["OWASP Top 10", "CWE", "CVSS"]
+      OSS: "false"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: 'Veracode'
+      lic: ''

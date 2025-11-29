@@ -1,0 +1,49 @@
+Tools:
+  - name: llvm-cov
+    meta:
+      description: "Инструмент llvm-cov отображает информацию о покрытии кода для программ, в которые добавлены инструменты для создания данных профиля."
+      link_URL: "https://llvm.org/docs/CommandGuide/llvm-cov.html"
+      ver_edition: "LLVM - 20.1.8"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["gcov", "TXT", "HTML", "JSON", "lcov", "covmapping"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "codecoverage"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: 'Apache License v2.0'
+  - name: JaCoCo
+    meta:
+      description: "Библиотека для анализа покрытия кода на Java."
+      link_URL: "https://github.com/jacoco/jacoco"
+      ver_edition: "0.8.13"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["HTML", "XML", "CSV"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "codecoverage"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: 'Eclipse Public License Version 2.0 (EPL)'
+  - name: Codacy
+    meta:
+      description: "Codacy автоматически анализирует исходный код и выявляет проблемы по мере их возникновения. Благодаря статическому анализу кода Codacy уведомляет о проблемах с безопасностью, покрытием кода, дублированием и сложностью кода в каждом коммите и запросе на вытягивание. Поддерживаемые языки программирования: Python, JavaScript, TypeScript, Java, Kotlin, Scala, PHP, C#, Go, Ruby, Swift, Objective-C, C, C++, Rust, Dart, Haskell, Elixir"
+      link_URL: "https://github.com/codacy"
+      ver_edition: "14.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "lcov", "XML"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "codecoverage"
+      type: ""
+      class: ""
+      vendor: 'Codacy'
+      lic: ''

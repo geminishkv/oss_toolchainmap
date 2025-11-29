@@ -1,0 +1,18 @@
+Tools:
+  - name: Contrast
+    meta:
+      description: "Gлатформа для тестирования и защиты приложений, которая использует IAST, SAST, RASP\
+       для выявления и предотвращения уязвимостей на всех этапах жизненного цикла разработки ПО. Поддерживает саледующие языки программирования и технлогии: Java, .NET Framework, .NET Core, C#, Node.js, Python, Ruby, Go, PHP"
+      link_URL: "https://github.com/Contrast-Security-OSS, https://www.contrastsecurity.com/glossary/interactive-application-security-testing"
+      ver_edition: "3.12.0 - on-premise, July 15 2025 - hosted customers"
+      FSTEK_cert: "Нет"
+      redaction: ["3.12.1","3.12.2","3.12.3","3.12.4"]
+      RUS_access: "Доступен"
+      report_formats: ["веб-интерфейс", "JSONL", "SARIF"]
+      detect_metods: [NIST, PCI-DSS, PCI-SSS, DISA ASD STIG, IPA-7.0]
+      OSS: "true"
+      division: "AppSec"
+      type: "IAST"
+      class: "Интерактивный анализатор"
+      vendor: 'Contrast Security'
+      lic: ''

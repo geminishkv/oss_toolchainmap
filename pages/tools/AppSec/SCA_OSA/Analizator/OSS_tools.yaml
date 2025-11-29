@@ -1,0 +1,97 @@
+Tools:
+- name: Grype
+  meta:
+    description: "Сканер уязвимостей для контейнерных образов и файловых систем, разработанный Anchore. Поддерживает анализ SBOM, созданных Syft, и сканирование в форматах Docker, OCI и Singularity. Поддерживает языки: Go, Python, Java, JavaScript, Ruby, PHP. Отличается высокой скоростью сканирования контейнеров и поддержкой локальных и удаленных реестров."
+    link_URL: "https://github.com/anchore/grype, https://anchore.com/"
+    ver_edition: "0.95.0"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["json", "table", "cyclonedx"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Anchore'
+    lic: 'Apache-2.0 License'
+- napme: OpenSCAP
+  meta:
+    description: "Фреймворк с открытым исходным кодом для проверки соответствия и управления уязвимостями, поддерживает сканирование контейнерных образов и оценку безопасности. Хорошо интегрируется с экосистемой Red Hat и имеет модульную структуру для расширения функциональности."
+    link_URL: "https://www.open-scap.org/, https://github.com/OpenSCAP/openscap"
+    ver_edition: "1.4.0"
+    FSTEK_cert: "Нет"
+    redaction: ["1.4.1", "1.4.2"]
+    RUS_access: "Доступен"
+    report_formats: ["xia", "html", "json"]
+    detect_metods: ["SCAP", "CVE", "CVSS"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Red Hat'
+    lic: 'LGPL-2.1'
+- name: Dependency Track
+  meta:
+    description: "Платформа OWASP для анализа компонентов и управления рисками цепочки поставок ПО, использующая SBOM для мониторинга уязвимостей в портфеле приложений. Поддерживает языки: Java, JavaScript, Python, Ruby, .NET, Go, PHP. Обеспечивает визуализацию цепочек зависимостей и управление политиками безопасности."
+    link_URL: "https://dependencytrack.org/, https://github.com/DependencyTrack/dependency-track"
+    ver_edition: "4.13.0"
+    FSTEK_cert: "Нет"
+    redaction: ["4.13.1", "4.13.2"]
+    RUS_access: "Доступен"
+    report_formats: ["json", "xml", "csv"]
+    detect_metods: ["CVE", "CVSS", "OWASP Top 10"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'OWASP'
+    lic: 'Apache-2.0 License'
+- name: Debricked
+  meta:
+    description: "Инструмент анализа состава ПО для сканирования зависимостей с открытым исходным кодом, обнаружения уязвимостей и проверки лицензий с интеграцией в CI/CD. Поддерживает языки: JavaScript, TypeScript, Python, Java, PHP, Ruby, Go, .NET, C, C++, Rust. Предлагает автоматизированное исправление уязвимостей и облачную архитектуру."
+    link_URL: "https://debricked.com/"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["json", "pdf", "csv"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Debricked'
+    lic: 'Proprietary'
+- name: Dependency Check
+  meta:
+    description: "Инструмент OWASP для обнаружения уязвимостей в зависимостях приложений, с интеграцией в CI/CD и поддержкой различных типов проектов. Поддерживает языки: Java, JavaScript, .NET, Python, Ruby, PHP. Интегрируется с Maven и Gradle, использует локальное кэширование базы уязвимостей."
+    link_URL: "https://owasp.org/www-project-dependency-check/
+    ver_edition: "12.1.0"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["html", "xml", "json", "csv"]
+    detect_metods: ["CVE", "CVSS", "OWASP Top 10"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'OWASP'
+    lic: 'Apache-2.0 License'
+- name: Trivy
+  meta:
+    description: "Комплексный сканер уязвимостей для контейнеров, репозиториев кода и облачных сред, поддерживающий создание SBOM и интеграцию с CI/CD. Поддерживает языки: Go, Java, JavaScript, Python, Ruby, PHP, Rust. Отличается высокой производительностью и поддержкой сканирования инфраструктуры как кода."
+    link_URL: "https://trivy.dev/, https://github.com/aquasecurity/trivy"
+    ver_edition: "0.64.0"
+    FSTEK_cert: "Нет"
+    redaction: ["0.64.1: устранены баги"]
+    RUS_access: "Доступен"
+    report_formats: ["json", "table", "cyclonedx", "spdx"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: ''
+    lic: 'Apache-2.0 License'

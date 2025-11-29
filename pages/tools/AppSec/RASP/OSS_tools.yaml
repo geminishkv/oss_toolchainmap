@@ -1,0 +1,36 @@
+Tools:
+  - name: Falco 
+    meta:
+      description: "Система мониторинга безопасности в режиме реального времени для контейнеров и облачной инфраструктуры.\
+       Она поддерживает Kubernetes, Docker, OpenShift и другие платформы, отслеживая поведение приложений и систем, выявляя аномалии и потенциальные угрозы с помощью правил и событий."
+      link_URL: "https://falco.org/, https://github.com/falcosecurity/falco"
+      ver_edition: "0.41"
+      FSTEK_cert: " Нет"
+      redaction: ["0.41.1", "0.41.2", "0.41.3"]
+      RUS_access: "Доступен"
+      report_formats: ["JSON", "Syslog", "File (запись в файлы на диске)", "Standard Output (stdout)", "HTTP", "gRPC"]
+      detect_metods: ["MITRE ATT&CK", "PCI DSS", "NIST"]
+      OSS: "true" 
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: 'Sysdig'
+      lic: 'Apache-2.0 License'
+  - name: Baiduʼs OpenRASP 
+    meta:
+      description: "набор инструментов RASP с открытым исходным кодом от Baidu, который использует перехватчики и инструменты во время выполнения для защиты веб-приложений.\
+       Вместо того чтобы просто фильтровать входные данные, он анализирует потоки выполнения на предмет аномального поведения, которое может указывать на атаку.\
+       Поддерживаемые платформы: Java (Tomcat, JBoss, Jetty, Spring Boot), PHP"
+      link_URL: "https://github.com/baidu/openrasp"
+      ver_edition: "1.3.0"
+      FSTEK_cert: "Нет"
+      redaction: ["1.3.1", "1.3.2", "1.3.3", "1.3.4", "1.3.5", "1.3.6", "1.3.7"]
+      RUS_access: "Доступен"
+      report_formats: ["JSON", "CSV"]
+      detect_metods: ["OWASP Top 10", "CVE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: ''
+      lic: 'Apache-2.0 License'

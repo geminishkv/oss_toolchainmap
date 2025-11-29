@@ -1,0 +1,169 @@
+Tools:
+  - name: Acunetix
+    meta:
+      description: ""
+      link_URL: "https://www.acunetix.com/"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: ''
+      lic: ''
+  - name: PT Black Box
+    meta:
+      description: "Cканер приложений, который ищет уязвимости и риски,\ 
+       связанные с безопасностью, и помогает защитить приложения от действий\ 
+       злоумышленников. PT BlackBox сканирует приложения, используя метод черного ящика"
+      link_URL: "https://ptsecurity.com/ru-ru/products/blackbox/"
+      ver_edition: "3.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "JSON", "", "HTML", "SARIF", "OWASP Top 10 2021", "OWASP Mobile Top 10 2016", "SANS Top 25", "NIST 800-53 Rev. 4", "ОУД4 (ГОСТ 15408-3)", "PCI DSS 3.2"]
+      detect_metods: ["CVE", "CVSS"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'АО «Позитив Текнолоджиз»'
+      lic: 'On-permise, Online'
+  - name: SolidPoint DAST
+    meta:
+      description: "Решение для динамического анализа веб-приложений на наличие уязвимостей информационной безопасности,\
+       использующее интеллектуальные алгоритмы для повышения вероятности обнаружения скрытых недостатков и снижения количества ложных срабатываний.\
+       Решение поддерживает максимально широкий спектр технологий по обнаружению точек ввода данных, как традиционных (crawling, dirbusting), так и альтернативных (статико-динамический анализ JavaScript, FAST, загрузка описаний Open API)."
+      link_URL: "https://www.solidlab.ru/resheniya/solidpoint-dast.html"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс", "TXT"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'ООО «СолидСофт»'
+      lic: ''
+  - name: HCL AppScan
+    meta:
+      description: "Комплексная платформа для тестирования безопасности приложений (SAST, DAST, IAST, SCA),\
+       которая помогает выявлять и устранять уязвимости на всех этапах жизненного цикла разработки ПО (SDLC).\
+        Инструмент поддерживает более 30 языков, включая Java, C/C++, Python, .NET, JavaScript, PHP, Ruby, Swift и Go,\
+       а также фреймворки (Angular, React, Node.js) и инфраструктурные технологии (Docker, Kubernetes, Terraform) "
+      link_URL: "https://www.hcl-software.com/appscan"
+      ver_edition: "AppScan Enterprise - 10.8.1, AppScan Standard - 10.9.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["DOCX", "PDF", "HTML","RTX", "TXT"]
+      detect_metods: ["PCI", "HIPAA", "OWASP Top 10", "OWASP API Security Top 10", "SANS 25"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'HCL Technologies Limited'
+      lic: ''
+  - name: Burp Suite EE (Intruder)
+    meta:
+      description: "инструмент для динамического тестирования безопасности веб-приложений и API,\
+       который автоматически обнаруживает уязвимости (XSS, SQL-инъекции, CSRF и др.)\
+       с минимальным количеством ложных срабатываний. Он поддерживает анализ приложений на любых языках (например, Java, .NET, Python, PHP)\
+       и фреймворках, так как работает на уровне HTTP/HTTPS-трафика, не требуя доступа к исходному коду"
+      link_URL: "https://portswigger.net/burp/dast"
+      ver_edition: "2025.6"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "HTML", "PDF", "XML"]
+      detect_metods: ["OWASP Top 10: 2021", "PCI DSS v4.0.1"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'PortSwigger Ltd'
+      lic: 'Подписка'
+  - name: InsightAppSec
+    meta:
+      description: "Инструмент для динамического тестирования безопасности приложений (DAST),\
+       который автоматически выявляет уязвимости в веб-приложениях и API, сокращая ложные срабатывания и ускоряя исправление проблем.\
+       Он поддерживает различные технологии, включая современные веб-приложения и API (REST, SOAP, GraphQL)."
+      link_URL: "https://www.rapid7.com/products/insightappsec/"
+      ver_edition: "July 21, 2025"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "CSV", "JSON"]
+      detect_metods: ["CVE", "OWASP Top 10 for LLM Applications", "OWASP TOP 10 API Security Risks"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'Rapid7'
+      lic: 'Подписка, зависит от количества приложений'
+  - name: Solar AppScreener
+    meta:
+      description: "Комплексное решение, сочетающее возможности статического (SAST),
+        динамического (DAST) анализа, анализа состава ПО (SCA) и анализа цепочки поставок (SCS).\ 
+        Помогает найти уязвимости и недекларированные возможности в исходном коде мобильных и веб-приложений на раннем этапе разработки. \ 
+        Технологии анализа исполняемых файлов позволяют применять SAST,\ 
+        даже когда разработка закончена и нет возможности проанализировать исходный код проекта.
+        Поддерживает следующие языки: Java, JavaScript, Java for Android, Solidity, Ruby, VBScript, Rust, Dart, TypeScript, Groovy, ABAP, Perl, Scala, Apex, PL/SQL, HTML5, Python, T/SQL, C/C++, Objective-C, COBOL, Pascal, \ 
+        Go, JSP, Kotlin, Visual Basic 6.0, VBA, PHP, Delphi, , 1С, C#, LotusScript, Swift, , Vyper"
+      link_URL: "https://rt-solar.ru/products/solar_appscreener/"
+      ver_edition: "3.15.0"
+      FSTEK_cert: "Сертификат № 4825 от 3.06.2024"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["HTML", "PDF", "CSV", "DOCX", "SARIF", "JSON", "отправка по почте"]
+      detect_methods: ["OWASP Top 10", "БДУ ФСТЭК России", "PCI Security Standards Council", "HIPAA Compliance", "SANS CWE", "ОУД4", "CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'АО «СОЛАР СЕКЬЮРИТИ»'
+      lic: ''
+  - name: Checkmarx DAST
+    meta:
+      description: "Инструмент является частью платформы Chackmarx one,\
+       для динамического тестирования безопасности веб-приложений и API, который автоматически выявляет уязвимости  в работающих приложениях, интегрируясь в CI/CD-процессы.\
+        Он поддерживает REST, SOAP и GraphQL API,\
+       а также работает с любыми языками программирования, так как анализирует HTTP-трафик, а не исходный код."
+      link_URL: "https://checkmarx.com/checkmarx-dast/"
+      ver_edition: "Checkmarx one: Single-Tenant - 3.40, Multi-Tenant Version - 3.42"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "PDF", "JSON", "CSV"]
+      detect_metods: ["CVSS", "PCI DSS version 4", "OWASP Top 10 API 2023"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'Checkmarx Ltd.'
+      lic: 'professional, enterprise, установка в качестве дополнительного инструмента'
+  - name: Veracode DAST
+    meta:
+      description: "Решение для динамического анализа безопасности веб-приложений и API,\
+       которое автоматически выявляет уязвимости (включая OWASP Top 10) без доступа к исходному коду.\
+        Инструмент поддерживает веб-приложения на Java, ASP.NET, Ruby on Rails, JavaScript, Perl, PHP, Python,\
+       а также SPA и фреймворки и REST API, анализируя поведение через браузерный интерфейс."
+      link_URL: "https://www.veracode.com/products/dynamic-analysis-dast"
+      ver_edition: "June 30, 2025"
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "CSV"]
+      detect_metods: ["CWE", "OWASP Top 10"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'Veracode'
+      lic: ''

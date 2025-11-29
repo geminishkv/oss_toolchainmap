@@ -1,0 +1,82 @@
+- name: Spectral
+  meta:
+    description: "Платформа для анализа безопасности кода (SCA/OSA), выявляющая утечки секретов, конфиденциальных данных и уязвимости в коде и зависимостях. Поддерживает языки: Java, JavaScript, Python, Go, Ruby, PHP, C/C++, .NET. Интегрируется с CI/CD, обеспечивает автоматизированное сканирование без агентов."
+    link_URL: "https://spectralops.io/, https://github.com/spectralops"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["JSON"]
+    detect_methods: ["CWE", "OWASP Top 10"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: 'Check Point Software Technologies'
+    lic: ''
+- name: Endor Labs
+  meta:
+    description: "Платформа для управления SBOM и анализа рисков в цепочке поставок ПО. Поддерживает импорт и анализ SBOM в форматах CycloneDX и SPDX, автоматизирует мониторинг уязвимостей. Поддерживает языки: Java, Node.js, .NET, Go, Python, PHP, Ruby. Интегрируется с CI/CD."
+    link_URL: "https://www.endorlabs.com/"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["JSON","CycloneDX", "VEX", "XML"]
+    detect_methods: ["CWE", "OWASP Top 10"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: 'Endor Labs'
+    lic: 'Endor Core, Endor Pro, Endor Patches, Endor Code, Endor SBOM Hub'
+- name: Cybeats SBOM Studio
+  meta:
+    description: "Инструмент для управления компонентами ПО и обеспечения безопасности цепочки поставок, позволяющий отслеживать сторонние компоненты и анализировать риски.\ 
+      Решение поддерживает форматы SPDX и CycloneDX, обеспечивает прозрачность происхождения ПО и помогает соответствовать отраслевым стандартам безопасности."
+    link_URL: "https://www.cybeats.com/"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["CycloneDX", "SPDX"]
+    detect_methods: ["CWE"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: 'Cybeats Technologies'
+    lic: ''
+- name: Codenotary
+  meta:
+    description: "платформа для обеспечения доверия в цепочке поставок ПО, использующая криптографическую верификацию и AI-анализ для защиты артефактов от подмены и уязвимостей.\
+     Она автоматизирует создание SBOM (Software Bill of Materials), отслеживает соответствие стандартам (например, SPDX, CycloneDX) и интегрируется с CI/CD-инструментами для прозрачности и безопасности на всех этапах разработки"
+    link_URL: "https://codenotary.com/"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Скорее всего недоступен"
+    report_formats: ["CycloneDX", "JSON", "CSV"]
+    detect_methods: ["CWE", "NIST", "NIS2", "CRA", "DORA", "PCI-DSS", ""]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: "Codenotary"
+    lic: 'Team, Enterprise '
+- name: Sonatype SBOM Manager
+  meta:
+    description: "Инструмент для анализа и управления SBOM в форматах SPDX (2.2, 2.3) и CycloneDX. Интегрируется с Sonatype Lifecycle для анализа уязвимостей и лицензий. Поддерживает языки: Java, JavaScript, .NET, Python, Go, PHP, Ruby. Обеспечивает экспорт отчетов и интеграцию с CI/CD."
+    link_URL: "https://www.sonatype.com/products/sonatype-sbom-manager"
+    ver_edition: "1.0"
+    FSTEK_cert: "Нет"
+    redaction: ["1.180.0: улучшена поддержка SPDX 2.3, добавлен экспорт в CycloneDX", "1.192.0: добавлена поддержка SPDX 2.2, улучшена интеграция с CLI"]
+    RUS_access: "Доступен"
+    report_formats: ["SPDX", "CycloneDX", "JSON", "XML"]
+    detect_methods: ["CWE", "OWASP Top 10"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: "Sonatype"
+    lic: ''

@@ -1,0 +1,211 @@
+Tools:
+  - name: Phoenix Security Platform
+    meta:
+      description: облачная платформа для управления уязвимостями (ASPM), которая автоматически анализирует безопасность приложений, API и облачных сред, выявляя и приоритизируя риски. Интегрируется с CI/CD-инструментами (GitHub Actions, GitLab, Jenkins) и облачными платформами (AWS, Azure, Kubernetes), обеспечивая комплексную защиту на всех этапах разработки."
+      link_URL: "https://phoenix.security/phoenix-security-platform/"
+      ver_edition: "3.28"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["CWE", "CISA KEV", "EPSS", "CVE", "OWASP Top 10"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'Security Phoenix Ltd.'
+      lic: 'Free, Professional, Enterprise'
+  - name: OX Security Platform
+    meta:
+      description: "Платформа для управления безопасностью приложений, которая помогает командам выявлять и устранять 5% критически важных уязвимостей, сокращая шум от ложных срабатываний. Поддерживает Java, Python, JavaScript, Go, C#, Ruby, Scala, TypeScript и другие языки, интегрируясь с CI/CD и облачными средами для сквозной защиты SDLC."
+      link_URL: "https://www.ox.security/application-security-platform/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "PDF", "CSV", "CycloneDX"]
+      detect_metods: ["CVE", "CWE"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'OXsecurity'
+      lic: ''
+  - name: Reliability 
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: AppSOC ASPM
+    meta:
+      description: "PointGuard AI (ранее AppSOC) - платформа для защиты приложений и AI-стэка, которая обеспечивает полный цикл безопасности: от обнаружения уязвимостей до runtime-защиты, включая тестирование моделей ИИ и управление рисками в цепочке поставок. Поддерживает интеграцию с приложениями на Python, Java, JavaScript, Go, C# и других языках, а также совместима с облачными средами (AWS, Azure, GCP) и инструментами DevOps (GitHub Actions, Jenkins)"
+      link_URL: "https://www.pointguardai.com/application-security"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["CVSS", "EPSS", "VulDB", "CISA KEV", "OWASP top 10", "SANS top 25"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'PointGuard AI.'
+      lic: ''
+  - name: Kondukto
+    meta:
+      description: "Платформа для оркестрации и управления безопасностью приложений, которая интегрирует данные из различных инструментов безопасности, обеспечивая централизованное управление уязвимостями. Поддерживает автоматизацию, настраиваемые рабочие процессы и интеграцию с CI/CD для ускорения триажа и устранения уязвимостей."
+      link_URL: "https://kondukto.io/"
+      ver_edition: "1.104"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "CSV"]
+      detect_metods: ["CWE"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'Kondukto'
+      lic: ''
+  - name: Legit Security 
+    meta:
+      description: "AI-платформа ASPM, автоматически обнаруживающая и устраняющая уязвимости в SDLC, включая AI-код, утечки секретов и риски цепочки поставок, с интеграцией в Python, Java, CI/CD (GitHub Actions, Jenkins, GitLab) и облака (AWS, Azure, GCP). Обеспечивает полную видимость и автоматизацию управления рисками."
+      link_URL: "https://www.legitsecurity.com/platform/aspm"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'Legit Security'
+      lic: 'Информация не найдена'
+  - name: ArmorCode
+    meta:
+      description: "это AI-платформа для управления безопасностью приложений (ASPM), которая объединяет данные из 285+ инструментов безопасности (SAST, DAST, SCA и др.) для автоматического выявления, приоритизации и исправления уязвимостей в SDLC. Поддерживает интеграцию с проектами на Java, Python, JavaScript, Go, C# и других языках, а также с CI/CD-стэком (GitHub Actions, Jenkins) и облачными средами (AWS, Azure) для сквозной защиты от кода до продакшена"
+      link_URL: "https://www.armorcode.com/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'ArmorCode'
+      lic: ''
+  - name: Hexway
+    meta:
+      description: "Платформа для управления безопасностью разработки, которая автоматизирует обнаружение, дедупликацию и устранение уязвимостей, интегрируясь с инструментами вроде Kaiten, Jira и GitLab. Она предоставляет дашборды для мониторинга состояния безопасности, минимизирует ложные срабатывания и ускоряет DevSecOps, обеспечивая точное управление рисками."
+      link_URL: "https://hexway.ru/"
+      ver_edition: "0.65.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "JSON",]
+      detect_metods: ["CVE", "CWE", "OWASP Top 10"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'ООО «Софт Плюс»'
+      lic: 'Community, Enterprise'
+  - name: Veracode ASPM
+    meta:
+      description: "Решение для управления рисками безопасности приложений, которое объединяет данные из различных источников (SAST, DAST, SCA, облачные сервисы и др.) в единую панель управления, обеспечивая автоматизированное выявление, корреляцию и приоритизацию уязвимостей на основе их критичности для бизнеса 14. Благодаря интеграции с популярными инструментами, такими как Jira,\
+       а также функциям анализа корневой причины и контекстуализации рисков, решение ускоряет исправление уязвимостей"
+      link_URL: "https://www.veracode.com/risk-manager/"
+      ver_edition: "June 25, 2025"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["OWASP Top 10", "CWE", "CVSS"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'Veracode'
+      lic: ''
+  - name: AppSec.Hub
+    meta:
+      description: "DevSecOps платформа автоматизированного управления и контроля процессов разработки защищенного программного обеспечения."
+      link_URL: "https://appsec-hub.ru/"
+      ver_edition: "2025.2"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "PDF", "JPEG", "EXCEL", "CSV"]
+      detect_metods: ["OWASP Top 10:2021"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'ООО «СВОРДФИШ СЕКЬЮРИТИ»'
+      lic: ''
+  - name: TARS
+    meta:
+      description: "Единая платформа безопасности приложений и управления уязвимостями, SAST, DAST, SECRETS, SCAПоддерживаемые языки: Java, JavaScript, TypeScript, Go, Rust, Python, Scala, C#, C, C++, Ruby, PHP, Kotlin, Swift и другие. Также поддерживает 200+ Интегрированных сканеров"
+      link_URL: "https://tars.co/ru/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["CVE", "CWE"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'Tars'
+      lic: 'Персональный, Профессиональный, Корпоративный'
+  - name: CyberCodeReview
+    meta:
+      description: "CyberCodeReview — это платформа для автоматизированного анализа уязвимостей, поддерживающая интеграцию с 25+ инструментами сканирования и обработку отчетов в формате JSON. Функционал включает дедупликацию результатов,\
+       валидацию уязвимостей и экспорт данных в систему управления задачами Jira."
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["CVSS"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'ООО "СМЛ Секьюрити"'
+      lic: 'Medium, Enterprise'
+  - name: Defect Dojo Pro
+    meta:
+      description: "Платформа класса ASPM для управления уязвимостями, которая агрегирует результаты сканирования из 180+ инструментов (SAST, DAST, SCA) и автоматизирует их корреляцию, дедупликацию и приоритизацию. платформа для оркестрации тестирования безопасности, отслеживания уязвимостей и их устранения.\
+       Она позволяет интегрироваться с более чем 180 инструментами безопасности и автоматизировать процессы в DevSecOps."
+      link_URL: "https://defectdojo.com/"
+      ver_edition: "2.47"
+      FSTEK_cert: "Нет"
+      redaction: ["2.47.1", "2.47.2", "2.47.3", "2.47.4"]
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "HTML", "PDF"]
+      detect_metods: ["CVE", "CWE"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'DefectDojo'
+      lic: 'Pro'

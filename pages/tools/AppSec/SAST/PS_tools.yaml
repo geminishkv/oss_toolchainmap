@@ -1,0 +1,203 @@
+Tools:
+  - name: BlackDuck
+    meta:
+      description: "Статический анализ безопасности приложений (SAST) для раннего обнаружения уязвимостей в коде. \
+         Интегрируется в IDE, CI/CD и облачные среды. Поддерживает 20+ языков и 200+ фреймворков."
+      link_URL: "https://www.blackduck.com/static-analysis-tools-sast.html"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Скорее всего нет"
+      report_formats: [PDF, HTML, json, sarif]
+      detect_metods: [OWASP Top 10, CWE]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Synopsys'
+      lic: 'Подписка'
+  - name: SASTAV
+    meta:
+      description: "Российское решение для статического анализа исходного кода, \
+        используемое на самых ранних этапах разработки и встраиваемое в SDLC для оптимизации и автоматизации процесса безопасной разработки.\
+        Поддерживает следующие языки:  ASP, C/С++, C#, Go, Groovy, Java, JavaScript, Kotlin, Lua, Objective-C, PHP, PLSQL, Perl, Python, Ruby, Scala, Swift, VB6, VbNet, VbScript"
+      link_URL: "https://sastav.ru/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Информация не найдена"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'ООО "ПАЙНАП"'
+      lic: '' 
+  - name: Solar appScreener (SAST)
+    meta:
+      description: "Комплексное решение, сочетающее возможности статического (SAST),
+        динамического (DAST) анализа, анализа состава ПО (SCA) и анализа цепочки поставок (SCS).\ 
+        Помогает найти уязвимости и недекларированные возможности в исходном коде мобильных и веб-приложений на раннем этапе разработки. \ 
+        Технологии анализа исполняемых файлов позволяют применять SAST,\ 
+        даже когда разработка закончена и нет возможности проанализировать исходный код проекта.
+        Поддерживает следующие языки: Java, JavaScript, Java for Android, Solidity, Ruby, VBScript, Rust, Dart, TypeScript, Groovy, ABAP, Perl, Scala, Apex, PL/SQL, HTML5, Python, T/SQL, C/C++, Objective-C, COBOL, Pascal, \ 
+        Go, JSP, Kotlin, Visual Basic 6.0, VBA, PHP, Delphi, , 1С, C#, LotusScript, Swift, , Vyper"
+      link_URL: "https://rt-solar.ru/products/solar_appscreener/"
+      ver_edition: "3.15.0"
+      FSTEK_cert: "Сертификат № 4825 от 3.06.2024"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["HTML", "PDF", "CSV", "DOCX", "SARIF", "JSON", "отправка по почте"]
+      detect_methods: ["OWASP Top 10", "БДУ ФСТЭК России", "PCI Security Standards Council", "HIPAA Compliance", "SANS CWE", "ОУД4", "CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'АО «СОЛАР СЕКЬЮРИТИ»'
+      lic: ''
+  - name: PT Application Inspector
+    meta:
+      description: "PT Application Inspector — российский инструмент анализа безопасности приложений, сочетающий статический, динамический, интерактивный анализ и проверку компонентов. Поддерживает автоматическую верификацию уязвимостей, гибкое масштабирование и развёртывание on-premise. Работает с Java, JavaScript, C#, Kotlin, Python, PHP, PL/SQL и др."
+      link_URL: "https://ptsecurity.com/ru-ru/products/ai/"
+      ver_edition: "5.0.0"
+      FSTEK_cert: "Сертификат ФСТЭК России №4000 от 03.09.2018"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON", "XML", "HTML"]
+      detect_methods: ["OWASP Top 10", "PCI DSS", "NIST 800-53 Rev.4", "SANS Top 25", "ОУД4"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Positive Technologies'
+      lic: ''
+  - name: CheckMarx 
+    meta:
+      description: "Checkmarx CxSAST — промышленный статический анализатор, ориентированный на безопасность приложений. Отличается глубокой интеграцией с CI/CD, масштабируемостью для крупных разработческих команд и расширяемыми правилами анализа. Поддерживает более 25 языков, включая Java, JavaScript, C#, C/C++, Python, Go, Ruby, Swift и Kotlin."
+      link_URL: "https://checkmarx.com/cxsast-source-code-scanning/"
+      ver_edition: "9.7.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF", "RTF", "CSV", "XML"]
+      detect_methods: ["OWASP Top 10", "CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Checkmarx'
+      lic: ''
+  - name: Klockwork 
+    meta:
+      description: "Klocwork — промышленный статический анализатор для C, C++, C#, Java. Оптимизирован для работы с монорепозиториями и масштабируемых проектов. Предлагает инкрементальный анализ, быстрый отклик при работе с большими кодовыми базами и интеграцию с IDE, CI/CD и issue-трекингами."
+      link_URL: "https://www.perforce.com/products/klocwork"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Perforce'
+      lic: ''
+      rowspan: 2
+  - name: SonarQube EE
+    meta:
+      description: "SonarQube Enterprise Edition — платформа для анализа качества и безопасности исходного кода с поддержкой более 30 языков, включая Java, JavaScript, TypeScript, C#, C/C++, Python, PHP, Go. Предоставляет визуализацию технического долга, интеграцию с DevOps-платформами и собственный механизм контроля качества."
+      link_URL: "https://www.sonarsource.com/plans-and-pricing/enterprise/"
+      ver_edition: "3.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF", "JSON", "XML", "CSV"]
+      detect_methods: ["CWE", "OWASP Top 10", "SANS Top 25"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'SonarSource'
+      lic: 'Enterprise Edition'
+  - name: ИСП РАН Svace
+    meta:
+      description: "Инструмент для C, C++, Java, Kotlin, Go, Python, Scala, Visual Basic .ΝΕΤ. Предназначен для критичных систем. Обеспечивает семантический анализ и поддержку аннотаций."
+      link_URL: "https://www.ispras.ru/technologies/svace/"
+      ver_edition: "4.0"
+      FSTEK_cert: "Нет"
+      redaction: [4.0.250624]
+      RUS_access: "Доступен"
+    report_formats: ["text", "SARIF", "XML", "JSON"]
+    detect_methods: ["CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'ИСП РАН'
+      lic: 'Лицензия на год, тестовая лицензия'
+  - name: PVS-Studio
+    meta:
+      description: "Анализатор для C, C++, C#, Java. Поддерживает IDE и CI/CD. Ориентирован на производительность и точность диагностики."
+      link_URL: "https://pvs-studio.ru/"
+      ver_edition: "7.37"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON", "XML", "HTML", "CSV"]
+      detect_methods: ["MISRA Compliance", "OWASP ASVS", "OWASP Top 10", "AUTOSAR", "CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'ООО "ПВС"'
+      lic: 'Team, Enterprise 30, Enterprise (calculated)'
+  - name: GitLab SAST
+    meta:
+      description: "Встроенный модуль анализа в CI/CD. Использует сторонние движки. Поддерживает десятки языков. Отчёты доступны в веб-интерфейсе."
+      link_URL: "https://docs.gitlab.com/user/application_security/sast/" 
+      ver_edition: "18.1 Gitlab"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+    report_formats: ["JSON", "CSV", "SARIF"]
+    detect_methods: ["CWE", "OWASP Top 10"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'GitLab'
+      lic: 'Подписка'
+  - name: 'Microfocus Fortify' 
+    meta:
+      description: ""
+      link_URL: "https://www.microfocus.com/ru-ru/products/static-code-analysis-sast/overview"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: ''
+      lic: ''
+  - name: Coverity
+    meta:
+      description: "Инструмент для анализа C, C++, Java, Python, C#. Подходит для масштабных и safety-critical проектов. Интеграции с CI/CD."
+      link_URL: " https://www.blackduck.com/static-analysis-tools-sast/coverity.html"
+      ver_edition: " 2025.6.0 "
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен, но документация не открывается"
+      report_formats: ["PDF", "HTML", "json", "sarif", "JSON", "SARIF"]
+      detect_methods: ["OWASP Top 10", "CWE", "MISRA", "CERT", "PCI DSS", "CWE Top 25"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Black Duck'
+      lic: ''

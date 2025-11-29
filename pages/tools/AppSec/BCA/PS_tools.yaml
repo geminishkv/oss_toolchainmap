@@ -1,0 +1,50 @@
+Tools:
+  - name: rezilion 
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: ''
+      lic: ''
+  - name: Procyon 
+    meta:
+      description: ""
+      link_URL: "https://github.com/mstrobel/procyon?tab=readme-ov-file, https://bitbucket.org/mstrobel/procyon/downloads/ - указали в статье на хабре, но открыть не удалось"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: ''
+      lic: ''
+  - name: IDAPRO
+    meta:
+      description: "дизассемблер, являющийся отраслевым стандартом для реверс-инжиниринга. Он поддерживает анализ бинарных файлов для множества архитектур (x86, ARM, MIPS и др.)\
+       и операционных систем (Windows, Linux, macOS), включая декомпиляцию в C-подобный код и автоматизацию через Python/IDC-скрипты"
+      link_URL: "https://hex-rays.com/ida-pro"
+      ver_edition: "9.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["asm","c", "idb", "i64", "txt", "html"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "false"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: 'Hex-Rays'
+      lic: 'Commercial, non-commercial, education'

@@ -1,0 +1,18 @@
+Tools:
+  - name: Defect Dojo
+    meta:
+      description: "Платформа с открытым исходным кодом для управления уязвимостями, которая автоматизирует сбор, анализ и приоритизацию результатов сканирования безопасности (SAST, DAST, SCA) в единой системе.\
+       Она поддерживает интеграцию с более чем 150 инструментами (например, Burp Suite, OWASP ZAP), обеспечивает генерацию отчётов и двунаправленную синхронизацию с Jira, что упрощает контроль безопасности на всех этапах DevOps-цикла"
+      link_URL: "https://github.com/DefectDojo/django-DefectDojo, https://defectdojo.com/"
+      ver_edition: "2.48.0"
+      FSTEK_cert: "Нет"
+      redaction: ["2.48.1"]
+      RUS_access: "Доступен"
+      report_formats: ["HTML", "PDF", "AsciiDoc"]
+      detect_metods: ["OWASP ASVS", "CWE"]
+      OSS: "true"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'The Security Dojo'
+      lic: 'BSD 3-Clause License'

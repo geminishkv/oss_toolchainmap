@@ -1,0 +1,161 @@
+Tools:
+  - name: Сitadel
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: AI Validation
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Guardian
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Veil
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Guard-ai
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: АI-guard
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: model-scanner
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Patronus
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: advai-versus
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: modelscan
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''

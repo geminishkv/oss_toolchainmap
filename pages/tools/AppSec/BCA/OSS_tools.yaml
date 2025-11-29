@@ -1,0 +1,87 @@
+Tools:
+  - name: Syft
+    meta:
+      description: "Инструмент CLI и библиотека Go для создания спецификации программного обеспечения (SBOM) на основе образов контейнеров и файловых систем.\
+        Поддерживаемые платформы: Alpine, Bitnami packages, C, C++, Dart, Debian, Dotnet, Objective-C, Elixir, Erlang, Go, Haskell, Java, JavaScript, Jenkins Plugins, Linux kernel archives, Linux kernel modules,\
+         Nix, PHP, Python, Red Hat, Ruby, Rust, Swift, Wordpress plugins, Terraform providers"
+      link_URL: "https://github.com/anchore/syft"
+      ver_edition: "1.29.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "text","xml", "table"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: ''
+      lic: 'Apache-2.0 license'
+  - name: BinaryNinja 
+    meta:
+      description: "Платформа для реверс-инжиниринга, предоставляющая интерактивный дизассемблер и декомпилятор для анализа бинарных файлов любых языков, компилируемых в поддерживаемые архитектуры:\
+        x86, x86_64, ARM, MIPS, RISC-V и других. Поддерживает автоматизацию анализа через API на Python, Rust и C++,\
+       обеспечивая гибкость для задач безопасности и исследования кода."
+      link_URL: "https://github.com/Vector35 - рпеозитории с модулями платформы, https://binary.ninja/ - платформа"
+      ver_edition: "5.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: ["JSON"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: 'Vector 35'
+      lic: 'Personal, Commercial, Enterprise'
+  - name: JADX
+    meta:
+      description: "Декомпилятор для Android-приложений, преобразующий APK, DEX и JAR файлы в исходный код на Java для реверс-инжиниринга.\
+       Поддерживает дизассемблирование и анализ безопасности, помогая выявлять уязвимости в бинарном коде.""
+      link_URL: "https://github.com/skylot/jadx"
+      ver_edition: "1.5.0"
+      FSTEK_cert: "Нет"
+      redaction: ["1.5.1", "1.5.2"]
+      RUS_access: "Доступен"
+      report_formats: ["java", "JSON", "TXT"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: ''
+      lic: 'Apache-2.0 license'
+  - name: ILSpy
+    meta:
+      description: ".NET декомпилятор, преобразующий сборки .NET в исходный код на C# с поддержкой PDB, ReadyToRun и анализа метаданных. Используется для реверс-инжиниринга и анализа безопасности, интегрируется с Visual Studio и поддерживает кросс-платформенные интерфейсы."
+      link_URL: "https://github.com/icsharpcode/ILSpy"
+      ver_edition: "9.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["TXT", "cs", "csproj"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: ''
+      lic: 'MIT license'
+  - name: Dotpeek
+    meta:
+      description: "Инструмент для декомпиляции и исследования сборок .NET, построенный на базе встроенного декомпилятора ReSharper.\
+       Он декомпилирует любую сборку .NET в исходный код на C# или IL-код."
+      link_URL: "https://www.jetbrains.com/ru-ru/decompiler/"
+      ver_edition: "2025.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: ["Dashboard", "csproj"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: 'JetBrains'
+      lic: ''

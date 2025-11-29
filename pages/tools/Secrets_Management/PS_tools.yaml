@@ -1,0 +1,306 @@
+Tools:
+  - name: Hashicorp Vault
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Senhasegura
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: AppSec.Code
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Cloud KMS
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Keywhiz
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: BitWarden
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Harbor
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Spectral Secret Scanner
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Azure Key Vault
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Knox
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Consul
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: CoSign
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: AWS Secrets Manager
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+      colspan: 2
+  - name: Strongbox
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: CyberArk Conjur
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Yandex Lockbox
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Confidant
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Nexus Repository Management
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: ЦУП 2.0
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''

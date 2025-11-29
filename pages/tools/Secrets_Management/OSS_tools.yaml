@@ -1,0 +1,145 @@
+Tools:
+  - name: AppArmor
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: OPA Gatefeeper
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Infisical
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: OpenBAO
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Gitleaks
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Spring Cloud Config
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Gerrit
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Mozilla SOPS
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: CheckMate
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''

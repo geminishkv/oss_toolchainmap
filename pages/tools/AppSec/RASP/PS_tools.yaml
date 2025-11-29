@@ -1,0 +1,117 @@
+Tools:
+  - name: Fortify
+    meta:
+      description: ""
+      link_URL: "https://www.microfocus.com/ru-ru/documentation/fortify-application-defender/"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: ''
+      lic: ''
+  - name: Jscrambler
+    meta:
+      description: "Платформа для защиты JavaScript-кода, предлагающая инструменты для обфускации кода, защиты от реверс-инжиниринга и мониторинга клиентской части веб-приложений."
+      link_URL: "https://jscrambler.com/"
+      ver_edition: "8.5"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON"]
+      detect_metods: ["PCI DSS v4.0", "OWASP Top 10", "GDPR", "CCPA", "NIST", "HIPAA"]
+      OSS: "false"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: 'Jscrambler'
+      lic: 'Code Integrity: Starter, Enterprise, managed Services; Webpage Integrity: Visibility, PCI DSS v4, Forms Control, Managed Services'
+  - name: Signal Sciences
+    meta:
+      description: ""
+      link_URL: "https://www.fastly.com/products/web-application-api-protection"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: []
+      detect_metods: []
+      OSS: "false"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: ''
+      lic: ''
+  - name: Appdome
+    meta:
+      description: "No-code платформа для внедрения защиты в мобильные приложения на Android и iOS.\
+       Поддерживает более 400 мер безопасности, включая RASP, шифрование, анти-отладку и защиту от рутирования"
+      link_URL: "https://www.appdome.com/mobile-app-security/mobile-rasp-and-app-shielding/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF","JSON"]
+      detect_metods: ["OWASP MASVS", "PCI DSS / PCI SPoC", "GDPR", "HIPAA", "SOC 2", "FINRA"]
+      OSS: "false"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: 'Appdome'
+      lic: 'Appdome DEV, Appdome SRM, Appdome GO'
+  - name: Liapp
+    meta:
+      description: "No-code платформа для защиты мобильных приложений с функциями шифрования, антифрода, защиты интерфейса и встроенной RASP-защитой.\
+       Поддерживает Android, iOS и Harmony OS, работает с Java, Kotlin, Swift и Objective-C."
+      link_URL: "https://liapp.lockincomp.com/liapp-learn-more"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON", "CSV/Excel (XLSX)", "HTML", "TXT/Log files"]
+      detect_metods: ["OWASP Top 10"]
+      OSS: "false"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: 'Lockin company'
+      lic: 'Onsite, Business, For Game, Enterprise'
+  - name: Imperva
+    meta:
+      description: "Комплексное решение для защиты веб-приложений и API от кибератак, включая DDoS, инъекции и эксплуатацию уязвимостей.\
+       Оно сочетает технологии WAF и RASP, обеспечивая многоуровневую безопасность как на периметре, так и внутри приложений в реальном времени."
+      link_URL: "https://www.imperva.com/learn/application-security/runtime-security/"
+      ver_edition: "4.6 4 июня 2024"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["OWASP Top 10", "SOC2"]
+      OSS: "false"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: 'Imperva'
+      lic: 'Информация не найдена'
+  - name: Appsealing
+    meta:
+      description: "Решение для защиты мобильных приложений, которое использует технологию RASP (Runtime Application Self-Protection) для мониторинга и блокировки угроз в реальном времени.\
+       Оно подходит для приложений на Android и iOS, обеспечивая безопасность без необходимости вносить изменения в исходный код"
+      link_URL: "https://doverunner.com/"
+      ver_edition: "Для android - 2.34.0.0, Для Ios - 1.11.2.0, Hybrid App - не было релизов с 2023 года"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "PDF", "HTML", "CSV", "JSON", "XML"]
+      detect_metods: ["OWASP (MASVS)", "OWASP Mobile Top 10", "PCI DSS"]
+      OSS: "false"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: 'DoveRunner'
+      lic: 'Android: Free Trial,	Professional,	Enterprise; IOS: Professional,	Enterprise'

@@ -1,0 +1,107 @@
+Tools:
+  - name: OWASP ZAP
+    meta:
+      description: "Инструмент для динамического тестирования безопасности веб-приложений (DAST),\
+       который обнаруживает уязвимости, такие как SQL-инъекции, XSS и CSRF, работая как прокси между браузером и сервером.\
+        Он поддерживает веб-приложения на любых языках (включая JavaScript, Python, Java, PHP и другие), так как анализирует HTTP-трафик, а также REST API, SOAP и GraphQL"
+      link_URL: "https://www.zaproxy.org/, https://github.com/zaproxy/zaproxy"
+      ver_edition: "2.16.0"
+      FSTEK_cert: "Нет"
+      redaction: ["2.16.1"]
+      RUS_access: "Доступен"
+      report_formats: ["HTML", "JSON", "XML", "Markdown", "PDF"]
+      detect_metods: ["OWASP Top 10 (2021)"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'Checkmarx'
+      lic: 'Apache-2.0 license'
+  - name: Burp Suite CE
+    meta:
+      description: "Бесплатная версия набора инструментов для тестирования безопасности веб-приложений, включающая базовые функции вроде прокси-перехвата,\
+       ручного тестирования и анализа запросов. Он работает с любыми веб-технологиями и языками (PHP, Java, Python, .NET, JavaScript и др.),\
+       так как анализирует HTTP/S-трафик, но имеет ограничения по сравнению с Pro-версией (например, нет автоматического сканера)."
+      link_URL: "https://portswigger.net/burp/communitydownload"
+      ver_edition: "2025.6"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "HTML", "PDF", "XML"]
+      detect_metods: ["OWASP Top 10: 2021", "PCI DSS v4.0.1"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'PortSwigger Ltd.'
+      lic: 'Burp Suite Community Edition Licence Agreement'
+  - name: OpenVAS
+    meta:
+      description: "Фреймворк с открытым исходным кодом для сканирования уязвимостей и анализа безопасности, который позволяет выявлять и устранять угрозы в сетевых системах.\
+       Он включает обширную базу данных уязвимостей и предоставляет инструменты для автоматизированного тестирования безопасности."
+      link_URL: "https://github.com/greenbone/openvas-scanner, https://openvas.org/"
+      ver_edition: "23.22.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Информация не найдена"]
+      detect_metods: ["CVE", "NIST NVD", "CISA"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: 'Greenbone'
+      lic: 'GPL-2.0 license, GNU GPL-2+' 
+  - name: Wapiti
+    meta:
+      description: "Веб-сканер уязвимостей с открытым исходным кодом, который проверяет сайты на наличие таких угроз,\
+       как SQL-инъекции, XSS и файловые включения.\
+       Он поддерживает Python и может анализировать веб-приложения, написанные на PHP, Java, ASP и других языках."
+      link_URL: "https://github.com/wapiti-scanner/wapiti"
+      ver_edition: "3.2.4"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["HTML", "XML", "JSON", "TXT", "CSV"]
+      detect_metods: ["CVE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: ''
+      lic: 'GPL-2.0 license'
+  - name: Nuclei
+    meta:
+      description: "Cканер уязвимостей с открытым исходным кодом, использующий YAML-шаблоны для обнаружения уязвимостей в веб-приложениях,\
+       API, сетях и облачных сервисах. Он поддерживает множество протоколов,\
+       включая HTTP, DNS, TCP, SSL, а также позволяет создавать шаблоны на YAML для кастомных проверок"
+      link_URL: "https://github.com/projectdiscovery/nuclei"
+      ver_edition: "3.4.0"
+      FSTEK_cert: "Нет"
+      redaction: ["3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7"]
+      RUS_access: "Доступен"
+      report_formats: ["cli", "JSON", "JSONL", "SARIF"]
+      detect_metods: ["CVE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: ''
+      lic: 'MIT license'
+  - name: RESTler
+    meta:
+      description: "Инструмент для stateful фаззинга REST API, разработанный Microsoft, который автоматически тестирует облачные сервисы на наличие уязвимостей и ошибок, анализируя их спецификации OpenAPI/Swagger 18.\
+       Он поддерживает языки, используемые в описании API (например, JSON для OpenAPI)"
+      link_URL: "https://github.com/microsoft/restler-fuzzer"
+      ver_edition: "9.3.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Информация не найдена"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: ''
+      lic: 'MIT license'

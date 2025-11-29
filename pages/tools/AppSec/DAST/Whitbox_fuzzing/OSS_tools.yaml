@@ -1,0 +1,134 @@
+Tools:
+  - name: OlydDBG # Не найден
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: ''
+      lic: ''
+  - name: Fernflower
+    meta:
+      description: "Декомпилятор ИЗ Java Bytecode в Java, на текущий момент разрабатываемый и поддерживаемый компанией JetBrains"
+      link_URL: "https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler/engine"
+      ver_edition: ""
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Информация не найдена"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: 'JetBrains'
+      lic: 'Apache License Version 2.0'
+  - name: BinSide
+    meta:
+      description: "платформа для анализа бинарного кода, разрабатываемая на основе фреймворка BinNavi, который переводит\ 
+        ассемблерный код в представление REIL. Данное представление позволяет анализировать код независимо от процессорной архитектуры и операционной системы. Интегрирован\ 
+        с дизассемблерами IDA PRO и Ghidra, которые используются для обратной разработки."
+      link_URL: "https://www.ispras.ru/technologies/binside/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Информация не найдена"]
+      detect_metods: ["CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: 'ИСП РАН'
+      lic: 'Информация не найдена'
+  - name: Sydr/Sydr-fuzz
+    meta:
+      description: "Инструмент для гибридного фаззинга и динамического анализа, сочетающий символьное выполнение (Sydr) с современными фаззерами (libFuzzer, AFL++, Honggfuzz) для поиска уязвимостей в ПО.\
+       Он поддерживает языки C/C++, Python (Atheris), Java (Jazzer), JavaScript (Jazzer.js), Lua (luzer) и C# (Sharpfuzz), а также автоматизирует сбор покрытия и анализ ошибок"
+      link_URL: "https://sydr-fuzz.github.io/, https://github.com/ispras/oss-sydr-fuzz"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["html", "JSON", "lcov"]
+      detect_metods: ["CVE", "CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: 'ИСП РАН'
+      lic: 'Apache-2.0 license'
+  - name: JQF + Zest 
+    meta:
+      description: "Фреймворк для покрытийно-ориентированного фаззинга Java-приложений, сочетающий генеративное тестирование (QuickCheck) с алгоритмом Zest для автоматического создания семантически корректных входных данных. Позволяет выявлять логические ошибки, уязвимости безопасности и случаи аварийного завершения в JVM-программах."
+      link_URL: "https://github.com/rohanpadhye/JQF"
+      ver_edition: "2.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: ''
+      lic: 'BSD-2-Clause license'
+  - name: SharpFuzz
+    meta:
+      description: "Инструмент для AFL-based fuzz-тестирования .NET-приложений, интегрирующийся с afl-fuzz для white-box fuzzing, выявляя краши и уязвимости в C# и других .NET-совместимых языках. Поддерживает in-process и out-of-process тестирование для эффективного анализа кода."
+      link_URL: "https://github.com/Metalnem/sharpfuzz"
+      ver_edition: "2.2.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["TXT"]
+      detect_metods: ["CVE", "CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: ''
+      lic: 'MIT license'
+  - name: LLVM libFuzzer
+    meta:
+      description: "Библиотека для in-process fuzz-тестирования, выявляющая уязвимости и краши в программах на C, C++ и других языках, поддерживаемых LLVM.\
+       Использует coverage-guided подход и интегрируется с Clang для эффективного анализа кода."
+      link_URL: "https://llvm.org/docs/LibFuzzer.html"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["TXT"]
+      detect_metods: ["CVE", "CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: ''
+      lic: 'Apache License v2.0 with LLVM Exceptions'
+  - name: cargo-fuzz
+    meta:
+      description: "Инструмент для фаззинга Rust-кода, который предоставляет удобный интерфейс для работы с libFuzzer. Он автоматизирует процесс создания,\
+       запуска и управления фаззинг-таргетами, включая генерацию покрытия кода, минимизацию корпуса тестов и анализ ошибок "
+      link_URL: "https://github.com/rust-fuzz/cargo-fuzz"
+      ver_edition: "0.13.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["TXT"]
+      detect_metods: ["CVE", "CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: ''
+      lic: 'Apache-2.0 license, MIT license'

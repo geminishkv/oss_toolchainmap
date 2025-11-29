@@ -1,0 +1,48 @@
+- name: Trivy
+  meta:
+    description: "Комплексный сканер уязвимостей от Aqua Security, генерирующий Software Bill of Materials (SBOM) в форматах SPDX и CycloneDX, а также сканирующий уязвимости в контейнерах, репозиториях кода и облачных средах. Поддерживает языки: Go, Java, JavaScript, Python, Ruby, PHP, Rust. Отличается высокой производительностью и поддержкой сканирования инфраструктуры как кода."
+    link_URL: "https://trivy.dev/, https://github.com/aquasecurity/trivy"
+    ver_edition: "0.64"
+    FSTEK_cert: "Нет"
+    redaction: ["0.64.1"]
+    RUS_access: "Доступен"
+    report_formats: ["json", "table"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: ''
+    lic: 'Apache-2.0 License'
+- name: Jit
+  meta:
+    description: "Платформа для внедрения в GitHub или GitLab, сканирует выбранные репозитории и проекты, также может запускаться автоматически"
+    link_URL: "https://www.jit.io/aspm-platform/sbom"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["json","csv"]
+    detect_metods: ["CWE"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: ''
+    lic: 'Community, Growth, Enterprise'
+- name: CycloneDX (CDXGen)
+  meta:
+    description: "Инструмент от OWASP для создания Software Bill of Materials (SBOM) в формате CycloneDX из исходного кода и контейнерных образов. Поддерживает языки: C/C++, Go, Java, Javascript, .NET, Node.js, PHP, Python, Ruby, Rust."
+    link_URL: "https://cyclonedx.github.io/cdxgen/#/, https://github.com/CycloneDX/cdxgen"
+    ver_edition: "11.4.0"
+    FSTEK_cert: ""
+    redaction: ["11.4.1","11.4.2", "11.4.3"]
+    RUS_access: "Доступен"
+    report_formats: ["json", "table"]
+    detect_metods: ["OWASP Top 10"]
+    OSS: "true"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "SBOM"
+    vendor: 'OWASP, CycloneDX'
+    lic: 'Apache-2.0 License'

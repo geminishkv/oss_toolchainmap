@@ -1,0 +1,195 @@
+Tools: 
+- name: CodeScoring 
+  meta:
+    description: "Инструмент анализа состава ПО для выявления уязвимостей и управления лицензиями в open-source зависимостях.\
+     Поддерживает языки: TypeScript, Swift, Ruby, Python, PHP, Kotlin, JavaScript, Java, Go, C#, C++, C. Интегрируется с CI/CD и предоставляет детализированные отчеты по безопасности компонентов."
+    link_URL: "https://codescoring.com/"
+    ver_edition: "2025.29.0"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["json", "cli", "PDF"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'CodeScoring'
+    lic: 'On-premise'
+- name: Сканер уязвимостей Ya Cloud
+  meta:
+    description: "Облачный сканер уязвимостей от Яндекс для анализа инфраструктуры и зависимостей в облачных средах. Позволяет провести сканирование Docker-образа"
+    link_URL: "https://yandex.cloud/ru/docs/container-registry/concepts/vulnerability-scanner"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["json"]
+    detect_metods: ["CVE"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Яндекс'
+    lic: ''
+- name: AppSec.Track
+  meta:
+    description: "Инструмент, реализующий практики OSA и SCA и предоставляющий сервис по предотвращению атак на цепочку поставок ПО через компоненты с открытым исходным кодом.\
+      Поддерживает анализ кода на языках, таких как Java, C#, Python, JavaScript, Go, Ruby, PHP, а также интеграцию с CI/CD-инструментами для DevSecOps-практик."
+    link_URL: "https://appsec.global/appsectrack"
+    ver_edition: "3.19.0"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["Dashboard", "json", "html", "pdf", "SBOM"]
+    detect_metods: ["CVE", "CVSS", "OWASP Top 10", "BDU", "NVD", "OSV", "GHA"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'ООО «АппСек Солюшенс»'
+    lic: ''
+- name: Snyk
+  meta:
+    description: ""
+    link_URL: "https://snyk.io/"
+    ver_edition: ""
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Недоступен"
+    report_formats: []
+    detect_metods: []
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: ''
+    lic: ''
+- name: JFrog Xray
+  meta:
+    description: "Инструмент анализа состава ПО для сканирования бинарных файлов, контейнеров и зависимостей. Поддерживает языки: Java, Python, JavaScript, Go, C, C++. Интегрируется с JFrog Artifactory, обеспечивает проверку лицензий и выявление вредоносных пакетов."
+    link_URL: "https://jfrog.com/xray/, https://github.com/jfrog/jfrog-cli"
+    ver_edition: "3.0"
+    FSTEK_cert: "Нет"
+    redaction: ["Self-Hosted - 3.118.24", "Cloud - 3.123.4"]
+    RUS_access: "Доступен"
+    report_formats: ["json", "xml", "csv", "spdx", "cyclonedx", "XLSX"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'JFrog Ltd'
+    lic: 'Pro, Enterprise, Enterprise+'
+- name: Solar AppScreener (SCA)
+  meta:
+    description: "Российский инструмент для анализа исходного кода и зависимостей, выявления уязвимостей и проверки лицензий. Поддерживает языки: Java, C, C++, Python, JavaScript, PHP. Интегрируется с CI/CD и соответствует требованиям российского законодательства."
+    link_URL: "https://solarappscreener.com/"
+    ver_edition: "3.15"
+    FSTEK_cert: "Сертификат № 4825 от 3.06.2024"
+    redaction: ["3.15.1: исправлены ошибки в анализе JavaScript-зависимостей", "3.15.2: улучшена совместимость с CI/CD"]
+    RUS_access: "Доступен"
+    report_formats: ["html", "pdf", "xml"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'АО «СОЛАР СЕКЬЮРИТИ»'
+    lic: ''
+- name: PT Application Inspector
+  meta:
+    description: "Российский инструмент для анализа кода и зависимостей, выявления уязвимостей и обеспечения соответствия требованиям безопасности. Поддерживает языки: Java, C#, Python, JavaScript, PHP, Go. Отличается поддержкой локальных стандартов и интеграцией с CI/CD."
+    link_URL: "https://www.ptsecurity.com/ru-ru/products/ai/"
+    ver_edition: "5.0.0"
+    FSTEK_cert: "Сертификат ФСТЭК России №4000 от 03.09.2018"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["JSON", "XML", "HTML"]
+    detect_metods: ["OWASP Top 10", "PCI DSS", "NIST 800-53 Rev.4", "SANS Top 25", "ОУД4"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Positive Technologies'
+    lic: ''
+- name: Spectral
+  meta:
+    description: "Инструмент для анализа состава ПО и защиты цепочки поставок, с акцентом на DevOps. Поддерживает языки: JavaScript, Python, Go, Java, Ruby. Предоставляет настраиваемые правила и интеграцию с CI/CD."
+    link_URL: "https://www.spectralops.io/, https://github.com/SpectralOps/spectral-cli"
+    ver_edition: "1.7.0"
+    FSTEK_cert: "Нет"
+    redaction: ["1.7.1"]
+    RUS_access: "Ограничен (проверить у вендора соответствие санкциям)"
+    report_formats: ["json", "yaml"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Spectral'
+    lic: ''
+- name: Azul
+  meta:
+    description: "Инструмент для управления безопасностью Java-приложений и зависимостей. Поддерживает язык: Java. Специализируется на анализе JVM и оптимизации безопасности Java-экосистемы."
+    link_URL: "https://www.azul.com/"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["json", "csv"]
+    detect_metods: ["CVE", "CVSS", "NIST"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Azul Systems'
+    lic: ' Azul Zulu для OpenJDK (OSS), Core, Prime'
+- name: BlackDuck
+  meta:
+    description: "Инструмент анализа состава ПО для управления рисками open-source и стороннего кода. Поддерживает языки: Java, C#, Python, JavaScript, C, C++. Обеспечивает глубокий анализ зависимостей и лицензий, интегрируется с SDLC."
+    link_URL: "https://www.blackducksoftware.com/, https://github.com/blackducksoftware"
+    ver_edition: "2025.10"
+    FSTEK_cert: "Нет"
+    redaction: ["2025.10.1: исправлены баги в анализе C/C++ кода", "2025.10.2: улучшена интеграция с CI/CD"]
+    RUS_access: "Доступен"
+    report_formats: ["json", "xml", "csv"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Synopsys'
+    lic: ''
+- name: Mend SCA
+  meta:
+    description: "Инструмент для анализа open-source зависимостей и управления безопасностью ПО. Поддерживает языки: Java, JavaScript, Python, Ruby, Go, .NET, PHP. Автоматизирует исправление уязвимостей и проверку лицензий, интегрируется с CI/CD."
+    link_URL: "https://www.mend.io/sca/, https://github.com/mend-toolkit"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Ограничен (проверить у вендора соответствие санкциям)"
+    report_formats: ["json", "xml", "csv"]
+    detect_metods: ["CVE", "CVSS", "OWASP Top 10"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Mend.io'
+    lic: ''
+- name: Sonatype Repository Firewall
+  meta:
+    description: "Инструмент для защиты цепочки поставок ПО, блокирующий небезопасные компоненты. Поддерживает языки: Java, JavaScript, Python, Ruby, .NET, Go, PHP. Интегрируется с Nexus Repository, обеспечивает проверку лицензий и блокировку вредоносных пакетов."
+    link_URL: "https://www.sonatype.com/products/sonatype-repository-firewall"
+    ver_edition: "Информация не найдена"
+    FSTEK_cert: "Нет"
+    redaction: []
+    RUS_access: "Доступен"
+    report_formats: ["json", "xml"]
+    detect_metods: ["CVE", "CVSS"]
+    OSS: "false"
+    division: "AppSec"
+    type: "SCA/OSA"
+    class: "Анализатор"
+    vendor: 'Sonatype'
+    lic: ''

@@ -1,0 +1,721 @@
+Tools:
+  - name: Advbox
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: ARX
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Foolbox
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Models-are-code
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: PyRIT
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Adversarial_ml_ctf
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: AugLy
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Garak
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: ModelScan
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Raze_to_the_ground_aisec23
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Advertorch
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Awesome-MLSecOps
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Giskard
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: NB Defense
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Safetensors
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Advmlthreatmatrix
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: CleverHans
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Knockoffnets
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: NeMo Guardrails
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Stealing_DL_Models
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Ai-exploits
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: DamnVulnerableLLMProject
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: LintML
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: OpenAttack
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Tensorflow Model-analysis
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Ai-goat
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Deep-pwning
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: ML_security_study_map
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Pallms
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: TensorFlow Privacy
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: AnonLLM
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Differential-privacy-library
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: MLSploit
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Privacy Meter
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: TextAttack
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: ART(Adversarial-robustness-toolbox)
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Fml-security
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Model-Inversion-Attack-ToolBox
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: PromptInject
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: TextFooler
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Vger
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Vigil-llm
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Watchtower
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: Аudit-ai
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''
+  - name: awesome-security-for-ai
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''

@@ -1,0 +1,160 @@
+Tools:
+  - name: 42Crunch 
+    meta:
+      description: ""
+      link_URL: "https://github.com/42Crunch/apisecurity-tutorial"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: API Security Empire 
+    meta:
+      description: ""
+      link_URL: "https://github.com/Cyber-Guy1/API-SecurityEmpire"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: Astra 
+    meta:
+      description: ""
+      link_URL: "https://github.com/flipkart-incubator/Astra"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: SSL Kill Switch 2 
+    meta:
+      description: ""
+      link_URL: "https://github.com/nabla-c0d3/ssl-kill-switch2"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+    meta:
+      description: ""
+      link_URL: "https://github.com/gravitee-io/gravitee-api-management"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: LAST (latio)
+    meta:
+      description: ""
+      link_URL: "https://github.com/latiotech/LAST"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: UsageFinder 
+    meta:
+      description: ""
+      link_URL: "https://galoisinc.github.io/MATE/usagefinder.html"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: WSO2
+    meta:
+      description: ""
+      link_URL: "https://github.com/wso2/product-apim"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: Probely
+    meta:
+      description: ""
+      link_URL: "https://probely.com/?ref=hackernoon.com"
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''
+  - name: gcov
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: []
+      RUS_access: ""
+      report_formats: []
+      detect_metods: []
+      OSS: "true"
+      division: "AppSec"
+      type: "API"
+      class: "API Sec / WAF"
+      vendor: ''
+      lic: ''

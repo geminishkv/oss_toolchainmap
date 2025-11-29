@@ -1,0 +1,17 @@
+Tools:
+  - name: SonarQube EE
+    meta:
+      description: "SonarQube Enterprise Edition — платформа для анализа качества и безопасности исходного кода с поддержкой более 30 языков, включая Java, JavaScript, TypeScript, C#, C/C++, Python, PHP, Go. Предоставляет визуализацию технического долга, интеграцию с DevOps-платформами и собственный механизм контроля качества."
+      link_URL: "https://www.sonarsource.com/plans-and-pricing/enterprise/"
+      ver_edition: "3.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF", "JSON", "XML", "CSV"]
+      detect_methods: ["CWE", "OWASP Top 10", "SANS Top 25"]
+      OSS: "false"
+      division: "codecoverage"
+      type: ""
+      class: ""
+      vendor: 'SonarSource'
+      lic: 'Enterprise Edition'

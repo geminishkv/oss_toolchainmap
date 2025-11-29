@@ -1,0 +1,19 @@
+Tools:
+  - name: Crusher
+    meta:
+      description: "программный комплекс, комбинирующий несколько методов динамического и статического анализа\
+       в частности, фаззинг (ИСП Fuzzer) и символьное выполнение (в качестве одного из движков может выступать Sydr).\ 
+       В основе комплекса ИСП Crusher находится ИСП Fuzzer – инструмент проведения фаззинг-тестирования"
+      link_URL: "https://www.ispras.ru/technologies/crusher/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["XML", "JSON"]
+      detect_metods: ["БДУ ФСТЭК"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: 'ИСП РАН'
+      lic: ''

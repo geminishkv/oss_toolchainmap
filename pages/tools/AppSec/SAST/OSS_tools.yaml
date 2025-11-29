@@ -1,0 +1,273 @@
+Tools:
+  - name: Bandit
+    meta:
+      description: "Статический анализатор безопасности Python-кода. Проводит синтаксический анализ, строит AST и применяет правила проверки к узлам дерева. По результатам анализа генерирует отчет о выявленных уязвимостях."
+      link_URL: "https://github.com/PyCQA/bandit?tab=readme-ov-file"
+      ver_edition: "1.8.6"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["csv", "custom", "html", "json", "sarif", "screen", "text", "xml", "yaml"]
+      detect_methods: ["CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'Apache License Version 2.0'
+  - name: Weggli
+    meta:
+      description: "Инструмент для семантического поиска по C/C++-коду с помощью шаблонов, основанных на синтаксисе языка. "
+      link_URL: "https://github.com/weggli-rs/weggli"
+      ver_edition: "v0.2.4"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["text"]
+      detect_methods: ["CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'Apache License Version 2.0'
+  - name: tfsec
+    meta:
+      description: "Сканер безопасности для статического анализа кода Terraform"
+      link_URL: "https://github.com/aquasecurity/tfsec"
+      ver_edition: "v1.28.14"
+      FSTEK_cert: "нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["lovely", "json", "csv", "checkstyle", "junit", "sarif", "text", "markdown", "html", "gif"]
+      detect_methods: ["CWE"] 
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'MIT License'
+  - name: PMD
+    meta:
+      description: "PMD — статический анализатор исходного кода, поддерживающий языки: \
+        Java, Apex, Visualforce, JavaScript, XML, XSL, PLSQL, Velocity, Scala, \
+        Kotlin, JSP, Salesforce.com, Ecmascript, Modelica и Python."
+      link_URL: "https://github.com/pmd/pmd"
+      ver_edition: "7.15.0"
+      FSTEK_cert: "нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["csv", "html", "json", "sarif", "text", "xml"]
+      detect_methods: ["CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'BSD-Style License'
+  - name: Terrascan
+    meta:
+      description: "Terrascan — инструмент для статического анализа IaC-кода: Terraform, Kubernetes, Helm, Kustomize, Dockerfile, CloudFormation и Azure ARM.\
+         Проверяет конфигурации на соответствие политикам безопасности (встроенным и кастомным на Rego/OPA)."
+      link_URL: "https://github.com/tenable/terrascan"
+      ver_edition: "1.19.9"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "yaml", "xml", "junit-xml", "sarif", "github-sarif"]
+      detect_methods: ["CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'Apache 2.0 License'
+  - name: Joern
+    meta:
+      description: "Joern — платформа для SAST-анализа, строит Code Property Graph (CPG) для C, C++, Java, JavaScript, JVM-байткода, x86-бинарей, Python, Kotlin, PHP, Go, Ruby, Swift, C#. \ 
+         Позволяет писать запросы для поиска уязвимостей."
+      link_URL: "https://github.com/joernio/joern, https://joern.io/"
+      ver_edition: "4.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["dot", "neo4jcsv", "graphml", "graphson", "json"]
+      detect_methods: ["CVE", "CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'Apache-2.0 License'
+  - name: kics
+    meta:
+      description: "KICS — SAST-инструмент для IaC (Terraform, Kubernetes, Docker, CloudFormation, Ansible, Helm, OpenAPI), \ 
+        позволяет писать/редактировать запросы для обнаружения misconfig и уязвимостей."
+      link_URL: "https://github.com/Checkmarx/kics"
+      ver_edition: "2.1.11"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["asff", "csv", "cyclonedx", "glsast", "html", "json", "junit", "pdf", "sarif", "sonarqube"]
+      detect_methods: ["CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'Apache-2.0 license'
+  - name: Retire.js
+    meta:
+      description: "Retire.js — сканер уязвимых JavaScript/Node.js библиотек, работает как CLI-инструмент, расширение для браузеров, Grunt/Gulp-плагины и интеграции с Burp/ZAP."
+      link_URL: "https://github.com/RetireJS/retire.js"
+      ver_edition: "5.2.7"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["text", "json", "cyclonedx"]
+      detect_methods: ["CVE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'Нет'
+      lic: 'Apache-2.0 license'
+  - name: CodeQL
+    meta:
+      description: "CodeQL — платформа для анализа безопасности и качества кода от GitHub, \ 
+        поддерживает множество языков; позволяет писать запросы на QL для поиска уязвимостей."
+      link_URL: "https://github.com/github/codeql"
+      ver_edition: "2.22.1"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["sarif", "csv", "html", "json", "xml"]
+      detect_methods: ["CWE", "CVE", "OWASP Top 10"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 'GitHub'
+      lic: 'MIT License'
+  - name: Osquery
+    meta:
+      description: "Osquery — инструмент для мониторинга и анализа операционных систем с помощью SQL-запросов."
+      link_URL: "https://github.com/osquery/osquery, https://osquery.io/"
+      ver_edition: "5.17.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "csv"]
+      detect_methods: ["CWE","OWASP Top 10"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: ''
+      lic: 'Apache-2.0 License'
+
+  - name: bearer
+    meta:
+      description: "Платформа для обнаружения уязвимостей и инцидентов в приложениях написанных на языках: Go, Java, JavaScript, TypeScript, PHP, Python, Ruby
+        C#, Kotlin, Elixir, VB.Net"
+      link_URL: "https://github.com/Bearer/bearer"
+      ver_edition: "1.49.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "sarif", "junit-xml"]
+      detect_methods: ["CWE","OWASP Top 10", "SANS Top 25"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: ''
+      lic: 'Apache-2.0 License'
+
+  - name: detect-secrets
+    meta:
+      description: "Инструмент для предотвращения попадания секретов (токены, API-ключи) в Git-репозитории.\
+        Сканирует код и историю коммитов."
+      link_URL: "https://github.com/Yelp/detect-secrets"
+      ver_edition: "1.5.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "txt"]
+      detect_methods: ["CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: ''
+      lic: 'Apache-2.0 License'
+
+  - name: js-x-ray
+    meta:
+      description: "Статический анализатор безопасности JavaScript-кода. Обнаруживает подозрительные шаблоны, небезопасные зависимости и потенциальные уязвимости."
+      link_URL: "https://github.com/NodeSecure/js-x-ray"
+      ver_edition: "9.2.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "html"]
+      detect_methods: ["CVE", "CWE"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: ''
+      lic: 'MIT License'
+
+  - name: Checkov
+    meta:
+      description: "сканирует облачную инфраструктуру, подготовленную с использованием Terraform, Terraform plan, Cloudformation, AWS SAM, Kubernetes, Helm charts, Kustomize,\
+       Dockerfile, Serverless, Bicep, OpenAPI, шаблонов ARM или OpenTofu, и обнаруживает ошибки в настройках безопасности\
+        и соответствия требованиям с помощью сканирования на основе графиков."
+      link_URL: "https://github.com/bridgecrewio/checkov"
+      ver_edition: "3.2"
+      FSTEK_cert: "Нет"
+      redaction: [3.2.450 - Bug Fix]
+      RUS_access: "Доступен"
+      report_formats: ["cli", "json", "junit-xml", "sarif", "github-sarif", "csv"]
+      detect_methods: ["CWE", "CIS", "NIST", "PCI DSS", "HIPAA", "SOC 2"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: 
+      lic: 'Apache-2.0 License'
+
+  - name: Semgrep
+    meta:
+      description: "Semgrep — универсальный SAST‑инструмент с поддержкой правил CWE, OWASP Top 10, SANS Top 25 и кастомных паттернов."
+      link_URL: "https://github.com/returntocorp/semgrep"
+      ver_edition: "1.31.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "junit-xml", "sarif", "text"]
+      detect_metods: ["CWE", "OWASP Top 10", "SANS Top 25", "PCI DSS"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: ''
+      lic: 'LGPL-2.1-or-later'
+
+  - name: njsscan
+    meta:
+      description: "njsscan — сканер безопасности Node.js‑проектов, анализирует AST и сопоставляет паттерны с CWE."
+      link_URL: "https://github.com/ajinabraham/njsscan"
+      ver_edition: "0.7.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "html","txt"]
+      detect_metods: ["CWE", "OWASP Top 10"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: ''
+      lic: 'MIT License'

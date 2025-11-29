@@ -30,8 +30,6 @@ __pycache__/
 *.env
 venv/
 .venv/
-
-# IDE/editor files
 .vscode/
 .idea/
 *.swp
@@ -46,15 +44,14 @@ logs/
 *.xlsx
 *.xls
 site/
-/site
+docs/assets/search/
+dist/
+build/
 
 # Databases
 *.sqlite
 *.db
 *.sql
-
-# Jupyter/Notebook
-.ipynb_checkpoints
 
 # Temporary/backup/compressed files
 *.bak
@@ -68,5 +65,3 @@ site/
 # Node.js
 node_modules/
 /node_modules
-dist/
-build/

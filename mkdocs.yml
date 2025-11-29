@@ -14,7 +14,7 @@ extra_javascript:
 nav:
   - "FinDevSecOps Community": index.mdd
   - "Карта инструментов":
-      - "Tolchain": research-notes.m
+      - "Toolchain": research-notes.md
       - "Православные вендора": vendor_rf.md
       - "Зарубежные вендора": external.md
       - "OSS": OSS.md

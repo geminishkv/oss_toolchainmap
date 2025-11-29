@@ -193,193 +193,17 @@
 
 ### Tutorial
 
-* submodules
+python3 -m venv .venv
+source .venv/bin/activate
+pip install mkdocs mkdocs-material mkdocs-macros-plugin
 
-```bash
-$ git submodule init
-$ git submodule update
-```
 
-* Работа из окружения
+source .venv/bin/activate
+pip install mkdocs mkdocs-material mkdocs-macros-plugin
+.venv/bin/mkdocs serve
+#or
+python -m mkdocs serve
 
-```bash
-$ python3 -m venv venv 
-$ source venv/bin/activate
-$ python -m pip install --upgrade pip
-$ pip install -r requirements.txt
-$ python formatter.py
-$ deactivate
-```
-* Сборка Docker для formatter
-
-```bash
-$ docker build -f Dockerfile.formatter -t sbom-formatter:latest .
-
-$ docker run --rm -it \
-  -v "$(pwd)/sbom:/app/sbom" \
-  -v "$(pwd)/reports:/app/reports" \
-  sbom-formatter:latest
-```
-
-* Сначала делаем руками и после можно автоматически так
-
-```bash
-$ python3 script/setup_secgensbom_env.py
-$ vim ~/.zshrc
-# либо
-$ vim ~/.bashrc
-
-# Вставить вот это
-
-secgensbom_env() {
-  local out
-  out="$(python3 script/setup_secgensbom_env.py)"
-  eval "export ${out//$'\n'/; export }"
-}
-
-$ source ~/.zshrc
-# либо
-$ source ~/.bashrc
-```
-
-*  secgensbom pipeline.sh
-
-```bash
-# Запуск и сборка
-
-$ docker build -f Dockerfile.secgensbom -t secgensbom-tool:latest .
-
-$ mkdir -p project_inject
-$ mkdir -p secgensbom_out
-$ mkdir -p secgensbom_out/dependency-check
-$ mkdir -p secgensbom_out/trivy
-$ mkdir -p secgensbom_out/clair
-$ mkdir -p .dependency-check-data
-
-# Clair на docker-compose при поднятии двух серверов
-
-$ export HOST_PROJECT_DIR="$(pwd)/project_inject"
-$ export HOST_OUTPUT_DIR="$(pwd)/secgensbom_out"
-$ export HOST_DEP_REPORT_DIR="$(pwd)/secgensbom_out/dependency-check"
-$ export HOST_TRIVY_REPORT_DIR="$(pwd)/secgensbom_out/trivy"
-$ export DEP_CHECK_DATA="$(pwd)/.dependency-check-data"
-
-# Образ, который будет сканировать Clair
-$ export IMAGE_NAME="your-app-image:tag"
-
-# Endpoint Clair-сервера
-$ export CLAIR_ENDPOINT="http://clair:8080"
-
-$ docker run --rm -it \
-  -v "$(pwd)/project_inject:/app/project_inject" \
-  -v "$(pwd)/reports:/app/reports" \
-  -v "$(pwd)/secgensbom_out:/app/secgensbom_out" \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -e PROJECT_DIR="/app/project_inject" \
-  -e HOST_PROJECT_DIR="${HOST_PROJECT_DIR}" \
-  -e HOST_OUTPUT_DIR="${HOST_OUTPUT_DIR}" \
-  -e HOST_DEP_REPORT_DIR="${HOST_DEP_REPORT_DIR}" \
-  -e HOST_TRIVY_REPORT_DIR="${HOST_TRIVY_REPORT_DIR}" \
-  -e DEP_CHECK_DATA="${DEP_CHECK_DATA}" \
-  -e OUTPUT_DIR="/app/secgensbom_out" \
-  -e IMAGE_NAME="${IMAGE_NAME}" \
-  -e CLAIR_ENDPOINT="${CLAIR_ENDPOINT}" \
-  secgensbom-tool:latest \
-  /app/secgensbom/pipeline.sh
-
-# Дедупликация
-$ docker run --rm -it \
-  -v "$(pwd)/secgensbom_out:/app/secgensbom_out" \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -e OUTPUT_DIR="/app/secgensbom_out" \
-  secgensbom-tool:latest \
-  /app/secgensbom/sbom_dedup.sh
-```
-
-*  Без Clair - когда clairctl недоступен без docker-compose, шаг логируется как “ошибка, пропущен”
-
-```bash
-$ mkdir -p project_inject
-$ mkdir -p secgensbom_out
-$ mkdir -p secgensbom_out/dependency-check
-$ mkdir -p secgensbom_out/trivy
-$ mkdir -p .dependency-check-data
-
-$ docker build -f Dockerfile.secgensbom -t secgensbom-tool:latest .
-
-$ export HOST_PROJECT_DIR="$(pwd)/project_inject"
-$ export HOST_OUTPUT_DIR="$(pwd)/secgensbom_out"
-$ export HOST_DEP_REPORT_DIR="$(pwd)/secgensbom_out/dependency-check"
-$ export HOST_TRIVY_REPORT_DIR="$(pwd)/secgensbom_out/trivy"
-$ export DEP_CHECK_DATA="$(pwd)/.dependency-check-data"
-
-$ docker run --rm -it \
-  -v "$(pwd)/project_inject:/app/project_inject" \
-  -v "$(pwd)/reports:/app/reports" \
-  -v "$(pwd)/secgensbom_out:/app/secgensbom_out" \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -e PROJECT_DIR="/app/project_inject" \
-  -e HOST_PROJECT_DIR="${HOST_PROJECT_DIR}" \
-  -e HOST_OUTPUT_DIR="${HOST_OUTPUT_DIR}" \
-  -e HOST_DEP_REPORT_DIR="${HOST_DEP_REPORT_DIR}" \
-  -e HOST_TRIVY_REPORT_DIR="${HOST_TRIVY_REPORT_DIR}" \
-  -e DEP_CHECK_DATA="${DEP_CHECK_DATA}" \
-  -e OUTPUT_DIR="/app/secgensbom_out" \
-  secgensbom-tool:latest \
-  /app/secgensbom/pipeline.sh
-
-# Дедупликация
-$ docker run --rm -it \
-  -v "$(pwd)/secgensbom_out:/app/secgensbom_out" \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -e OUTPUT_DIR="/app/secgensbom_out" \
-  secgensbom-tool:latest \
-  /app/secgensbom/sbom_dedup.sh
-```
-
-* formatter на артефакты secgensbom_out
-
-```bash
-$ mkdir -p secgensbom_reports/excel
-$ mkdir -p secgensbom_reports/odt
-
-$ docker build -f Dockerfile.formatter -t sbom-formatter:latest .
-$ docker run --rm -it \
-  -v "$(pwd)/script:/app/script" \
-  -v "$(pwd)/sbom:/app/sbom" \
-  -v "$(pwd)/reports:/app/reports" \
-  -v "$(pwd)/secgensbom_out:/app/secgensbom_out" \
-  -v "$(pwd)/secgensbom_reports:/app/secgensbom_reports" \
-  sbom-formatter:latest \
-  python /app/script/formatter.py
-```
-
-* manual_formatter
-
-```bash
-$ docker run --rm -it \
-  -v "$(pwd)/script:/app/script" \
-  -v "$(pwd)/sbom:/app/sbom" \
-  -v "$(pwd)/reports:/app/reports" \
-  sbom-formatter:latest \
-  python /app/script/manual_formatter.py
-```
-
-* Очистка кеша hard
-
-```bash
-$ docker builder prune -af
-$ docker system prune -af
-```
-
-***
-
-### Clair
-
-* Завести учётку на quay.io, выдать token, сделать  docker login quay.io  на хосте
-* Вместо  latest  использовать конкретный тег, указаный в доке Clair ( v4.x.x  и т.д.).
-    * Поднять сам Clair (Postgres + Clair) по их docker-compose
-    * Настроить  CLAIR_ENDPOINT  и конфиг clairctl
 
 ***
 
@@ -389,7 +213,7 @@ $ docker system prune -af
 * .DS_Store в каталогах, если глобально не потерт
 
 ```bash
-rm sbom/git/.DS_Store
+rm git/.DS_Store
 find . -name ".DS_Store" -delete
 ```
 

@@ -1,31 +1,53 @@
 from typing import Any, Dict, List
 
 def _chunk_tools(tools: List[Dict[str, Any]], size: int = 5) -> List[List[Dict[str, Any]]]:
-    """Разбить список инструментов на чанки фиксированного размера."""
     return [tools[i : i + size] for i in range(0, len(tools), size)]
 
+def _render_ps_cells(tools: List[Dict[str, Any]]) -> str:
+    cells: List[str] = []
+    count = min(len(tools), 5)
+    for i in range(count):
+        name = tools[i].get("name", "")
+        cells.append(f'<td><span class="tbl-ps-tool">{name}</span></td>')
+    if count < 5:
+        cells.append(f'<td colspan="{5 - count}"></td>')
+    return "".join(cells)
+
+def _render_oss_cells(tools: List[Dict[str, Any]]) -> str:
+    cells: List[str] = []
+    count = min(len(tools), 5)
+    for i in range(count):
+        name = tools[i].get("name", "")
+        cells.append(f"<td>{name}</td>")
+    if count < 5:
+        cells.append(f'<td colspan="{5 - count}"></td>')
+    return "".join(cells)
+
 def render_table(data: Dict[str, Any]) -> str:
-    """Построить HTML-таблицу по структуре data['table']."""
-    html: List[str] = ['<table border="1" style="border-collapse: collapse;">']
+    html: List[str] = []
+    html.append('<table border="1" style="border-collapse: collapse;">')
     html.append(
-        """<thead>
-                <tr>
-                    <th>Разделение</th>
-                    <th>Тип</th>
-                    <th>Класс</th>
-                    <th colspan="5">Проприетарное ПО</th>  
-                    <th colspan="5">Свободное ПО</th>
-                </tr>
-            </thead>"""
+        """
+        <thead>
+          <tr>
+            <th style="background-color:#1953ff; color:#ffffff;">
+              <span class="tbl-division-header">Направление</span>
+            </th>
+            <th style="background-color:#1953ff; color:#ffffff;">Тип</th>
+            <th style="background-color:#1953ff; color:#ffffff;">Класс</th>
+            <th style="background-color:#1953ff; color:#ffffff;" colspan="5">Проприетарное ПО</th>
+            <th style="background-color:#1953ff; color:#ffffff;" colspan="5">Свободное ПО</th>
+          </tr>
+        </thead>
+        """
     )
     html.append("<tbody>")
 
     for division in data.get("table", []):
         div_name = division.get("division", "")
-        has_types = "type" in division
+        types = division.get("type")
 
-        # Разделы без вложенных типов/классов
-        if not has_types:
+        if not types:
             ps_tools = division.get("PS_tools", []) or []
             oss_tools = division.get("OSS_tools", []) or []
 
@@ -33,79 +55,74 @@ def render_table(data: Dict[str, Any]) -> str:
             oss_chunks = _chunk_tools(oss_tools, 5)
             max_rows = max(len(ps_chunks), len(oss_chunks), 1)
 
-            for i in range(max_rows):
+            for idx in range(max_rows):
                 html.append("<tr>")
 
-                if i == 0:
-                    html.append(f'<td rowspan="{max_rows}" colspan="3">{div_name}</td>')
+                if idx == 0:
+                    # Направление тянется на все строки блока
+                    html.append(
+                        f'<td rowspan="{max_rows}" colspan="3">'
+                        f'<span class="tbl-division-cell">{div_name}</span>'
+                        f"</td>"
+                    )
 
-                ps_tools_row = ps_chunks[i] if i < len(ps_chunks) else []
-                for tool in ps_tools_row:
-                    html.append(f'<td>{tool.get("name", "")}</td>')
-                if len(ps_tools_row) < 5:
-                    html.append(f'<td colspan="{5 - len(ps_tools_row)}"></td>')
+                ps_row = ps_chunks[idx] if idx < len(ps_chunks) else []
+                oss_row = oss_chunks[idx] if idx < len(oss_chunks) else []
 
-                oss_tools_row = oss_chunks[i] if i < len(oss_chunks) else []
-                for tool in oss_tools_row:
-                    html.append(f'<td>{tool.get("name", "")}</td>')
-                if len(oss_tools_row) < 5:
-                    html.append(f'<td colspan="{5 - len(oss_tools_row)}"></td>')
+                html.append(_render_ps_cells(ps_row))
+                html.append(_render_oss_cells(oss_row))
 
                 html.append("</tr>")
 
-        # Разделы с type/class
-        else:
-            type_rows: List[Dict[str, Any]] = []
+            continue
 
-            for tool_type in division.get("type", []):
-                type_name = tool_type.get("name", "")
-                for cls in tool_type.get("class", []):
-                    class_name = cls.get("name", "")
+        flat_rows: List[Dict[str, Any]] = []
 
-                    ps_tools = cls.get("PS_tools", []) or []
-                    oss_tools = cls.get("OSS_tools", []) or []
+        for t in types:
+            type_name = t.get("name", "")
+            for cls in t.get("class", []):
+                class_name = cls.get("name", "")
 
-                    ps_chunks = _chunk_tools(ps_tools, 5)
-                    oss_chunks = _chunk_tools(oss_tools, 5)
-                    max_rows = max(len(ps_chunks), len(oss_chunks), 1)
+                ps_tools = cls.get("PS_tools", []) or []
+                oss_tools = cls.get("OSS_tools", []) or []
 
-                    for i in range(max_rows):
-                        type_rows.append(
-                            {
-                                "type_name": type_name,
-                                "class_name": class_name,
-                                "ps_tools": ps_chunks[i] if i < len(ps_chunks) else [],
-                                "oss_tools": oss_chunks[i] if i < len(oss_chunks) else [],
-                            }
-                        )
+                ps_chunks = _chunk_tools(ps_tools, 5)
+                oss_chunks = _chunk_tools(oss_tools, 5)
+                max_rows = max(len(ps_chunks), len(oss_chunks), 1)
 
-            for i, row in enumerate(type_rows):
-                html.append("<tr>")
+                for idx in range(max_rows):
+                    flat_rows.append(
+                        {
+                            "type": type_name,
+                            "class": class_name,
+                            "ps": ps_chunks[idx] if idx < len(ps_chunks) else [],
+                            "oss": oss_chunks[idx] if idx < len(oss_chunks) else [],
+                        }
+                    )
 
-                if i == 0:
-                    html.append(f'<td rowspan="{len(type_rows)}">{div_name}</td>')
+        total_rows = len(flat_rows)
 
-                if i == 0 or row["type_name"] != type_rows[i - 1]["type_name"]:
-                    type_rowspan = sum(1 for r in type_rows if r["type_name"] == row["type_name"])
-                    html.append(f'<td rowspan="{type_rowspan}">{row["type_name"]}</td>')
+        for i, row in enumerate(flat_rows):
+            html.append("<tr>")
 
-                if i == 0 or row["class_name"] != type_rows[i - 1]["class_name"]:
-                    class_rowspan = sum(1 for r in type_rows if r["class_name"] == row["class_name"])
-                    html.append(f'<td rowspan="{class_rowspan}">{row["class_name"]}</td>')
+            if i == 0:
+                html.append(
+                    f'<td rowspan="{total_rows}">'
+                    f'<span class="tbl-division-cell">{div_name}</span>'
+                    f"</td>"
+                )
 
-                ps_tools_row = row["ps_tools"]
-                for tool in ps_tools_row:
-                    html.append(f'<td>{tool.get("name", "")}</td>')
-                if len(ps_tools_row) < 5:
-                    html.append(f'<td colspan="{5 - len(ps_tools_row)}"></td>')
+            if i == 0 or row["type"] != flat_rows[i - 1]["type"]:
+                type_span = sum(1 for r in flat_rows if r["type"] == row["type"])
+                html.append(f'<td rowspan="{type_span}">{row["type"]}</td>')
 
-                oss_tools_row = row["oss_tools"]
-                for tool in oss_tools_row:
-                    html.append(f'<td>{tool.get("name", "")}</td>')
-                if len(oss_tools_row) < 5:
-                    html.append(f'<td colspan="{5 - len(oss_tools_row)}"></td>')
+            if i == 0 or row["class"] != flat_rows[i - 1]["class"]:
+                class_span = sum(1 for r in flat_rows if r["class"] == row["class"])
+                html.append(f'<td rowspan="{class_span}">{row["class"]}</td>')
 
-                html.append("</tr>")
+            html.append(_render_ps_cells(row["ps"]))
+            html.append(_render_oss_cells(row["oss"]))
+            html.append("</tr>")
 
     html.append("</tbody></table>")
     return "\n".join(html)

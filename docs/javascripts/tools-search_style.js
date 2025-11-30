@@ -27,7 +27,7 @@
     kindWrapper.style.marginBottom = "0.5rem";
 
     var kindLabel = document.createElement("label");
-    kindLabel.textContent = "Тип лицензии: ";
+    kindLabel.textContent = "Проприетарное или Свободное ПО: ";
     kindLabel.style.fontWeight = "bold";
     kindLabel.htmlFor = "tools-filter-kind";
 
@@ -96,58 +96,58 @@
     }
 
     fieldInputs.name = createFieldFilter(
-      colLeft,
-      "tools-filter-name",
-      "Наименование",
-      "Поиск по наименованию"
+    colLeft,
+    "tools-filter-name",
+    "Наименование",
+    "Поиск по наименованию"
     );
     fieldInputs.vendor = createFieldFilter(
-      colLeft,
-      "tools-filter-vendor",
-      "Вендор",
-      "Поиск по вендору"
+    colLeft,
+    "tools-filter-vendor",
+    "Поставщик",
+    "Поиск по поставщику"
     );
     fieldInputs.division = createFieldFilter(
-      colLeft,
-      "tools-filter-division",
-      "Раздел карты",
-      "Поиск по разделу карты"
+    colLeft,
+    "tools-filter-division",
+    "Направление",
+    "Поиск по направлению"
     );
     fieldInputs.type = createFieldFilter(
-      colLeft,
-      "tools-filter-type",
-      "Тип",
-      "Поиск по типу"
+    colLeft,
+    "tools-filter-type",
+    "Тип",
+    "Поиск по типу"
     );
     fieldInputs.tool_class = createFieldFilter(
-      colRight,
-      "tools-filter-class",
-      "Класс",
-      "Поиск по классу"
+    colRight,
+    "tools-filter-class",
+    "Класс",
+    "Поиск по классу"
     );
     fieldInputs.lic = createFieldFilter(
-      colRight,
-      "tools-filter-lic",
-      "Лицензия",
-      "Поиск по лицензии"
+    colRight,
+    "tools-filter-lic",
+    "Название лицензии",
+    "Поиск по названию лицензии"
     );
     fieldInputs.FSTEK_cert = createFieldFilter(
-      colRight,
-      "tools-filter-fstek",
-      "Сертификация ФСТЭК",
-      "Поиск по сертификации ФСТЭК"
+    colRight,
+    "tools-filter-fstek",
+    "Сертификация ФСТЭК",
+    "Поиск по сертификации ФСТЭК"
     );
     fieldInputs.RUS_access = createFieldFilter(
-      colRight,
-      "tools-filter-rus",
-      "Доступность в РФ",
-      "Поиск по доступности в РФ"
+    colRight,
+    "tools-filter-rus",
+    "Доступность в РФ",
+    "Поиск по доступности в РФ"
     );
     fieldInputs.report_formats = createFieldFilter(
-      colRight,
-      "tools-filter-report",
-      "Форматы отчётов",
-      "Поиск по форматам отчётов"
+    colRight,
+    "tools-filter-report",
+    "Форматы отчётов",
+    "Поиск по форматам отчётов"
     );
 
     container.insertBefore(filterBlock, input);

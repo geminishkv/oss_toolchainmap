@@ -1,21 +1,21 @@
 (function () {
   const labels = {
-    name: "Название",
-    vendor: "Вендор",
-    division: "Раздел",
+    name: "Наименование",
+    vendor: "Поставщик",
+    division: "Направление",
     type: "Тип",
     tool_class: "Класс",
     kind: "Тип лицензии",
     lic: "Название лицензии",
     description: "Описание",
-    link_URL: "Референс",
+    link_URL: "link",
     ver_edition: "Версия",
     FSTEK_cert: "Сертификация ФСТЭК",
     redaction: "Редакции",
     RUS_access: "Доступность в РФ",
     report_formats: "Форматы отчётов",
     detect_metods: "Методы обнаружения",
-    OSS: "OSS (open-source)"
+    OSS: "OSS (флаг)"
   };
 
   function addLine(parent, label, value, isBoldValue) {
@@ -63,8 +63,8 @@
       addLine(li, labels.tool_class, tool.tool_class, false);
 
       const kindText = tool.kind === "OSS" ? "OSS" : "PS";
-      
       addLine(li, labels.kind, kindText, false);
+
       addLine(li, labels.lic, tool.lic, false);
       addLine(li, labels.description, tool.description, false);
       addLine(li, labels.ver_edition, tool.ver_edition, false);
@@ -73,7 +73,7 @@
       addLine(li, labels.RUS_access, tool.RUS_access, false);
       addLine(li, labels.report_formats, tool.report_formats, false);
 
-      var detect = tool.detect_methods || tool.detect_metods || [];
+      const detect = tool.detect_methods || tool.detect_metods || [];
       addLine(li, labels.detect_metods, detect, false);
 
       if (typeof tool.OSS !== "undefined") {

@@ -86,3 +86,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+print("ROOT:", ROOT)
+print("OUT_FILE exists:", OUT_FILE.exists(), "->", OUT_FILE)

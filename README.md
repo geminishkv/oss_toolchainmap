@@ -202,7 +202,7 @@ python -m mkdocs serve
 # or
 mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адреса
 
-rm -rf __pycache__ scripts/__pycache__
+rm -rf __pycache__ scripts/__pycache__ docs/assets/search/tools.json
 lsof -i :8000
 kill <PID>
 
@@ -224,6 +224,8 @@ site создаётся только в раннере. Локально мож�
 	•	соберёт site;
 	•	задеплоит на Pages — без отдельной ветки gh-pages, всё через Actions.
 
+mkdir -p docs/assets/search
+echo '[]' > docs/assets/search/tools.json
 
 
 

@@ -59,10 +59,10 @@ def render_table(data: Dict[str, Any]) -> str:
                 html.append("<tr>")
 
                 if idx == 0:
-                    # Направление тянется на все строки блока
                     html.append(
-                        f'<td rowspan="{max_rows}" colspan="3">'
-                        f'<span class="tbl-division-cell">{div_name}</span>'
+                        f'<td rowspan="{max_rows}" colspan="3" '
+                        f'style="color:#1953ff; font-weight:700;">'
+                        f'{div_name}'
                         f"</td>"
                     )
 
@@ -107,18 +107,28 @@ def render_table(data: Dict[str, Any]) -> str:
 
             if i == 0:
                 html.append(
-                    f'<td rowspan="{total_rows}">'
-                    f'<span class="tbl-division-cell">{div_name}</span>'
+                    f'<td rowspan="{total_rows}" '
+                    f'style="color:#1953ff; font-weight:700;">'
+                    f'{div_name}'
                     f"</td>"
                 )
 
             if i == 0 or row["type"] != flat_rows[i - 1]["type"]:
                 type_span = sum(1 for r in flat_rows if r["type"] == row["type"])
-                html.append(f'<td rowspan="{type_span}">{row["type"]}</td>')
+                html.append(
+                    f'<td rowspan="{type_span}" style="font-weight:700;">'
+                    f'{row["type"]}'
+                    f"</td>"
+                )
 
             if i == 0 or row["class"] != flat_rows[i - 1]["class"]:
                 class_span = sum(1 for r in flat_rows if r["class"] == row["class"])
-                html.append(f'<td rowspan="{class_span}">{row["class"]}</td>')
+                html.append(
+                    f'<td rowspan="{class_span}" style="font-weight:700;">'
+                    f'{row["class"]}'
+                    f"</td>"
+                )
+
 
             html.append(_render_ps_cells(row["ps"]))
             html.append(_render_oss_cells(row["oss"]))

@@ -10,21 +10,29 @@
 
   const basePath = "/oss_toolchainmap";
 
-  fetch(basePath + "/assets/search/tools.json")
-    .then(function (r) {
-      return r.json();
-    })
-    .then(function (data) {
-      if (!Array.isArray(data)) {
-        console.error("[tools-search] tools.json is not an array");
-        return;
-      }
-      tools = data;
-      console.log("[tools-search] loaded", tools.length, "records");
-    })
-    .catch(function (err) {
-      console.error("[tools-search] failed to load tools.json", err);
-    });
+
+
+fetch(basePath + "/assets/search/tools.json")
+  .then(function (r) {
+    return r.json();
+  })
+  .then(function (data) {
+    if (!Array.isArray(data)) {
+      console.error("[tools-search] tools.json is not an array");
+      return;
+    }
+    tools = data;
+    window.toolsSearchData = { tools: tools };
+    console.log("[tools-search] loaded", tools.length, "records");
+
+    // Если фильтры уже инициализированы, применяем их
+    if (typeof window.toolsSearchApplyFilters === "function") {
+      window.toolsSearchApplyFilters();
+    }
+  })
+  .catch(function (err) {
+    console.error("[tools-search] failed to load tools.json", err);
+  });
 
   function defaultRenderResults(items) {
     resultsList.innerHTML = "";

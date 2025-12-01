@@ -1,27 +1,51 @@
+/* Верхний блок в меню (логотип + текст) */
+.menu-logo-wrapper {
+  display: flex;
+  align-items: center;    /* по одной линии */
+  gap: 0.5rem;            /* расстояние между логотипом и текстом */
+}
+
+/* Сам логотип в меню */
+.menu-logo-img {
+  width: 32px;            /* ПРАВИТЬ здесь размер логотипа */
+  height: 32px;
+  max-width: none;        /* убираем ограничение старых стилей */
+  object-fit: contain;
+}
+
+/* Текст рядом с логотипом */
+.menu-logo-text {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+/* Старую конструкцию .menu-logo-title можно свернуть/подогнать под новую */
+
 .menu-logo-title {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
 .menu-logo-title a {
-  order: 1;
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: #ffffff;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .menu-logo-title .md-logo {
-  order: 2;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   margin: 0;
 }
 
 .menu-logo-title .md-logo img {
+  width: 32px;            /* тот же размер, что и в меню */
   height: 32px;
-  width: auto;
-  max-width: 40px;
+  max-width: none;
+  object-fit: contain;
 }

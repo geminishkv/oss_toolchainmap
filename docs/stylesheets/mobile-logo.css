@@ -1,0 +1,36 @@
+/*.md-sidebar--primary .md-logo img {
+  opacity: 0;
+}
+
+.md-sidebar--primary .md-logo {
+  order: 0;
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+.md-sidebar--primary .md-logo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../assets/logotype/site/logo_menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.md-sidebar--primary .md-nav__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  color: transparent;
+}*/
+
+.md-sidebar--primary .md-logo {
+  opacity: 0;
+}
+
+.md-sidebar--primary .md-nav__title {
+  padding-left: 1rem;   /* подправь отступ, если нужно */
+}

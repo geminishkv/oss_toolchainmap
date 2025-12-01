@@ -3,43 +3,34 @@
 </div>
 
 <div align="center">
-
-![Shields.io](https://img.shields.io/static/v1?logo=shieldsdotio&logoColor=ffffff&label=Badges&message=shields.io&color=36393f&style=flat)
-![Unicode](https://img.shields.io/static/v1?logo=unicode&logoColor=ffffff&label=Table&message=Unicode&color=36393f&style=flat)
-![Markdown](https://img.shields.io/static/v1?logo=markdown&logoColor=ffffff&label=Docs&message=Markdown&color=36393f&style=flat)
-![GitHub Docs](https://img.shields.io/static/v1?logo=github&logoColor=ffffff&label=Docs&message=GitHub&color=36393f&style=flat)
-
-![Contributor Badge](https://img.shields.io/badge/Contributor-%D0%A8%D0%BC%D0%B0%D0%BA%D0%BE%D0%B2_%D0%98._%D0%A1.-8b9aff?style=flat)
-
-
+<a href="https://docs.github.com/en"><img src="https://img.shields.io/static/v1?logo=github&logoColor=fff&label=&message=Docs&color=36393f&style=flat" alt="GitHub Docs"></a>
+<a href="https://daringfireball.net/projects/markdown"><img src="https://img.shields.io/static/v1?logo=markdown&logoColor=fff&label=&message=Markdown&color=36393f&style=flat" alt="Markdown"></a> 
+<a href="https://symbl.cc/en/unicode-table"><img src="https://img.shields.io/static/v1?logo=unicode&logoColor=fff&label=&message=Unicode&color=36393f&style=flat" alt="Unicode"></a> 
+<a href="https://shields.io"><img src="https://img.shields.io/static/v1?logo=shieldsdotio&logoColor=fff&label=&message=Shields&color=36393f&style=flat" alt="Shields"></a>
+<a href="https://cli.github.com/"><img src="https://img.shields.io/github/repo-size/geminishkv/oss_toolchainmap" alt="GitHub_reposize"></a>
 </div>
 
 <div align="center">
 
-![Contributors](https://img.shields.io/github/contributors/geminishkv/sbom_genform)
-![Open pull requests](https://img.shields.io/github/issues-pr/geminishkv/sbom_genform)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/geminishkv/sbom_genform)
-![Commits](https://img.shields.io/github/last-commit/geminishkv/sbom_genform)
-![Repo Size](https://img.shields.io/github/repo-size/geminishkv/sbom_genform)
+![License](https://img.shields.io/github/license/geminishkv/oss_toolchainmap)
+![CI](https://img.shields.io/github/actions/workflow/status/geminishkv/oss_toolchainmap/ci.yml?branch=master)
+![Status](https://img.shields.io/badge/status-active-success)
+![Release](https://img.shields.io/github/v/release/geminishkv/oss_toolchainmap)
+![Contributor Badge](https://img.shields.io/badge/Contributor-%D0%A8%D0%BC%D0%B0%D0%BA%D0%BE%D0%B2_%D0%98._%D0%A1.-8b9aff?style=flat)
+![Contributors](https://img.shields.io/github/contributors/geminishkv/oss_toolchainmap)
+![Open pull requests](https://img.shields.io/github/issues-pr/geminishkv/oss_toolchainmap)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/geminishkv/oss_toolchainmap)
+![Last commit](https://img.shields.io/github/last-commit/geminishkv/oss_toolchainmap)
 
 </div>
 
-
-![License](https://img.shields.io/github/license/USER/REPO)
-![Release](https://img.shields.io/github/v/release/USER/REPO)
-![Last commit](https://img.shields.io/github/last-commit/USER/REPO)
-![CI](https://img.shields.io/github/actions/workflow/status/USER/REPO/ci.yml?branch=master)
-![Status](https://img.shields.io/badge/status-active-success)
-![Docs](https://img.shields.io/badge/docs-MkDocs%20Material-informational)
-![Python](https://img.shields.io/badge/python-3.x-blue)
-
 ***
-
 
 <br>Салют :wave:,</br>
 
-**MkDocs material** - фреймворк для создания документации, работающий в связке со статическим генератором сайтов [MkDocs](https://www.mkdocs.org/).
-<u>**Лицензия:**</u> [MIT License](https://wiki.lanit.ru/display/DKSOIRSUDSEC/Permissive+Licenses#tab-MIT+License).    
+**MkDocs Material** - фреймворк для создания документации, работающий в связке со статическим генератором сайтов [MkDocs](https://www.mkdocs.org/).
+
+<u>**Лицензия MCDocs Material:**</u> [MIT License](https://wiki.lanit.ru/display/DKSOIRSUDSEC/Permissive+Licenses#tab-MIT+License).    
 
 Карта дает возможность выбрать выгодные для себя инструменты под все необходимые ситуации: когда нет денег, когда не можем интегрировать большой инструмент, когда никого нет и приходится делать все одному и тд.
 
@@ -54,12 +45,6 @@
 > * Имеется фильтрация по 'meta' данным
 > * Убрали некоторые инструменты, которые не поддерживаются или пользуются меньшей популярностью, вследствие чего они не обновляются
 > * Актуализировали списки инструментов, на сейчас готовятся правки по ткстам и добавление материалов описания
-
-![Logo](docs/assets/site/logotype/logotypemd2.jpg)
-
-***
-
-### Что открыть, чтобы посмотреть результат
 
 ***
 
@@ -187,101 +172,78 @@
 
 ### Tutorial
 
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pip install mkdocs mkdocs-material mkdocs-macros-plugin # must-have
-pip install pyyaml
-python scripts/build_search_data.py
-python -m mkdocs serve
+* Подготовка окружения
+
+```bash
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+$ pip install mkdocs mkdocs-material mkdocs-macros-plugin # must-have
+$ pip install pyyaml
+$ python scripts/build_search_data.py
+$ ruff format scripts/build_search_data.py
+$ python -m mkdocs serve
 # or
-mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адреса
-ruff format scripts/build_search_data.py
-
-rm -rf __pycache__ scripts/__pycache__ docs/assets/search/tools.json
-lsof -i :8000
-kill <PID>
-
-
-	•	job build:
-	•	собирает search JSON: python scripts/build_search_data.py;
-	•	делает mkdocs build — в раннере это создаёт директорию site (артефакт сборки);
-	•	upload-pages-artifact упаковывает site как артефакт. 
-	•	job deploy:
-	•	actions/deploy-pages разворачивает этот артефакт на GitHub Pages.
-
-site создаётся только в раннере. Локально можешь проверить:
-	•	python scripts/build_search_data.py
-	•	mkdocs build
-В корне появится site/
-	
-	•	при каждом push в master/main GitHub сам:
-	•	запустит workflow ci;
-	•	соберёт site;
-	•	задеплоит на Pages — без отдельной ветки gh-pages, всё через Actions.
-
-mkdir -p docs/assets/search
-echo '[]' > docs/assets/search/tools.json
-
-
-
-"GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" code 404 # игнорируем
-
-
-При push в master и pull_request:
-	•	собирает окружение;
-	•	ставит зависимости из requirements.txt;
-	•	прогоняет ruff (линтинг);
-	•	прогоняет bandit (поиск уязвимостей в Python-коде);
-	•	билдит search data;
-	•	билдит сайт mkdocs;
-	•	проверяет ссылки в сгенерированном сайте (lychee);
-	•	сохраняет сайт как артефакт для Pages.
-	•	Отдельный job deploy деплоит на GitHub Pages только при push (не при PR).
-
-
-release
-
-	•	собрать сайт;
-	•	упаковать site в ZIP;
-	•	создать GitHub Release с этим архивом.
-Шаги по подключению:
-	1.	Создай файл .github/workflows/release.yml.
-	2.	Вставь код ниже.
-	3.	Для релиза создавай тег, например v1.0.0:
-	•	git tag v1.0.0
-	•	git push origin v1.0.0
-
-	•	аннотированный тег: git tag -a v1.0.0 -m “Основные изменения: …”; git push origin v1.0.0
-	•	RELEASE_NOTES.md и обновляй его перед тегом – содержимое файла попадёт в текст релиза.
-
-Для PR‑ов будет собираться сайт и прикрепляться как артефакт  site-preview , который можно скачать и просмотреть локально.
-
-flake 8
-
-	•	E501: разбить длинные строки 
-	•	E302/E305: перед каждой функцией/классом – две пустые строки; после определения функций/классов – тоже нужное число пустых строк.
-	•	W292: добавить перевод строки в конец файла.
-	•	E203: убрать пробел перед двоеточием в срезах/аннотациях.
-
-
-***
-
-### Troubleshooting
-
-
-
-***
-
-### Интеграция с CI/CD
-
+$ mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адреса
 ```
 
+* Очистка локального репозитория
+
+```bash
+$ rm -rf __pycache__ scripts/__pycache__ docs/assets/search/tools.json
+$ lsof -i :8000
+$ kill <PID>
+```
+
+* Release
+
+```bash
+$ git tag -a v1.0.0 -m “Основные изменения: …”; git push origin v1.0.0
+# RELEASE_NOTES.md
 ```
 
 ***
 
+### Troubleshoot
+
+* "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" code 404 игнорируем
+* flake 8:
+  * E501: разбить длинные строки 
+  *	E302/E305: перед каждой функцией/классом – две пустые строки; после определения функций/классов – тоже нужное число пустых строк.
+  *	W292: добавить перевод строки в конец файла.
+  *	E203: убрать пробел перед двоеточием в срезах/аннотациях.
+
+***
+
+### CI/CD
+
+* Для PR‑ов будет собираться сайт и прикрепляться как артефакт  site-preview
+* job build:
+	* собирает search JSON: python scripts/build_search_data.py
+	*	mkdocs build — в раннере создаёт артефакт сборки site
+	* upload-pages-artifact упаковывает
+* job deploy:
+	*	actions/deploy-pages разворачивает артефакт на GitHub Pages
+* site только в раннере
+*	при каждом push в master GitHub:
+	*	запустит workflow ci
+	*	соберёт site;
+	*	задеплоит на Pages через Actions
+	*	ставит зависимости из requirements.txt
+	*	прогоняет ruff (линтинг)
+	*	прогоняет bandit
+	*	билдит search data
+	*	билдит mkdocs
+	*	проверяет ссылки в сгенерированном сайте (lychee)
+	*	сохраняет сайт как артефакт для Pages
+	*	отдельный job deploy GitHub Pages только push (не при PR)
+* release:
+	*	собрать MkDocs
+	* упаковать site в ZIP
+	*	создать GitHub Release
+
+***
 
 Copyright (c) 2025 Elijah S Shmakov
 
-![Logo](docs/assets/site/logotype/logotypemd.jpg)
+![Logo](docs/assets/logotype/logotypemd.jpg)

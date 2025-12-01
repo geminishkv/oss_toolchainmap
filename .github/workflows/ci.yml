@@ -20,9 +20,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+
   lint:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,7 +51,7 @@ jobs:
 
   security:
     runs-on: ubuntu-latest
-
+    needs: lint
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -83,20 +83,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
           pip install types-PyYAML
+
       - name: Build MkDocs site (preview)
         run: |
           mkdocs build --strict
         env:
           PYTHONPATH: .
+
       - name: Upload preview artifact
         uses: actions/upload-artifact@v4
         with:
@@ -104,11 +108,11 @@ jobs:
           path: site
 
   build:
+    if: github.event_name == 'push'
     needs:
       - lint
       - security
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -145,18 +149,6 @@ jobs:
         env:
           PYTHONPATH: .
 
-      - name: Check links with lychee
-        uses: lycheeverse/lychee-action@v1
-        with:
-          args: "./site/docs/**/*.html"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
       - name: Ensure site directory exists
         run: |
           if [ ! -d "site" ]; then
@@ -164,19 +156,24 @@ jobs:
             exit 1
           fi
 
-
-      - name: Upload artifact
+      - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages-${{ github.run_attempt }}
           path: site
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: "./site/docs/**/*.html"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/master')
     needs:
       - build
     runs-on: ubuntu-latest
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
@@ -195,6 +192,7 @@ jobs:
 #          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       - name: Create GitHub Deployment
+        if: github.event_name == 'push'
         uses: chrnorm/deployment-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

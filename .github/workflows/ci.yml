@@ -19,7 +19,67 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: pip-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lint Python with ruff
+        run: |
+          ruff check scripts main.py
+
+      - name: Check formatting with ruff
+        run: |
+          ruff format --check .
+
+  security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install security tools
+        run: |
+          pip install --upgrade pip
+          pip install bandit safety -r requirements.txt
+
+      - name: Security scan with bandit
+        run: |
+          bandit -r scripts -ll
+
+      - name: Dependency security check with safety
+        run: |
+          safety check -r requirements.txt || true
+
   build:
+    needs:
+      - lint
+      - security
     runs-on: ubuntu-latest
 
     steps:
@@ -44,25 +104,9 @@ jobs:
           pip install -r requirements.txt
           pip install types-PyYAML
 
-      - name: Lint Python with ruff
-        run: |
-          ruff check scripts main.py
-
-#      - name: Lint Python with flake8
-#        run: |
-#          flake8 scripts main.py
-
-      - name: Security scan with bandit
-        run: |
-          bandit -r scripts -ll
-
       - name: Type checking with mypy
         run: |
           mypy main.py scripts
-
-      - name: Dependency security check with safety
-        run: |
-          safety check -r requirements.txt || true
 
       - name: Build search data
         run: |
@@ -88,8 +132,10 @@ jobs:
 
   deploy:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/master')
-    needs: build
+    needs:
+      - build
     runs-on: ubuntu-latest
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

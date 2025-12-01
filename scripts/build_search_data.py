@@ -64,10 +64,9 @@ def load_tools_from_file(path: pathlib.Path) -> List[Dict[str, Any]]:
         for item in tools_seq:
             if not isinstance(item, dict):
                 continue
-            tool: Dict[str, Any] = item
-            meta = tool.get("meta", {}) or {}
+            meta = item.get("meta", {}) or {}
             kind_label = "OSS" if meta.get("OSS") == "true" else "PS"
-            records.append(_build_record(path, tool, meta, kind_label))
+            records.append(_build_record(path, item, meta, kind_label))
 
     return records
 

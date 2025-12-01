@@ -1,5 +1,6 @@
 import json
 import pathlib
+from typing import Sequence
 from typing import Any, Dict, List
 
 import yaml
@@ -53,13 +54,17 @@ def load_tools_from_file(path: pathlib.Path) -> List[Dict[str, Any]]:
                 records.append(_build_record(path, tool, meta, kind_label))
 
     if not records:
-        tools_raw = raw.get("Tools", raw) if isinstance(raw, (dict, list)) else []
-        tools: List[Dict[str, Any]] = (
-            tools_raw if isinstance(tools_raw, list) else []
-        )
-        for tool in tools:
-            if not isinstance(tool, dict):
+        tools_raw = raw.get("Tools") if isinstance(raw, dict) else raw
+        tools_seq: Sequence[Any]
+        if isinstance(tools_raw, list):
+            tools_seq = tools_raw
+        else:
+            tools_seq = []
+
+        for item in tools_seq:
+            if not isinstance(item, dict):
                 continue
+            tool: Dict[str, Any] = item
             meta = tool.get("meta", {}) or {}
             kind_label = "OSS" if meta.get("OSS") == "true" else "PS"
             records.append(_build_record(path, tool, meta, kind_label))

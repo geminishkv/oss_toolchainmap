@@ -105,37 +105,37 @@
     colLeft,
     "tools-filter-vendor",
     "Поставщик",
-    "Поиск по поставщику"
+    "Поиск по названию вендора"
     );
     fieldInputs.division = createFieldFilter(
     colLeft,
     "tools-filter-division",
     "Направление",
-    "Поиск по направлению"
+    "Поиск по направлению из таблицы"
     );
     fieldInputs.type = createFieldFilter(
     colLeft,
     "tools-filter-type",
-    "Тип",
-    "Поиск по типу"
+    "Тип инструмента",
+    "Поиск по типу классификации (SAST, SCA, etc.)"
     );
     fieldInputs.tool_class = createFieldFilter(
     colRight,
     "tools-filter-class",
-    "Класс",
-    "Поиск по классу"
+    "Класс инструмента",
+    "Поиск по классу из таблицы"
     );
     fieldInputs.lic = createFieldFilter(
     colRight,
     "tools-filter-lic",
-    "Название лицензии",
-    "Поиск по названию лицензии"
+    "Версия лицензии",
+    "Поиск по версии лицензии"
     );
     fieldInputs.FSTEK_cert = createFieldFilter(
     colRight,
     "tools-filter-fstek",
-    "Сертификация ФСТЭК",
-    "Поиск по сертификации ФСТЭК"
+    "Сертификат ФСТЭК",
+    "Поиск наличия сертификата" // переделать логику и доьавить атрибут "true", "false"
     );
     fieldInputs.RUS_access = createFieldFilter(
     colRight,

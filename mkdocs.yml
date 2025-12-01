@@ -25,6 +25,7 @@ extra_javascript:
   - javascripts/menu-logo.js
 
 nav:
+  - "Главная страница": index.md
   - "Карта инструментов":
       - "Toolchain Map": research-notes.md
       - "Православные вендора": vendor_rf.md

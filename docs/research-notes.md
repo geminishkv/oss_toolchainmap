@@ -42,10 +42,6 @@ search:
 
 ***
 
-
-
-***
-
 # Поиск по карте
 
 <div id="tools-search">

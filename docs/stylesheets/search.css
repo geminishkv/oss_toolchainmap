@@ -16,29 +16,3 @@
   color: #000000;
   fill: #000000;
 }
-
-.tools-overlay {
-  display: none;
-}
-
-.tools-overlay.is-visible {
-  display: block;
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-}
-
-.tools-overlay__backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.tools-overlay__dialog {
-  position: relative;
-  max-width: 960px;
-  margin: 3rem auto;
-  padding: 1.5rem;
-  background: #ffffff;
-  border-radius: 4px;
-}

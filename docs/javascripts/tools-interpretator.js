@@ -10,12 +10,12 @@
     description: "Описание",
     link_URL: "link",
     ver_edition: "Версия",
-    FSTEK_cert: "Сертификат",
+    FSTEK_cert: "Сертификация ФСТЭК",
     redaction: "Редакции",
     RUS_access: "Доступность в РФ",
     report_formats: "Форматы отчётов",
     detect_metods: "Методы обнаружения",
-    OSS: "OSS (флаг)"
+    OSS: "Есть ли версия OSS?"
   };
 
   function addLine(parent, label, value, isBoldValue) {

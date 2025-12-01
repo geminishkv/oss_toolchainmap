@@ -13,6 +13,7 @@ permissions:
   pages: write
   id-token: write
   packages: write
+  deployments: write
 
 concurrency:
   group: "pages"
@@ -159,8 +160,10 @@ jobs:
       - name: Ensure site directory exists
         run: |
           if [ ! -d "site" ]; then
-            echo "site directory is missing"; exit 1;
+            echo "site directory is missing"
+            exit 1
           fi
+
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -196,6 +199,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           environment: production
-          environment_url: ${{ steps.deployment.outputs.page_url }}
-          transient_environment: false
-          production_environment: true
+          environment-url: ${{ steps.deployment.outputs.page_url }}
+          transient-environment: false
+          production-environment: true

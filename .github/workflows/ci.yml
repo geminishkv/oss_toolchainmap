@@ -42,6 +42,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
+          pip install types-PyYAML
 
       - name: Lint Python with ruff
         run: |
@@ -57,7 +58,7 @@ jobs:
 
       - name: Type checking with mypy
         run: |
-          mypy scripts main.py
+          mypy main.py scripts
 
       - name: Dependency security check with safety
         run: |

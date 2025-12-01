@@ -233,6 +233,33 @@ echo '[]' > docs/assets/search/tools.json
 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" code 404 # игнорируем
 
 
+При push в master и pull_request:
+	•	собирает окружение;
+	•	ставит зависимости из requirements.txt;
+	•	прогоняет ruff (линтинг);
+	•	прогоняет bandit (поиск уязвимостей в Python-коде);
+	•	билдит search data;
+	•	билдит сайт mkdocs;
+	•	проверяет ссылки в сгенерированном сайте (lychee);
+	•	сохраняет сайт как артефакт для Pages.
+	•	Отдельный job deploy деплоит на GitHub Pages только при push (не при PR).
+
+
+release
+
+	•	собрать сайт;
+	•	упаковать site в ZIP;
+	•	создать GitHub Release с этим архивом.
+Шаги по подключению:
+	1.	Создай файл .github/workflows/release.yml.
+	2.	Вставь код ниже.
+	3.	Для релиза создавай тег, например v1.0.0:
+	•	git tag v1.0.0
+	•	git push origin v1.0.0
+
+	•	аннотированный тег: git tag -a v1.0.0 -m “Основные изменения: …”; git push origin v1.0.0
+	•	RELEASE_NOTES.md и обновляй его перед тегом – содержимое файла попадёт в текст релиза.
+
 ***
 
 ### Troubleshooting

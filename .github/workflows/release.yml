@@ -1,0 +1,76 @@
+name: release-site
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: pip-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build search data
+        run: |
+          python scripts/build_search_data.py
+
+      - name: Build MkDocs site
+        run: |
+          mkdocs build --strict
+        env:
+          PYTHONPATH: .
+
+      - name: Zip site
+        run: |
+          cd site
+          zip -r ../site-${{ github.ref_name }}.zip .
+      - name: Prepare release notes
+        id: notes
+        run: |
+          MSG="$(git for-each-ref refs/tags/${GITHUB_REF_NAME} --format='%(contents)' || true)"
+          if [ -z "$MSG" ]; then
+            MSG="$(git log -1 --pretty=%B)"
+          fi
+
+          BODY="$MSG"
+
+          if [ -f RELEASE_NOTES.md ]; then
+            BODY="$BODY
+          fi
+
+          BODY="${BODY//'%'/'%25'}"
+          BODY="${BODY//$'\n'/'%0A'}"
+          BODY="${BODY//$'\r'/'%0D'}"
+
+          echo "body=$BODY" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: site-${{ github.ref_name }}.zip
+          body: ${{ steps.notes.outputs.body }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

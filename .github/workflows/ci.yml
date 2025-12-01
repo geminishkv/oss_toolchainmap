@@ -4,11 +4,15 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 permissions:
   contents: read
   pages: write
   id-token: write
+  packages: write
 
 concurrency:
   group: "pages"
@@ -17,6 +21,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,7 +40,28 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-macros-plugin pyyaml
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lint Python with ruff
+        run: |
+          ruff scripts main.py
+
+      - name: Lint Python with flake8
+        run: |
+          flake8 scripts main.py
+
+      - name: Security scan with bandit
+        run: |
+          bandit -r scripts -ll
+
+      - name: Type checking with mypy
+        run: |
+          mypy scripts main.py
+
+      - name: Dependency security check with safety
+        run: |
+          safety check -r requirements.txt || true
 
       - name: Build search data
         run: |
@@ -47,17 +73,26 @@ jobs:
         env:
           PYTHONPATH: .
 
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: "./site/docs/**/*.html"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
   deploy:
+    if: github.event_name == 'push'
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

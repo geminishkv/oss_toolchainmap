@@ -47,10 +47,9 @@ jobs:
         run: |
           ruff check scripts main.py
 
-      - name: Lint Python with flake8
-        run: |
-          flake8 scripts main.py
-
+#      - name: Lint Python with flake8
+#        run: |
+#          flake8 scripts main.py
 
       - name: Security scan with bandit
         run: |

@@ -182,6 +182,8 @@ $ pip install mkdocs mkdocs-material mkdocs-macros-plugin # must-have
 $ pip install pyyaml
 $ python scripts/build_search_data.py
 $ ruff format scripts/build_search_data.py
+# or
+$ ruff format .
 $ python -m mkdocs serve
 # or
 $ mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адреса

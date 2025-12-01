@@ -53,14 +53,16 @@ def load_tools_from_file(path: pathlib.Path) -> List[Dict[str, Any]]:
                 records.append(_build_record(path, tool, meta, kind_label))
 
     if not records:
-        tools = raw.get("Tools", raw) if isinstance(raw, (dict, list)) else []
-        if isinstance(tools, list):
-            for tool in tools:
-                if not isinstance(tool, dict):
-                    continue
-                meta = tool.get("meta", {}) or {}
-                kind_label = "OSS" if meta.get("OSS") == "true" else "PS"
-                records.append(_build_record(path, tool, meta, kind_label))
+        tools_raw = raw.get("Tools", raw) if isinstance(raw, (dict, list)) else []
+        tools: List[Dict[str, Any]] = (
+            tools_raw if isinstance(tools_raw, list) else []
+        )
+        for tool in tools:
+            if not isinstance(tool, dict):
+                continue
+            meta = tool.get("meta", {}) or {}
+            kind_label = "OSS" if meta.get("OSS") == "true" else "PS"
+            records.append(_build_record(path, tool, meta, kind_label))
 
     return records
 

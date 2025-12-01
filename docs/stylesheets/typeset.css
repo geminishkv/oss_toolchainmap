@@ -1,0 +1,33 @@
+.md-main__inner {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 1680px) {
+  .md-sidebar--primary {
+    width: 9rem;
+    max-width: 9rem;
+  }
+
+  .md-main__inner {
+    margin-left: 10rem;
+  }
+}
+
+.md-content h1 {
+  color: #1953ff;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+.md-content h3,
+.md-content h4 {
+  color: #1953ff;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+.md-typeset {
+  color: #000000;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}

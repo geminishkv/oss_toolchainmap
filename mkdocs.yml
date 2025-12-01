@@ -1,4 +1,4 @@
-site_name: AppSecTA_Toolchain Map
+site_name: AppSecToolMap
 site_url: "https://geminishkv.github.io/oss_toolchainmap/"
 
 theme:
@@ -10,6 +10,9 @@ extra_css:
   - stylesheets/header.css
   - stylesheets/menu.css
   - stylesheets/footer.css
+  - stylesheets/search.css
+  - stylesheets/sidebar.css
+  - stylesheets/typeset.css
 
 extra_javascript:
   - javascripts/tools-overlay.js
@@ -17,6 +20,8 @@ extra_javascript:
   - javascripts/tools-interpretator.js
   - javascripts/tools-search_style.js
   - javascripts/tools-search_pagging.js
+  - javascripts/custom-title.js
+  - javascripts/menu-logo.js
 
 nav:
   - "Карта инструментов":
@@ -44,8 +49,6 @@ markdown_extensions:
   - attr_list
 
 extra:
-  copyright:
-    text: “© 2025 AppSecTA by geminishkv"
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/geminishkv

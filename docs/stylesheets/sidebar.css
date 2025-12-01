@@ -1,0 +1,25 @@
+.md-sidebar--primary .md-nav,
+.md-sidebar--primary .md-sidebar__inner {
+  font-size: 0.6rem;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+.md-sidebar--primary .md-nav__link,
+.md-sidebar--primary .md-nav__link:visited {
+  font-size: 0.7rem;
+  color: #1953ff;
+}
+
+.md-sidebar--primary .md-nav__item--active > .md-nav__link,
+.md-sidebar--primary .md-nav__link--active {
+  font-weight: 700;
+  color: #1953ff;
+}
+
+.md-sidebar--primary .md-sidebar__inner .md-header-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}

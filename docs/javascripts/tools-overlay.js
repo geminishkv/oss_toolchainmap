@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var trigger = document.querySelector("a.show-tools-overlay");
-  var overlay = document.getElementById("tools-overlay");
+  const trigger = document.querySelector("[data-tools-overlay-trigger]");
+  const overlay = document.querySelector("[data-tools-overlay]");
 
   if (!trigger || !overlay) {
     console.warn("[tools-overlay] trigger or overlay not found");
-    return;
+    return; 
   }
 
   var backdrop = overlay.querySelector(".tools-overlay__backdrop");

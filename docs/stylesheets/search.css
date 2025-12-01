@@ -1,0 +1,18 @@
+.md-search__form {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.md-search__input {
+  color: #000000;
+}
+
+.md-search__input::placeholder {
+  color: #555555;
+}
+
+.md-search__icon,
+.md-search__icon svg {
+  color: #000000;
+  fill: #000000;
+}

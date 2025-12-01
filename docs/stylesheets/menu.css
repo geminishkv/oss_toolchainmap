@@ -1,75 +1,27 @@
-.md-main__inner {
-  margin-left: 0;
+.menu-logo-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
-@media screen and (min-width: 1680px) {
-  .md-sidebar--primary {
-    width: 10rem;
-    max-width: 10rem;
-  }
-
-  .md-main__inner {
-    margin-left: 10rem;
-  }
-}
-
-.md-sidebar--primary .md-nav {
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-  font-size: 0.65rem;
-}
-
-.md-nav,
- .md-sidebar__inner {
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-  font-size: 0.55rem;
-  color: #1953ff;
-}
-
-.md-sidebar--primary .md-nav__link,
-.md-sidebar--primary .md-nav__link:visited {
-  color: #1953ff;
-}
-
-.md-sidebar--primary .md-nav__item--active > .md-nav__link,
-.md-sidebar--primary .md-nav__link--active {
+.menu-logo-title a {
+  order: 1;
+  display: inline-block;
+  font-size: 0.7rem;
   font-weight: 700;
-  color: #1953ff;
+  color: #ffffff;
+  line-height: 1;
 }
 
-.md-sidebar--primary .md-nav__item--active > .md-nav__link,
-.md-nav__link--active .md-sidebar--primary {
-  font-weight: 700;
-  color: #1953ff;
+.menu-logo-title .md-logo {
+  order: 2;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
 }
 
-.md-content h1 {
-  color: #1953ff;
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-}
-
-.md-content h3,
-.md-content h4 {
-  color: #1953ff;
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-}
-
-.md-typeset {
-  color: #000000;
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-}
-
-.md-typeset {
-  color: #000000;
-  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-}
-
-.md-sidebar--primary .md-sidebar__title .md-sidebar__title__inner::before {
-  content: "Навигация";
-  color: #1953ff;
+.menu-logo-title .md-logo img {
+  height: 32px;
+  width: auto;
+  max-width: 40px;
 }

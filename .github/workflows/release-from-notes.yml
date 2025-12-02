@@ -76,12 +76,11 @@ jobs:
             exit 1
           fi
 
-          # заменяем только спецсимволы, как рекомендует GitHub
-          CONTENT="${CONTENT//'%'/'%25'}"
-          CONTENT="${CONTENT//$'\n'/'%0A'}"
-          CONTENT="${CONTENT//$'\r'/'%0D'}"
-
-          echo "body=${CONTENT}" >> "$GITHUB_OUTPUT"
+          {
+            echo 'body<<EOF'
+            echo "$CONTENT"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

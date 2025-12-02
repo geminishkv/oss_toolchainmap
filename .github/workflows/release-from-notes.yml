@@ -54,6 +54,7 @@ jobs:
 
       - name: Extract release notes for tag from Release Notes.md
         id: notes
+        shell: bash
         run: |
           TAG="${TAG}"
           FILE="RELEASE_NOTES.md"
@@ -75,11 +76,10 @@ jobs:
             exit 1
           fi
 
-          {
-            echo 'body<<EOF'
-            echo "$CONTENT"
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
+          # заменяем только спецсимволы, как рекомендует GitHub
+          CONTENT="${CONTENT//'%'/'%25'}"
+          CONTENT="${CONTENT//$'\n'/'%0A'}"
+          CONTENT="${CONTENT//$'\r'/'%0D'}"
 
           echo "body=${CONTENT}" >> "$GITHUB_OUTPUT"
 

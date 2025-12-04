@@ -18,8 +18,8 @@ Tools:
   - name: Fernflower
     meta:
       description: "Декомпилятор ИЗ Java Bytecode в Java, на текущий момент разрабатываемый и поддерживаемый компанией JetBrains"
-      link_URL: "https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler/engine"
-      ver_edition: ""
+      link_URL: "https://github.com/JetBrains/fernflower"
+      ver_edition: "pycharm/253.28294.256"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
@@ -53,7 +53,7 @@ Tools:
     meta:
       description: "Инструмент для гибридного фаззинга и динамического анализа, сочетающий символьное выполнение (Sydr) с современными фаззерами (libFuzzer, AFL++, Honggfuzz) для поиска уязвимостей в ПО.\
        Он поддерживает языки C/C++, Python (Atheris), Java (Jazzer), JavaScript (Jazzer.js), Lua (luzer) и C# (Sharpfuzz), а также автоматизирует сбор покрытия и анализ ошибок"
-      link_URL: "https://sydr-fuzz.github.io/, https://github.com/ispras/oss-sydr-fuzz"
+      link_URL: "https://github.com/ispras/oss-sydr-fuzz"
       ver_edition: "Информация не найдена"
       FSTEK_cert: "Нет"
       redaction: []
@@ -80,7 +80,7 @@ Tools:
       division: "AppSec"
       type: "DAST"
       class: "WhiteBox Fuzzing"
-      vendor: ''
+      vendor: 'Rohan Padhye a.k.a. rohanpadhye'
       lic: 'BSD-2-Clause license'
   - name: SharpFuzz
     meta:
@@ -96,7 +96,7 @@ Tools:
       division: "AppSec"
       type: "DAST"
       class: "WhiteBox Fuzzing"
-      vendor: ''
+      vendor: 'Nemanja Mijailovic a.k.a. Metalnem'
       lic: 'MIT license'
   - name: LLVM libFuzzer
     meta:
@@ -130,5 +130,5 @@ Tools:
       division: "AppSec"
       type: "DAST"
       class: "WhiteBox Fuzzing"
-      vendor: ''
+      vendor: 'Rust Fuzzing Authority'
       lic: 'Apache-2.0 license, MIT license'

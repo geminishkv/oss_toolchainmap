@@ -3,7 +3,7 @@ Tools:
     meta:
       description: "Инструмент CLI и библиотека Go для создания спецификации программного обеспечения (SBOM) на основе образов контейнеров и файловых систем. Поддерживаемые платформы: Alpine, Bitnami packages, C, C++, Dart, Debian, Dotnet, Objective-C, Elixir, Erlang, Go, Haskell, Java, JavaScript, Jenkins Plugins, Linux kernel archives, Linux kernel modules, Nix, PHP, Python, Red Hat, Ruby, Rust, Swift, Wordpress plugins, Terraform providers."
       link_URL: "https://github.com/anchore/syft"
-      ver_edition: "1.29.0"
+      ver_edition: "1.38.0"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
@@ -13,13 +13,13 @@ Tools:
       division: "AppSec"
       type: "BCA"
       class: "Бинарный анализатор"
-      vendor: ""
+      vendor: "Anchore"
       lic: "Apache-2.0 license"
 
   - name: BinaryNinja
     meta:
       description: "Платформа для реверс-инжиниринга, предоставляющая интерактивный дизассемблер и декомпилятор для анализа бинарных файлов любых языков, компилируемых в поддерживаемые архитектуры: x86, x86_64, ARM, MIPS, RISC-V и другие. Поддерживает автоматизацию анализа через API на Python, Rust и C++, обеспечивая гибкость для задач безопасности и исследования кода."
-      link_URL: "https://github.com/Vector35, https://binary.ninja/"
+      link_URL: "https://github.com/Vector35"
       ver_edition: "5.0"
       FSTEK_cert: "Нет"
       redaction: []
@@ -39,7 +39,7 @@ Tools:
       link_URL: "https://github.com/skylot/jadx"
       ver_edition: "1.5.0"
       FSTEK_cert: "Нет"
-      redaction: ["1.5.1", "1.5.2"]
+      redaction: ["1.5.1", "1.5.2", "1.5.3"]
       RUS_access: "Доступен"
       report_formats: ["java", "JSON", "TXT"]
       detect_methods: ["Информация не найдена"]
@@ -47,7 +47,7 @@ Tools:
       division: "AppSec"
       type: "BCA"
       class: "Бинарный анализатор"
-      vendor: ""
+      vendor: "Skylot"
       lic: "Apache-2.0 license"
 
   - name: ILSpy
@@ -64,14 +64,14 @@ Tools:
       division: "AppSec"
       type: "BCA"
       class: "Бинарный анализатор"
-      vendor: ""
+      vendor: "ICSharpCode"
       lic: "MIT license"
 
   - name: Dotpeek
     meta:
       description: "Инструмент для декомпиляции и исследования сборок .NET, построенный на базе встроенного декомпилятора ReSharper. Он декомпилирует любую сборку .NET в исходный код на C# или IL-код."
       link_URL: "https://www.jetbrains.com/ru-ru/decompiler/"
-      ver_edition: "2025.1"
+      ver_edition: "2025.3.0.3"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
@@ -82,4 +82,20 @@ Tools:
       type: "BCA"
       class: "Бинарный анализатор"
       vendor: "JetBrains"
-      lic: ""
+      lic: "Personal"
+  - name: Procyon
+    meta:
+      description: "набор инструментов для метапрограммирования на Java, включающий в себя многофункциональный Reflection API, API для деревьев выражений (Expression Tree API) в стиле LINQ для генерации кода во время выполнения, а также декомпилятор Java."
+      link_URL: "https://github.com/mstrobel/procyon?tab=readme-ov-file, https://bitbucket.org/mstrobel/procyon/downloads/ - указали в статье на хабре, но открыть не удалось"
+      ver_edition: "0.6.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["tty"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "True"
+      division: "AppSec"
+      type: "BCA"
+      class: "Бинарный анализатор"
+      vendor: 'Mike Strobel a.k.a. mstrobel'
+      lic: 'Apache-2.0 + unknown license'

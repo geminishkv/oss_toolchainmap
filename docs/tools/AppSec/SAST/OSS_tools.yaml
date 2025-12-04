@@ -3,9 +3,9 @@ Tools:
     meta:
       description: "Статический анализатор безопасности Python-кода. Проводит синтаксический анализ, строит AST и применяет правила проверки к узлам дерева. По результатам анализа генерирует отчет о выявленных уязвимостях."
       link_URL: "https://github.com/PyCQA/bandit?tab=readme-ov-file"
-      ver_edition: "1.8.6"
+      ver_edition: "1.9"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["1.9.1", "1.9.2"]
       RUS_access: "Доступен"
       report_formats: ["csv", "custom", "html", "json", "sarif", "screen", "text", "xml", "yaml"]
       detect_methods: ["CWE"]
@@ -45,7 +45,7 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: 'Нет'
+      vendor: 'Aqua Security'
       lic: 'MIT License'
   - name: PMD
     meta:
@@ -53,7 +53,7 @@ Tools:
         Java, Apex, Visualforce, JavaScript, XML, XSL, PLSQL, Velocity, Scala, \
         Kotlin, JSP, Salesforce.com, Ecmascript, Modelica и Python."
       link_URL: "https://github.com/pmd/pmd"
-      ver_edition: "7.15.0"
+      ver_edition: "7.19.0"
       FSTEK_cert: "нет"
       redaction: []
       RUS_access: "Доступен"

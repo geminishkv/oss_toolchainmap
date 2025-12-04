@@ -76,9 +76,9 @@ Tools:
        API, сетях и облачных сервисах. Он поддерживает множество протоколов,\
        включая HTTP, DNS, TCP, SSL, а также позволяет создавать шаблоны на YAML для кастомных проверок"
       link_URL: "https://github.com/projectdiscovery/nuclei"
-      ver_edition: "3.4.0"
+      ver_edition: "3.5.0"
       FSTEK_cert: "Нет"
-      redaction: ["3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7"]
+      redaction: ["3.5.1"]
       RUS_access: "Доступен"
       report_formats: ["cli", "JSON", "JSONL", "SARIF"]
       detect_metods: ["CVE"]
@@ -86,7 +86,7 @@ Tools:
       division: "AppSec"
       type: "DAST"
       class: "DAST"
-      vendor: ''
+      vendor: 'Project discovery'
       lic: 'MIT license'
   - name: RESTler
     meta:
@@ -103,5 +103,5 @@ Tools:
       division: "AppSec"
       type: "DAST"
       class: "DAST"
-      vendor: ''
+      vendor: 'Microsoft'
       lic: 'MIT license'

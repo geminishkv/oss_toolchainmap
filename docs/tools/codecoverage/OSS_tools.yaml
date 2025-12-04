@@ -47,3 +47,19 @@ Tools:
       class: ""
       vendor: 'Codacy'
       lic: ''
+  - name: gcov
+    meta:
+      description: ""
+      link_URL: ""
+      ver_edition: ""
+      FSTEK_cert: ""
+      redaction: [ ]
+      RUS_access: ""
+      report_formats: [ ]
+      detect_metods: [ ]
+      OSS: "true"
+      division: "codecoverage"
+      type: ""
+      class: ""
+      vendor: ''
+      lic: ''

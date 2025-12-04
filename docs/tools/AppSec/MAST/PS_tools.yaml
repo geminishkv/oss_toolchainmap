@@ -24,7 +24,7 @@ Tools:
       FSTEK_cert: ""
       redaction: []
       RUS_access: "Недоступен"
-      report_formats: []
+      report_formats: ["Веб-интерфейс"]
       detect_methods: []
       OSS: "false"
       division: "AppSec"
@@ -58,14 +58,14 @@ Tools:
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
-      report_formats: []
+      report_formats: ["Online"]
       detect_methods: ["OWASP Mobile Top 10", "GDPR", "PCI DSS"]
       OSS: "false"
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
       vendor: "ImmuniWeb"
-      lic: ""
+      lic: "Информация не найдена"
 
   - name: Quixxi
     meta:
@@ -82,4 +82,4 @@ Tools:
       type: "MAST"
       class: "Анализатор MobApp"
       vendor: "Quixxi"
-      lic: ""
+      lic: "Информация не найдена"

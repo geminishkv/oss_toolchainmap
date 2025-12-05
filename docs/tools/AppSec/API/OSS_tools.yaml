@@ -46,7 +46,7 @@ Tools:
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
+      vendor: 'Flipkart Incubator'
       lic: 'Apache-2.0 license'
   - name: SSL Kill Switch 2
     meta:
@@ -75,7 +75,7 @@ Tools:
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["Интерфейс"]
-      detect_metods: []
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"
       type: "API"
@@ -85,12 +85,13 @@ Tools:
   - name: LAST (latio)
     meta:
       description: "AppSec решение, позволяющее проводить проверки безопасности кода с использованием LLM моделей, таких как OpenAI и Gemini для выявления уязвимостей."
+      link_URL: https://github.com/latiotech/LAST
       ver_edition: "1.2.7"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["Интерфейс"]
-      detect_metods: []
+      detect_metods: ["OpenAI", "Gemini"]
       OSS: "true"
       division: "AppSec"
       type: "API"
@@ -102,11 +103,11 @@ Tools:
       description: "Инструмент для поиска уязвимостей, которые возникают в результате некорректного использования внутренних или внешних API. Входит в набор инструментов MATE, предназначенных для поиска багов в C/C++ коде."
       link_URL: "https://galoisinc.github.io/MATE/usagefinder.html"
       ver_edition: "v1.0"
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: ["Интерфейс"]
-      detect_metods: []
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"
       type: "API"
@@ -123,7 +124,7 @@ Tools:
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["Graph analytics", "PDF"]
-      detect_metods: []
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"
       type: "API"
@@ -134,7 +135,7 @@ Tools:
     meta:
       description: "Веб-сканер уязвимостей, позволяющий тестировать безопасность веб-приложений и API, обнаруживать уязвимости и предоставлять рекомендации по их устранению."
       link_URL: "https://probely.com/?ref=hackernoon.com"
-      ver_edition: ""
+      ver_edition: "Информация не найдена"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"

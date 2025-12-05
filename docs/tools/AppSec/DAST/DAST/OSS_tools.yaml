@@ -44,7 +44,7 @@ Tools:
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
-      report_formats: ["Информация не найдена"]
+      report_formats: ["XML","CSV","CPE","HTML","GSR (OpenVAS custom)", "PDF", "TXT"]
       detect_metods: ["CVE", "NIST NVD", "CISA"]
       OSS: "true"
       division: "AppSec"
@@ -97,7 +97,7 @@ Tools:
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
-      report_formats: ["Информация не найдена"]
+      report_formats: ["JSON", "TXT", "Log formats"]
       detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"

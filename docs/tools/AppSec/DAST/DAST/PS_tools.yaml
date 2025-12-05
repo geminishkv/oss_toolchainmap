@@ -1,10 +1,11 @@
 Tools:
   - name: Acunetix Premium 14
     meta:
-      description: ""
+      description: "DAST сканер с расширенными возможностями IAST: инструмент позволяет установить в сканируемое приложение легковесный агент.
+       Во время проведения динамического сканирования агент видит, как атака обрабатывается изнутри приложения."
       link_URL: "https://www.acunetix.com/"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
       report_formats: []

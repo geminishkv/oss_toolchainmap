@@ -88,7 +88,7 @@ Tools:
       redaction: ["6.13.1"]
       RUS_access: "Доступен"
       report_formats: ["tty(console)", "JSON", "XML"]
-      detect_metods: ["Информация не найдена"]
+      detect_metods: ["Pattern matching"]
       OSS: "true"
       division: "AppSec"
       type: "Attack Surface Analysis"

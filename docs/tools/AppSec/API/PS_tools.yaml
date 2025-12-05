@@ -20,7 +20,7 @@ Tools:
     meta:
       description: "Интегрированное решение для защиты API, встроенное в платформу Fastly Next-Gen WAF"
       link_URL: "https://www.fastly.com/products/api-security"
-      ver_edition: ""
+      ver_edition: "Информация не найдена"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
@@ -68,7 +68,7 @@ Tools:
     meta:
       description: "Cпециализированная платформа для защиты API, которая обеспечивает мониторинг, обнаружение и предотвращение атак в реальном времени."
       link_URL: "https://appsentinels.ai/"
-      ver_edition: ""
+      ver_edition: "Информация не найдена"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
@@ -89,7 +89,7 @@ Tools:
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["Интерфейс"]
-      detect_metods: []
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "API"

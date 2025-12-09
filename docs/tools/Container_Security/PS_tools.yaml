@@ -220,7 +220,7 @@ Tools:
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
-      report_formats: [""]
+      report_formats: []
       detect_metods: []
       OSS: "false"
       division: "Container Security"

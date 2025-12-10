@@ -31,22 +31,6 @@ Tools:
       class: "ASPM"
       vendor: 'OXsecurity'
       lic: 'Подписка'
-  - name: Reliability (информация не найдена)
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "Application Security Posture Management"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
   - name: AppSOC ASPM
     meta:
       description: "PointGuard AI (ранее AppSOC) - платформа для защиты приложений и AI-стэка, которая обеспечивает полный цикл безопасности: от обнаружения уязвимостей до runtime-защиты, включая тестирование моделей ИИ и управление рисками в цепочке поставок. Поддерживает интеграцию с приложениями на Python, Java, JavaScript, Go, C# и других языках, а также совместима с облачными средами (AWS, Azure, GCP) и инструментами DevOps (GitHub Actions, Jenkins)"

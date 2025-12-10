@@ -48,22 +48,6 @@ Tools:
       class: ""
       vendor: 'Bethgelab'
       lic: 'MIT license'
-  - name: Models-are-code (инструмент не найден)
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "true"
-      division: "MLSecOps"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
   - name: PyRIT
     meta:
       description: "Библиотека для оценки LLM‑эндпоинтов на уязвимость к prompt инъекциям и другим рискам, связанным с LLM."

@@ -15,22 +15,6 @@ Tools:
       class: ""
       vendor: 'В данный момент не продается'
       lic: 'Enterprise'
-  - name: AI Validation (инструмент не найден)
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "MLSecOps"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
   - name: Guardian
     meta:
       description: "Инструмент, предназначенный для формирования внутренних политик и правил работы с ML и LLM внутри организации (AI governance & compliance). Позволяет формализовать процессы использовании ИИ и фильтровать выходные данные моделей, сохраняя при этом приватность пользователей"
@@ -47,22 +31,6 @@ Tools:
       class: ""
       vendor: 'AI Guardian'
       lic: 'Trial, Enterprise'
-  - name: Veil (инструмент не найден)
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "MLSecOps"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
   - name: Guard-ai
     meta:
       description: ""

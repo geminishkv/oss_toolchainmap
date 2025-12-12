@@ -18,37 +18,37 @@ Tools:
 
   - name: App-Ray
     meta:
-      description: ""
+      description: "Решение для комплексного автоматизированного аудит безопасности мобильных приложений для платформ Android и iOS."
       link_URL: "https://app-ray.co/"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
-      report_formats: []
-      detect_methods: []
+      report_formats: ["Веб-интерфейс"]
+      detect_methods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
-      vendor: ""
-      lic: ""
+      vendor: "GuardSquare"
+      lic: "Информация не найдена"
 
   - name: Codified Security
     meta:
-      description: ""
+      description: "Решение автоматизированного поиска уязвимостей с возможностью добавления пользовательских правил для сканирования. Поддерживает платформы Android и iOS."
       link_URL: "https://codifiedsecurity.com/"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
-      report_formats: []
-      detect_methods: []
+      report_formats: ["Веб-интерфейс"]
+      detect_methods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
-      vendor: ""
-      lic: ""
+      vendor: "Codified security"
+      lic: "Информация не найдена"
 
   - name: ImmuniWeb
     meta:
@@ -58,14 +58,14 @@ Tools:
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
-      report_formats: []
+      report_formats: ["Online"]
       detect_methods: ["OWASP Mobile Top 10", "GDPR", "PCI DSS"]
       OSS: "false"
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
       vendor: "ImmuniWeb"
-      lic: ""
+      lic: "Информация не найдена"
 
   - name: Quixxi
     meta:
@@ -82,4 +82,4 @@ Tools:
       type: "MAST"
       class: "Анализатор MobApp"
       vendor: "Quixxi"
-      lic: ""
+      lic: "Информация не найдена"

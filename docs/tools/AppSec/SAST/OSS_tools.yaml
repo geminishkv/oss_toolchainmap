@@ -3,9 +3,9 @@ Tools:
     meta:
       description: "Статический анализатор безопасности Python-кода. Проводит синтаксический анализ, строит AST и применяет правила проверки к узлам дерева. По результатам анализа генерирует отчет о выявленных уязвимостях."
       link_URL: "https://github.com/PyCQA/bandit?tab=readme-ov-file"
-      ver_edition: "1.8.6"
+      ver_edition: "1.9"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["1.9.1", "1.9.2"]
       RUS_access: "Доступен"
       report_formats: ["csv", "custom", "html", "json", "sarif", "screen", "text", "xml", "yaml"]
       detect_methods: ["CWE"]
@@ -45,7 +45,7 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: 'Нет'
+      vendor: 'Aqua Security'
       lic: 'MIT License'
   - name: PMD
     meta:
@@ -53,7 +53,7 @@ Tools:
         Java, Apex, Visualforce, JavaScript, XML, XSL, PLSQL, Velocity, Scala, \
         Kotlin, JSP, Salesforce.com, Ecmascript, Modelica и Python."
       link_URL: "https://github.com/pmd/pmd"
-      ver_edition: "7.15.0"
+      ver_edition: "7.19.0"
       FSTEK_cert: "нет"
       redaction: []
       RUS_access: "Доступен"
@@ -80,16 +80,16 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: 'Нет'
+      vendor: 'Tenable'
       lic: 'Apache 2.0 License'
   - name: Joern
     meta:
       description: "Joern — платформа для SAST-анализа, строит Code Property Graph (CPG) для C, C++, Java, JavaScript, JVM-байткода, x86-бинарей, Python, Kotlin, PHP, Go, Ruby, Swift, C#. \ 
          Позволяет писать запросы для поиска уязвимостей."
-      link_URL: "https://github.com/joernio/joern, https://joern.io/"
+      link_URL: "https://github.com/joernio/joern"
       ver_edition: "4.0"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["4.0.453"]
       RUS_access: "Доступен"
       report_formats: ["dot", "neo4jcsv", "graphml", "graphson", "json"]
       detect_methods: ["CVE", "CWE"]
@@ -97,14 +97,14 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: 'Нет'
+      vendor: 'Joernio'
       lic: 'Apache-2.0 License'
   - name: kics
     meta:
       description: "KICS — SAST-инструмент для IaC (Terraform, Kubernetes, Docker, CloudFormation, Ansible, Helm, OpenAPI), \ 
         позволяет писать/редактировать запросы для обнаружения misconfig и уязвимостей."
       link_URL: "https://github.com/Checkmarx/kics"
-      ver_edition: "2.1.11"
+      ver_edition: "2.1.17"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
@@ -114,15 +114,15 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: 'Нет'
+      vendor: 'Checkmarx'
       lic: 'Apache-2.0 license'
   - name: Retire.js
     meta:
       description: "Retire.js — сканер уязвимых JavaScript/Node.js библиотек, работает как CLI-инструмент, расширение для браузеров, Grunt/Gulp-плагины и интеграции с Burp/ZAP."
       link_URL: "https://github.com/RetireJS/retire.js"
-      ver_edition: "5.2.7"
+      ver_edition: "5.4"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["5.4.0"]
       RUS_access: "Доступен"
       report_formats: ["text", "json", "cyclonedx"]
       detect_methods: ["CVE"]
@@ -130,14 +130,14 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: 'Нет'
+      vendor: 'RetireJS'
       lic: 'Apache-2.0 license'
   - name: CodeQL
     meta:
       description: "CodeQL — платформа для анализа безопасности и качества кода от GitHub, \ 
         поддерживает множество языков; позволяет писать запросы на QL для поиска уязвимостей."
       link_URL: "https://github.com/github/codeql"
-      ver_edition: "2.22.1"
+      ver_edition: "2.23.6"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
@@ -152,7 +152,7 @@ Tools:
   - name: Osquery
     meta:
       description: "Osquery — инструмент для мониторинга и анализа операционных систем с помощью SQL-запросов."
-      link_URL: "https://github.com/osquery/osquery, https://osquery.io/"
+      link_URL: "https://github.com/osquery/osquery"
       ver_edition: "5.17.0"
       FSTEK_cert: "Нет"
       redaction: []
@@ -163,17 +163,16 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: ''
+      vendor: 'Osquery'
       lic: 'Apache-2.0 License'
-
   - name: bearer
     meta:
       description: "Платформа для обнаружения уязвимостей и инцидентов в приложениях написанных на языках: Go, Java, JavaScript, TypeScript, PHP, Python, Ruby
         C#, Kotlin, Elixir, VB.Net"
       link_URL: "https://github.com/Bearer/bearer"
-      ver_edition: "1.49.0"
+      ver_edition: "1.51"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["1.51.0","1.51.1"]
       RUS_access: "Доступен"
       report_formats: ["json", "sarif", "junit-xml"]
       detect_methods: ["CWE","OWASP Top 10", "SANS Top 25"]
@@ -181,7 +180,7 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: ''
+      vendor: 'Bearer'
       lic: 'Apache-2.0 License'
 
   - name: detect-secrets
@@ -199,16 +198,16 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: ''
+      vendor: 'Yelp'
       lic: 'Apache-2.0 License'
 
   - name: js-x-ray
     meta:
       description: "Статический анализатор безопасности JavaScript-кода. Обнаруживает подозрительные шаблоны, небезопасные зависимости и потенциальные уязвимости."
-      link_URL: "https://github.com/NodeSecure/js-x-ray"
-      ver_edition: "9.2.0"
+      link_URL: "https://github.co  m/NodeSecure/js-x-ray"
+      ver_edition: "10.2.0"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["10.2.1"]
       RUS_access: "Доступен"
       report_formats: ["json", "html"]
       detect_methods: ["CVE", "CWE"]
@@ -216,9 +215,8 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: ''
+      vendor: 'NodeSecure'
       lic: 'MIT License'
-
   - name: Checkov
     meta:
       description: "сканирует облачную инфраструктуру, подготовленную с использованием Terraform, Terraform plan, Cloudformation, AWS SAM, Kubernetes, Helm charts, Kustomize,\
@@ -227,7 +225,7 @@ Tools:
       link_URL: "https://github.com/bridgecrewio/checkov"
       ver_edition: "3.2"
       FSTEK_cert: "Нет"
-      redaction: [3.2.450 - Bug Fix]
+      redaction: ["3.2.495 Bug Fix"]
       RUS_access: "Доступен"
       report_formats: ["cli", "json", "junit-xml", "sarif", "github-sarif", "csv"]
       detect_methods: ["CWE", "CIS", "NIST", "PCI DSS", "HIPAA", "SOC 2"]
@@ -235,14 +233,13 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: 
+      vendor: "PANW AppSec"
       lic: 'Apache-2.0 License'
-
   - name: Semgrep
     meta:
-      description: "Semgrep — универсальный SAST‑инструмент с поддержкой правил CWE, OWASP Top 10, SANS Top 25 и кастомных паттернов."
+      description: "Semgrep — универсальный SAST‑инструмент с поддержкой правил CWE, OWASPTop10, SANS Top25 и кастомных паттернов."
       link_URL: "https://github.com/returntocorp/semgrep"
-      ver_edition: "1.31.0"
+      ver_edition: "1.145.0"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
@@ -252,9 +249,8 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: ''
+      vendor: 'Semgrep Inc'
       lic: 'LGPL-2.1-or-later'
-
   - name: njsscan
     meta:
       description: "njsscan — сканер безопасности Node.js‑проектов, анализирует AST и сопоставляет паттерны с CWE."
@@ -269,5 +265,5 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: ''
+      vendor: 'Ajin Abraham a.k.a. "ajinabraham"'
       lic: 'MIT License'

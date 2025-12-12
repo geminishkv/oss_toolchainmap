@@ -46,4 +46,21 @@ Tools:
       type: ""
       class: ""
       vendor: 'Codacy'
-      lic: ''
+      lic: 'Apache-2.0/MIT license'
+  - name: gcov
+    meta:
+      description: "Свободно распространяемая утилита для исследования покрытия кода, которая входит в состав компиляторов GCC. Программа генерирует точное количество исполнений для каждого оператора в программе и позволяет добавить аннотации к исходному коду.
+      Поставляется как стандартная утилита в составе GCC"
+      link_URL: "https://gcc.gnu.org/onlinedocs/gcc/Gcov.html"
+      ver_edition: "15.2 (в составе GCC 15.2)"
+      FSTEK_cert: "Нет"
+      redaction: [ ]
+      RUS_access: "Доступен"
+      report_formats: [".gcov", "HTML (with gcovr)", "TXT (with gcovr)", "CSV(with gcovr)"]
+      detect_metods: ["line coverage"]
+      OSS: "true"
+      division: "codecoverage"
+      type: ""
+      class: ""
+      vendor: 'Free Software Foundation'
+      lic: 'GPL'

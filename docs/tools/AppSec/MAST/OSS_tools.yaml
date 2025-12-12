@@ -7,7 +7,7 @@ Tools:
       link_URL: "https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security"
       ver_edition: "1.5.0"
       FSTEK_cert: "Нет"
-      redaction: ["1.5.8", "1.5.9", "1.5.12", "1.5.13", "1.5.15", "1.5.18", "1.5.19", "1.5.20", "1.5.23"]
+      redaction: ["1.5.8", "1.5.9", "1.5.12", "1.5.13", "1.5.15", "1.5.18", "1.5.19", "1.5.20", "1.5.23", "1.5.24"]
       RUS_access: "Доступен"
       report_formats: ["веб-интерфейс"]
       detect_metods: ["OWASP"]
@@ -15,16 +15,16 @@ Tools:
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
-      vendor: ''
+      vendor: 'Mobile security'
       lic: 'GPL-3.0 license'
   - name: MobSF
     meta:
       description: "Платформа для исследования безопасности мобильных приложений на Android, iOS и Windows Mobile.\
        MobSF может использоваться для различных целей, таких как защита мобильных приложений, тестирование на проникновение, анализ вредоносных программ и анализ конфиденциальности. "
       link_URL: "https://github.com/MobSF/Mobile-Security-Framework-MobSF"
-      ver_edition: "4.3.0"
+      ver_edition: "4.4"
       FSTEK_cert: "Нет"
-      redaction: ["4.3.2"]
+      redaction: ["4.4.2"]
       RUS_access: "Доступен"
       report_formats: []
       detect_metods: ["OWASP Mobile", "MSTG"]
@@ -32,7 +32,7 @@ Tools:
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
-      vendor: ''
+      vendor: 'Mobile Security Framework'
       lic: 'GPL-3.0 license'
   - name: Objection
     meta:
@@ -49,15 +49,15 @@ Tools:
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
-      vendor: ''
+      vendor: 'SensePost hacking team'
       lic: 'GPL-3.0 license'
   - name: MitmProxy
     meta:
       description: "Набор инструментов, которые предоставляют интерактивный прокси-сервер с поддержкой SSL/TLS для перехвата HTTP/1, HTTP/2 и WebSockets."
-      link_URL: "https://github.com/mitmproxy/mitmproxy, https://mitmproxy.org/"
-      ver_edition: "12.0.0"
+      link_URL: "https://github.com/mitmproxy/mitmproxy"
+      ver_edition: "12.2"
       FSTEK_cert: "Нет"
-      redaction: ["12.0.1","12.1.0","12.1.1"]
+      redaction: ["12.2.1"]
       RUS_access: "Доступен"
       report_formats: ["txt", "terminal output","yaml","JSON"]
       detect_metods: ["Информация не найдена"]
@@ -65,13 +65,13 @@ Tools:
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
-      vendor: ''
+      vendor: 'OSS Project'
       lic: 'MIT license'
   - name: Drozer
     meta:
       description: "Платформа для обеспечения безопасности и проведения атак на Android. Она позволяет выполнять действия,\
        которые может совершать установленное приложение, например использовать механизм межпроцессного взаимодействия Android (IPC) и взаимодействовать с операционной системой."
-      link_URL: "https://github.com/ReversecLabs/drozer, https://labs.withsecure.com/tools/drozer"
+      link_URL: "https://github.com/ReversecLabs/drozer"
       ver_edition: "3.1.0"
       FSTEK_cert: "Нет"
       redaction: []
@@ -82,9 +82,9 @@ Tools:
       division: "AppSec"
       type: "MAST"
       class: "Анализатор MobApp"
-      vendor: ''
+      vendor: 'Reversec Labs'
       lic: 'BSD 3-Clause License'
-  - name: ostorlab
+  - name: Ostorlab
     meta:
       description: "Платформа для автоматизации тестирования безопасности мобильных приложений,\
        объединяющая SAST, DAST и анализ API. Основные функции: сканирование APK, IPA и приложений из магазинов,\

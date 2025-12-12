@@ -4,7 +4,7 @@ Tools:
       description: "Статический анализатор для C, C++, C# и Java кода."
       link_URL: "https://pvs-studio.ru/"
       ver_edition: "7"
-      FSTEK_cert: "№ 9837 от 18.03.2021"
+      FSTEK_cert: "Есть, сертификат ФСТЭК России №9837 от 18.03.2021"
       redaction: ["7.1-37"]
       RUS_access: "Доступен"
       report_formats: ["JSON", "PVS-Studio Log (Plog)", "SARIF", "Tasks", "CSV", "HTML", "Markdown", "TXT"]
@@ -13,15 +13,15 @@ Tools:
       division: "AppSec"
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
-      vendor: 'ООО "ПВС"'
+      vendor: 'ООО "ПВС"'
       lic: 'Team, Enterprise'
   - name: ИСП РАН Natch
     meta:
       description: "Инструмент для определения поверхности атаки, основанный на полносистемном эмуляторе QEMU. Natch предназначен для поиска поверхности атаки (приложений, модулей, функций) в объекте оценки, который может состоять из множества библиотек, программ, контейнеров. Инструмент можно использовать для поиска функций для тестирования, библиотек, которые загружают исследуемые приложения, файлов, в которые попадают заданные входные данные. Собранные данные визуализируются в графическом интерфейсе SNatch, входящем в поставку инструмента. Поддерживает анализ для языков C, C++, Go, Python, Java"
-      link_URL: "https://www.ispras.ru/technologies/natch/, https://github.com/ispras/natch"
-      ver_edition: "3.3"
+      link_URL: "https://www.ispras.ru/technologies/natch/"
+      ver_edition: "3.4"
       FSTEK_cert: "Нет"
-      redaction: ["3.3.1"]
+      redaction: []
       RUS_access: "Доступен"
       report_formats: ["PDF", "JSON"]
       detect_metods: ["Информация не найдена"]
@@ -38,7 +38,7 @@ Tools:
       ver_edition: "2025.1"
       FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: "Доступен"
+      RUS_access: "Недоступен"
       report_formats: ["Dashboard", "HTML", "JSON", "SARIF"]
       detect_metods: ["OSV"]
       OSS: "false"
@@ -46,4 +46,4 @@ Tools:
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
       vendor: 'JetBrains'
-      lic: 'Community, Ultimate, Ultimate plus'
+      lic: 'Community (60 дней бесплатно), Ultimate, Ultimate plus'

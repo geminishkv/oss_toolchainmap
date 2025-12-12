@@ -3,12 +3,12 @@ Tools:
     meta:
       description: "Инструмент проверки типов в Python, совместимый с PEP 484. Pyre поставляется с Pysa — инструментом статического анализа, ориентированным на безопасность, который анализирует потоки данных в приложениях Python."
       link_URL: "https://github.com/facebook/pyre-check"
-      ver_edition: "0.9.18"
+      ver_edition: "PEP695 v0 (latest)"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["TXT"]
-      detect_metods: ["PEP 484"]
+      detect_metods: ["PEP 484", "PEP 695"]
       OSS: "true"
       division: "AppSec"
       type: "Attack Surface Analysis"
@@ -29,9 +29,9 @@ Tools:
       division: "AppSec"
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
-      vendor: ''
+      vendor: 'Secure Software Engineering (at Paderborn University/ Fraunhofer IEM)'
       lic: 'LGPL-2.1 license'
-  - name: airbus-seclab (bincat)
+  - name: airbus-seclab bincat
     meta:
       description: "Статический набор инструментов для анализа двоичного кода. Он может использоваться непосредственно из IDA или с помощью Python для автоматизации."
       link_URL: "https://github.com/airbus-seclab/bincat"
@@ -45,11 +45,11 @@ Tools:
       division: "AppSec"
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
-      vendor: ''
+      vendor: 'Airbus-seclab'
       lic: 'GNU Affero General Public Licence'
   - name: polytracker 
     meta:
-      description: Инструмент для анализа безопасности, который интегрируется с LLVM и помогает в отслеживании заражения данных, анализе потоков и трассировке."
+      description: "Инструмент для анализа безопасности, который интегрируется с LLVM и помогает в отслеживании заражения данных, анализе потоков и трассировке."
       link_URL: "https://github.com/trailofbits/polytracker"
       ver_edition: "4.0.0"
       FSTEK_cert: "Нет"
@@ -61,39 +61,39 @@ Tools:
       division: "AppSec"
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
-      vendor: ''
+      vendor: 'Trail of Bits'
       lic: 'Apache-2.0 license'
-  - name: Ponce" 
+  - name: Ponce
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "IDA Pro плагин позволяющий пользователям проводить taint анализ для бинарных файлов и осуществлять их символьное выполнение."
+      link_URL: "https://github.com/illera88/Ponce"
+      ver_edition: "0.3.7"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс IDA"]
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
-      vendor: ''
-      lic: ''
+      vendor: 'Alberto Garcia Illera a.k.a. illera88'
+      lic: 'BSD license'
   - name: psalm
     meta:
       description: "Инструмент статического анализа PHP для поиска ошибок и уязвимостей в PHP-приложениях"
       link_URL: "https://github.com/vimeo/psalm"
       ver_edition: "6.13.0"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["6.13.1"]
       RUS_access: "Доступен"
-      report_formats: []
-      detect_metods: ["Информация не найдена"]
+      report_formats: ["tty(console)", "JSON", "XML"]
+      detect_metods: ["Pattern matching"]
       OSS: "true"
       division: "AppSec"
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
-      vendor: ''
+      vendor: 'Vimeo'
       lic: 'MIT license'
   - name: find-sec-bugs
     meta:
@@ -109,5 +109,5 @@ Tools:
       division: "AppSec"
       type: "Attack Surface Analysis"
       class: "Анализ поверхности атаки"
-      vendor: ''
+      vendor: "OWASP"
       lic: 'LGPL-3.0 license'

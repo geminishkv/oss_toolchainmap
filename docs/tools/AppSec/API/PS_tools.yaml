@@ -1,161 +1,147 @@
 Tools:
-  - name: Akto
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "AppSec"
-      type: "API"
-      class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
   - name: brightsec
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      description: "AI-powered платформа управления безопасностью приложений, встраиваемая на всех жизненных этапах SDLC.
+      Платформа предлагает DAST решение для проверки API на наличие уязвимостей."
+      link_URL: "https://brightsec.com/"
+      ver_edition: "13.8"
+      FSTEK_cert: "Нет"
+      redaction: ["13.8.0"]
+      RUS_access: "Доступен"
+      report_formats: ["PDF", "JSON", "SARIF"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
-  - name: fastly
+      vendor: 'Bright Security'
+      lic: 'Enterprise'
+  - name: fastly API security
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Интегрированное решение для защиты API, встроенное в платформу Fastly Next-Gen WAF"
+      link_URL: "https://www.fastly.com/products/api-security"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Недоступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'Fastly'
+      lic: 'Enterprise'
   - name: Fortify Webinspect
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      description: "инструмент динамического тестирования безопасности приложений (DAST), который автоматически выявляет уязвимости приложений в развернутых веб-приложениях и сервисах."
+      link_URL: "https://www.microfocus.com/ru-ru/documentation/fortify-webinspect/"
+      ver_edition: "24.4"
+      FSTEK_cert: "Нет"
+      redaction: ["24.4.0"]
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'OpenText'
+      lic: 'Enterprise'
   - name: Вебмониторэкс
     meta:
-      description: ""
-      link_URL: ""
+      description: "Российская платформа, обеспечивающая защиту от атак, поиск уязвимостей веб-приложений, определение структуры API и поддержку внешнего периметра компании в актуальном состоянии."
+      link_URL: "https://webmonitorx.ru/"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Есть, сертификат ФСТЭК России №4899 от 28.12.2024"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["OWASP Top 10", "Zero day"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'ООО "Вэбмониторэкс"'
+      lic: 'Enterprise'
   - name: appsentinels
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Cпециализированная платформа для защиты API, которая обеспечивает мониторинг, обнаружение и предотвращение атак в реальном времени."
+      link_URL: "https://appsentinels.ai/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'Appsentinels'
+      lic: 'Enterprise'
   - name: stackhawk
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Современное средство динамического тестирования безопасности приложений (DAST) и средства тестирования безопасности API, которое выполняется в CI/CD, что позволяет разработчикам быстро находить и устранять проблемы с безопасностью до их попадания в рабочую среду."
+      link_URL: "https://www.stackhawk.com/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'StackHawk Inc'
+      lic: 'Enterprise'
   - name: PT Application Firewall
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      description: "Межсетевой экран уровня веб-приложений (Web Application Firewall). Предназначен для защиты веб-ресурсов организации от известных и неизвестных атак, включая OWASP Top 10, автоматизированных атак, атак на стороне клиента и атак нулевого дня."
+      link_URL: "https://www.ptsecurity.com/products/af/"
+      ver_edition: "4.1.0"
+      FSTEK_cert: "Есть, сертификат ФСТЭК России №3455 от 27.10.2015"
+      redaction: ["4.1.3", "4.1.6"]
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["OWASP Top 10", "WASC", "Zero day"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
-  - name: QAPISec
+      vendor: 'АО"Позитив Текнолоджиз"'
+      lic: 'Enterprise'
+  - name: Q-APISec
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "решение для обеспечения безопасности API, позволяющее организациям своевременно инвентаризировать, защищать и анализировать все программные интерфейсы.
+      поддерживает интеграцию с различными языками программирования и фреймворками, включая Java Spring, и использует технологический стек с такими компонентами, как KAFKA, Postgres и Docker."
+      link_URL: "https://squadsec.ru/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["OWASP Top 10"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'SQUAD'
+      lic: 'Enterprise'
   - name: SolidWall WAF
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Интеллектуальный сетевой экран (WAF) уровня бизнес-логики для защиты веб‑приложений. Инструмент ориентирован на on-premise внедрения для компаний уровня Enterprise и облачное внедрение для компаний SMB-сектора."
+      link_URL: "https://solidwall.ru/features.html"
+      ver_edition: "2.17"
+      FSTEK_cert: "Есть, сертификат ФСТЭК России №4652 от 15.02.2023"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'SolidSoft'
+      lic: 'Enterprise'

@@ -12,7 +12,7 @@ Tools:
       detect_metods: ["OWASP ASVS", "CWE"]
       OSS: "true"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'The Security Dojo'
       lic: 'BSD 3-Clause License'

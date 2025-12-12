@@ -1,145 +1,194 @@
 Tools:
   - name: AppArmor
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
+      description: "Подсистема безопасности Linux, предназначенная для управления доступом приложений к ресурсам, включая файла секретов, с помощью политик. По умолчанию включен в ядро Linux с версии 2.6.36"
+      link_URL: "https://apparmor.net/"
+      ver_edition: "4.0"
+      FSTEK_cert: "Нет"
+      redaction: ["4.0.1, 4.0.2"]
+      RUS_access: "Доступен"
       report_formats: []
-      detect_metods: []
+      detect_metods: ["DAC, MAC"]
       OSS: "true"
       division: "Secrets Management"
-      type: ""
+      type: "Security module"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Canonical Ltd'
+      lic: 'GPL-2.0 license'
   - name: OPA Gatefeeper
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Облачный контроллер политик kubernetes, который помогает усиливать используемые политики (написанные с помощью OPA)"
+      link_URL: "https://github.com/open-policy-agent/gatekeeper"
+      ver_edition: "3.21.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON","Audit logs"]
       detect_metods: []
       OSS: "true"
       division: "Secrets Management"
-      type: ""
+      type: "Policy controller"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Open Policy Agent'
+      lic: 'Apache-2.0 license'
   - name: Infisical
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Платформа secret management для централизованного хранения конфигурации приложений и их секретов. Имеется возможность версионирования секретов и синхронизации секретов с платформами
+      GitHub, AWS и Vercel. Имеет enterprise версию"
+      link_URL: "https://github.com/Infisical/infisical"
+      ver_edition: "0.154.5"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
       detect_metods: []
       OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Infisical'
+      lic: 'MIT license'
   - name: OpenBAO
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Открытое решение для централизованного хранения, управления и предоставления секретов. Позволяет создавать динамические секреты с помощью AWS 
+      link_URL: "https://github.com/openbao/openbao"
+      ver_edition: "2.4.4"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "Secrets Management"
-      type: ""
+      type: "Secrets vault"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'OpenBao'
+      lic: 'MPL-2.0 license'
   - name: Gitleaks
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "инструмент с открытым исходным кодом, предназначенный для выявления утечек конфиденциальных данных (API-ключи, пароли, токены доступа и другие) в архивах, файлах, директориях и репозиториях"
+      link_URL: "https://github.com/gitleaks/gitleaks"
+      ver_edition: "8.30"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["CSV, Junit, JSON, SARIF"]
       detect_metods: []
       OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Gitleaks'
+      lic: 'MIT License.'
   - name: Spring Cloud Config
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Компонент экосистемы Spring Cloud для централизованного управления конфигурацией, в том числе, связанной с secret management. Для серверной части имеется возможность конфигурации шифрования серктетов и их версионирования, а для клиентской части - динамическое обновление примененных настроек"
+      link_URL: "https://github.com/spring-cloud/spring-cloud-config"
+      ver_edition: "5.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Spring Cloud'
+      lic: 'Apache-2.0 license'
   - name: Gerrit
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      description: "веб-система для проверки и ревью кода, тесно интегрированная с системой контроля версий Git. Позволяет просматривать изменения внутри каждого файла и вручную искать присутствие секретов в коде"
+      link_URL: "https://www.gerritcodereview.com/"
+      ver_edition: "3.13"
+      FSTEK_cert: "Нет"
+      redaction: ["3.13.1"]
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Code review"]
       OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Mozilla SOPS
+      vendor: 'Gerrit Code Review'
+      lic: 'Apache-2.0 license'
+  - name: SOPS
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Редактор зашифрованных файлов, который позволяет безопасно хранить секретные данные в виде обычных текстовых файлов, шифруя только значения и оставляя ключи видимыми"
+      link_URL: "https://github.com/getsops/sops"
+      ver_edition: "3.11"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["YAML, JSON, ENV, INI"]
       detect_metods: []
       OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Mozilla'
+      lic: ' MPL-2.0 license'
   - name: CheckMate
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Инструмент для обнаружения секретов, оставленных в исходном коде, логах и конфигурационных файлах."
+      link_URL: "https://github.com/adedayo/checkmate"
+      ver_edition: "0.9.5"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["YAML, XML"]
+      detect_metods: ["Pattern recognition, heuristics, entropy analysis"]
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: 'Adedayo'
+      lic: 'BSD-3-Clause license'
+  - name: CoSign
+    meta:
+      description: "Коммандная утилита, необходимая для создания и валидации подписей ПО в Sigstore - проекте с открытым исходным кодом, созданным для повышения безопасности цепочки поставок ПО с помощью цифровых подписей и верификации программных артефактов"
+      link_URL: "https://github.com/sigstore/cosign"
+      ver_edition: "3.0.2"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Cli"]
       detect_metods: []
       OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Sigstore'
+      lic: 'Apache-2.0 license'
+  - name: Confidant
+    meta:
+      description: "https://lyft.github.io/confidant/"
+      link_URL: "система, предназначенная для безопасного хранения и управления секретами. Использует AWS DynamoDB для хранения и AWS Key Management Service (KMS) для шифрования"
+      ver_edition: "7.0.0"
+      FSTEK_cert: "Нет"
+      redaction: [ ]
+      RUS_access: "Доступен"
+      report_formats: [ "Интерфейс" ]
+      detect_metods: [ "IAm" ]
+      OSS: "true"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: 'Lyft'
+      lic: 'Apache-2.0 license'
+  - name: Conjur
+    meta:
+      description: "Интерфейс для безопасной аутентификации, контроля и аудита машинного доступа к инструментам, приложениям, контейнерам и облачным средам за счет управления секретами."
+      link_URL: "https://github.com/cyberark/conjur"
+      ver_edition: "1.24.0"
+      FSTEK_cert: "Нет"
+      redaction: [ ]
+      RUS_access: "Доступен"
+      report_formats: [ ]
+      detect_metods: [ ]
+      OSS: "false"
+      division: "Secrets Management"
+      type: ""
+      class: ""
+      vendor: 'CyberArk'
+      lic: 'GNU LGPL license'

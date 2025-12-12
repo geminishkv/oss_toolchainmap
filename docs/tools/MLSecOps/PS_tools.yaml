@@ -1,161 +1,129 @@
 Tools:
   - name: Сitadel
     meta:
-      description: ""
-      link_URL: ""
+      description: "Масштабируемая совместная ML‑система, которая с помощью Intel SGX защищает конфиденциальность как владельца данных, так и владельца модели в недоверенных инфраструктурах"
+      link_URL: "https://citadel-ai.com/"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Информация не найдена"
+      report_formats: ["Веб-интерфейс"]
       detect_metods: []
       OSS: "false"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
-  - name: AI Validation
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "MLSecOps"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'В данный момент не продается'
+      lic: 'Enterprise'
   - name: Guardian
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Инструмент, предназначенный для формирования внутренних политик и правил работы с ML и LLM внутри организации (AI governance & compliance). Позволяет формализовать процессы использовании ИИ и фильтровать выходные данные моделей, сохраняя при этом приватность пользователей"
+      link_URL: "https://www.aiguardianapp.com/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен(?)"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "MLSecOps"
-      type: ""
+      type: "AI governance"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Veil
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "MLSecOps"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'AI Guardian'
+      lic: 'Trial, Enterprise'
   - name: Guard-ai
     meta:
       description: ""
-      link_URL: ""
+      link_URL: "https://www.deloitte.com/an/en/services/risk-advisory/services/guard-ai.html"
       ver_edition: ""
       FSTEK_cert: ""
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
+      vendor: 'Deloitte'
       lic: ''
   - name: АI-guard
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Программное решение, предназначенное для обеспечения защиты персональных данных. Оно позволяет защищать сканы удостоверений личности, паспортов, водительских прав, MRZ‑зон, банковских карт, штрихкодов, деловых документов используемые в моделях машинного обучения в соответствии с требованиям GDPR и CCPA"
+      link_URL: "https://aiservice.am/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Информация не найдена"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'AI SERVICE LLC'
+      lic: 'Информация не найдена'
   - name: model-scanner
     meta:
-      description: ""
-      link_URL: ""
+      description: "Инструмент в составе AI Security Platform, предназначенный для контроля и управления supply chain в области ИИ. Обнаруживает вредоносное ПО, подмену и скрытые уязвимости до развертывания с использованием агентов и моделей машинного обучения из публичных репозиториев"
+      link_URL: "https://hiddenlayer.com/model-scanner/"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Информация не найдена"
       report_formats: []
-      detect_metods: []
+      detect_metods: ["AI agent, machine learning models"]
       OSS: "false"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'HiddenLayer Inc'
+      lic: 'Demo, Подписка'
   - name: Patronus
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Платформа для оценки и оптимизации AI‑моделей и продуктов на основе LLM. Предназначена для систематического тестирования и оценки качества работы создаваемых моделей перед выпуском в прод и во время эксплуатации"
+      link_URL: "https://www.patronus.ai/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: [""]
       detect_metods: []
       OSS: "false"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Patronus AI'
+      lic: 'Free, Enterprise'
   - name: advai-versus
     meta:
-      description: ""
-      link_URL: ""
+      description: "Набор иструментов, используемый разработчиками для стресс‑тестирования и оценки AI‑систем. Инструмент интегрируется в MLOps‑архитектуру."
+      link_URL: "https://www.advai.co.uk/advai-versus/"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен(?)"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Advai Limited'
+      lic: 'Информация не найдена'
   - name: modelscan
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Инструмент для проведения статического анализа кода с целью обнаружения уязвимостей и ошибок, связанных с сериализацией в моделях машинного обучения"
+      link_URL: "https://protectai.com/modelscan"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс, H5, Pickle, SavedModel"]
+      detect_metods: ["Pytorch, Tensorflow, Keras, Scikit learn"]
+      OSS: "true"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Protect AI'
+      lic: 'Информация не найдена'

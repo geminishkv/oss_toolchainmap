@@ -24,21 +24,21 @@ Tools:
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
-      report_formats: ["Информация не найдена"]
+      report_formats: ["Веб-интерфейс"]
       detect_methods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
       vendor: 'ООО "ПАЙНАП"'
-      lic: ""
+      lic: "Enterprise"
 
   - name: Solar appScreener (SAST)
     meta:
       description: "Комплексное решение, сочетающее возможности статического (SAST), динамического (DAST) анализа, анализа состава ПО (SCA) и анализа цепочки поставок (SCS). Помогает найти уязвимости и недекларированные возможности в исходном коде мобильных и веб-приложений на раннем этапе разработки. Технологии анализа исполняемых файлов позволяют применять SAST, даже когда разработка закончена и нет возможности проанализировать исходный код проекта. Поддерживает следующие языки: Java, JavaScript, Java for Android, Solidity, Ruby, VBScript, Rust, Dart, TypeScript, Groovy, ABAP, Perl, Scala, Apex, PL/SQL, HTML5, Python, T/SQL, C/C++, Objective-C, COBOL, Pascal, Go, JSP, Kotlin, Visual Basic 6.0, VBA, PHP, Delphi, 1С, C#, LotusScript, Swift, Vyper."
       link_URL: "https://rt-solar.ru/products/solar_appscreener/"
-      ver_edition: "3.15.0"
-      FSTEK_cert: "Сертификат № 4825 от 3.06.2024"
+      ver_edition: "3.15.5"
+      FSTEK_cert: "Есть, сертификат ФСТЭК России №4825 от 3.06.2024"
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["HTML", "PDF", "CSV", "DOCX", "SARIF", "JSON", "отправка по почте"]
@@ -48,7 +48,7 @@ Tools:
       type: "SAST"
       class: "Статический анализатор"
       vendor: "АО «СОЛАР СЕКЬЮРИТИ»"
-      lic: ""
+      lic: "Enterprise"
 
   - name: PT Application Inspector
     meta:
@@ -65,7 +65,7 @@ Tools:
       type: "SAST"
       class: "Статический анализатор"
       vendor: "Positive Technologies"
-      lic: ""
+      lic: "Подписка"
 
   - name: CheckMarx
     meta:
@@ -82,14 +82,14 @@ Tools:
       type: "SAST"
       class: "Статический анализатор"
       vendor: "Checkmarx"
-      lic: ""
+      lic: "Информация не найдена"
 
   - name: Klockwork
     meta:
       description: "Klocwork — промышленный статический анализатор для C, C++, C#, Java. Оптимизирован для работы с монорепозиториями и масштабируемых проектов. Предлагает инкрементальный анализ, быстрый отклик при работе с большими кодовыми базами и интеграцию с IDE, CI/CD и issue-трекингами."
       link_URL: "https://www.perforce.com/products/klocwork"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
       report_formats: []
@@ -117,7 +117,7 @@ Tools:
       type: "SAST"
       class: "Статический анализатор"
       vendor: "SonarSource"
-      lic: "Enterprise Edition"
+      lic: "Trial, Enterprise"
 
   - name: ИСП РАН Svace
     meta:
@@ -140,7 +140,7 @@ Tools:
     meta:
       description: "Анализатор для C, C++, C#, Java. Поддерживает IDE и CI/CD. Ориентирован на производительность и точность диагностики."
       link_URL: "https://pvs-studio.ru/"
-      ver_edition: "7.37"
+      ver_edition: "7.39"
       FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Доступен"
@@ -174,8 +174,8 @@ Tools:
     meta:
       description: ""
       link_URL: "https://www.microfocus.com/ru-ru/products/static-code-analysis-sast/overview"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
       report_formats: []
@@ -184,8 +184,8 @@ Tools:
       division: "AppSec"
       type: "SAST"
       class: "Статический анализатор"
-      vendor: ""
-      lic: ""
+      vendor: "Microfocus"
+      lic: "Информация не найдена"
 
   - name: Coverity
     meta:
@@ -202,4 +202,4 @@ Tools:
       type: "SAST"
       class: "Статический анализатор"
       vendor: "Black Duck"
-      lic: ""
+      lic: "Enterprise"

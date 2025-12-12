@@ -11,8 +11,8 @@ Tools:
       detect_metods: ["CWE", "CISA KEV", "EPSS", "CVE", "OWASP Top 10"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'Security Phoenix Ltd.'
       lic: 'Free, Professional, Enterprise'
   - name: OX Security Platform
@@ -27,26 +27,10 @@ Tools:
       detect_metods: ["CVE", "CWE"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'OXsecurity'
-      lic: ''
-  - name: Reliability 
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "Application Security Posture Management"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
+      lic: 'Подписка'
   - name: AppSOC ASPM
     meta:
       description: "PointGuard AI (ранее AppSOC) - платформа для защиты приложений и AI-стэка, которая обеспечивает полный цикл безопасности: от обнаружения уязвимостей до runtime-защиты, включая тестирование моделей ИИ и управление рисками в цепочке поставок. Поддерживает интеграцию с приложениями на Python, Java, JavaScript, Go, C# и других языках, а также совместима с облачными средами (AWS, Azure, GCP) и инструментами DevOps (GitHub Actions, Jenkins)"
@@ -59,10 +43,10 @@ Tools:
       detect_metods: ["CVSS", "EPSS", "VulDB", "CISA KEV", "OWASP top 10", "SANS top 25"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
-      vendor: 'PointGuard AI.'
-      lic: ''
+      type: "ASPM"
+      class: "ASPM"
+      vendor: 'PointGuard AI'
+      lic: 'Enterprise'
   - name: Kondukto
     meta:
       description: "Платформа для оркестрации и управления безопасностью приложений, которая интегрирует данные из различных инструментов безопасности, обеспечивая централизованное управление уязвимостями. Поддерживает автоматизацию, настраиваемые рабочие процессы и интеграцию с CI/CD для ускорения триажа и устранения уязвимостей."
@@ -75,10 +59,10 @@ Tools:
       detect_metods: ["CWE"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'Kondukto'
-      lic: ''
+      lic: 'Enterprise'
   - name: Legit Security 
     meta:
       description: "AI-платформа ASPM, автоматически обнаруживающая и устраняющая уязвимости в SDLC, включая AI-код, утечки секретов и риски цепочки поставок, с интеграцией в Python, Java, CI/CD (GitHub Actions, Jenkins, GitLab) и облака (AWS, Azure, GCP). Обеспечивает полную видимость и автоматизацию управления рисками."
@@ -91,8 +75,8 @@ Tools:
       detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'Legit Security'
       lic: 'Информация не найдена'
   - name: ArmorCode
@@ -107,10 +91,10 @@ Tools:
       detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'ArmorCode'
-      lic: ''
+      lic: 'Trial, Enterprise'
   - name: Hexway
     meta:
       description: "Платформа для управления безопасностью разработки, которая автоматизирует обнаружение, дедупликацию и устранение уязвимостей, интегрируясь с инструментами вроде Kaiten, Jira и GitLab. Она предоставляет дашборды для мониторинга состояния безопасности, минимизирует ложные срабатывания и ускоряет DevSecOps, обеспечивая точное управление рисками."
@@ -123,8 +107,8 @@ Tools:
       detect_metods: ["CVE", "CWE", "OWASP Top 10"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'ООО «Софт Плюс»'
       lic: 'Community, Enterprise'
   - name: Veracode ASPM
@@ -140,10 +124,10 @@ Tools:
       detect_metods: ["OWASP Top 10", "CWE", "CVSS"]
       OSS: "false"
       division: "Application Security Posture Management"
-      type: ""
-      class: ""
+      type: "ASPM"
+      class: "ASPM"
       vendor: 'Veracode'
-      lic: ''
+      lic: 'Veracode custom license'
   - name: AppSec.Hub
     meta:
       description: "DevSecOps платформа автоматизированного управления и контроля процессов разработки защищенного программного обеспечения."

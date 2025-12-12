@@ -1,10 +1,11 @@
 Tools:
-  - name: Acunetix
+  - name: Acunetix Premium 14
     meta:
-      description: ""
+      description: "DAST сканер с расширенными возможностями IAST: инструмент позволяет установить в сканируемое приложение легковесный агент.
+       Во время проведения динамического сканирования агент видит, как атака обрабатывается изнутри приложения."
       link_URL: "https://www.acunetix.com/"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
       report_formats: []
@@ -13,8 +14,8 @@ Tools:
       division: "AppSec"
       type: "DAST"
       class: "DAST"
-      vendor: ''
-      lic: ''
+      vendor: 'Acunetix'
+      lic: 'Enterprise'
   - name: PT Black Box
     meta:
       description: "Cканер приложений, который ищет уязвимости и риски,\ 
@@ -32,7 +33,7 @@ Tools:
       type: "DAST"
       class: "DAST"
       vendor: 'АО «Позитив Текнолоджиз»'
-      lic: 'On-permise, Online'
+      lic: 'On-premise, Online'
   - name: SolidPoint DAST
     meta:
       description: "Решение для динамического анализа веб-приложений на наличие уязвимостей информационной безопасности,\
@@ -50,7 +51,7 @@ Tools:
       type: "DAST"
       class: "DAST"
       vendor: 'ООО «СолидСофт»'
-      lic: ''
+      lic: 'Enterprise'
   - name: HCL AppScan
     meta:
       description: "Комплексная платформа для тестирования безопасности приложений (SAST, DAST, IAST, SCA),\
@@ -69,7 +70,7 @@ Tools:
       type: "DAST"
       class: "DAST"
       vendor: 'HCL Technologies Limited'
-      lic: ''
+      lic: 'Enterprise'
   - name: Burp Suite EE (Intruder)
     meta:
       description: "инструмент для динамического тестирования безопасности веб-приложений и API,\
@@ -128,7 +129,7 @@ Tools:
       type: "DAST"
       class: "DAST"
       vendor: 'АО «СОЛАР СЕКЬЮРИТИ»'
-      lic: ''
+      lic: 'Подписка'
   - name: Checkmarx DAST
     meta:
       description: "Инструмент является частью платформы Chackmarx one,\
@@ -166,4 +167,4 @@ Tools:
       type: "DAST"
       class: "DAST"
       vendor: 'Veracode'
-      lic: ''
+      lic: 'Enterprise'

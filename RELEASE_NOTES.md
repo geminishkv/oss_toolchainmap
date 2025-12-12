@@ -1,5 +1,39 @@
 # Release Notes
 
+## v1.1.4
+Актуализирована информация по типам некоторых инструментов:
+
+* Procyon - перемещен из OSS в PS tools (BCA)
+* Dynamic SBOM - инструмент также добавлен в категорию SCA/OSA(SBOM)
+* OllyDBG - инструмент не найден (удален)
+* Falco - Перемещен из OSS в PS (RASP)
+* Hdiv - дополнительно добавлен в категорию RASP
+* Syft - перемещен из BCA в SCA/OSA
+* Conjur - перемещен из PS в OSS (Secrets management)
+
+## v1.1.3
+* Обновлена директория tools
+* Добавлена краткая информация по инструментам в toolchain map
+
+Следующие инструменты удалены из карты:
+
+* Models-are-code - инструмент не найден
+* AI Validation - инструмент не найден
+* Veil - инструмент не найден
+* Reliability - инструмент не найден
+
+Следующие инструменты возвращены в карту после обновления информации:
+
+* SSL Kill Switch 2
+* Hdiv
+* Open RASP
+* 42 Crunch
+* Procyon
+* Dynamic SBOM (Rezillion)
+* Binary ninja
+* Polytracker
+* Ponce
+
 ## v1.1.2
 
 * fix release-from-notes.yml

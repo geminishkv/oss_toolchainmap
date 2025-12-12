@@ -1,225 +1,230 @@
 Tools:
   - name: Qualys Kubernetes and Container Security
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Облачная платформа безопасности, которая обеспечивает полный жизненный цикл защиты контейнеров: от разработки до production. Она сканирует контейнеры и Kubernetes-кластеры на наличие уязвимостей, неправильных конфигураций и угроз безопасности."
+      link_URL: "https://www.qualys.com/apps/container-security"
+      ver_edition: "1.41"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security / Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Qualys'
+      lic: 'Trial, Подписка'
   - name: Deepfence ThreatStryker
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "платформа для обнаружения, приоритизации и защиты от угроз в облачных окружениях, контейнерах и Kubernetes. С использованием технологии eBPF позволяет не только находить уязвимости, но и определять реально опасные из них."
+      link_URL: "https://threatmapper.org/threatstryker/docs/"
+      ver_edition: "2.5"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Недоступен"
+      report_formats: ["Веб-интерфейс"]
       detect_metods: []
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security / Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Aqua Container Security
+      vendor: 'Deepfence'
+      lic: 'Enterprise'
+  - name: Aqua Container Security Platfrom (CNAPP)
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Единая платформа защиты облачных приложений. Позволяет выявлять, приоритизировать и снижать риски на каждом этапе жизненного цикла разработки программного обеспечения."
+      link_URL: "https://www.aquasec.com/products/container-security/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Aqua security'
+      lic: 'Trial, SaaS'
   - name: AccuKnox Container Security
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Облачная платформа, построенная на принципах 'zero trust' для защиты контейнеров на всех этапах жизненного цикла: от CI/CD до runtime. Его ключевая особенность — использование технологий eBPF и KubeArmor  для обеспечения защиты на уровне ядра Linux в режиме реального времени. "
+      link_URL: "https://accuknox.com/platform/container-security"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["CIS", "PCI", "NIST", "MITRE"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Kaspersky Container Security
+      vendor: 'AccuKnox'
+      lic: 'Подписка'
+  - name: Kaspersky Container Security (KCS)
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "решение, которое обеспечивает безопасность контейнерных приложений на всех этапах жизненного цикла: от разработки до эксплуатации. Продукт позволяет защитить бизнес-процессы организации, соответствовать
+стандартам и нормам безопасности, а также помогает реализовать принцип безопасной разработки ПО (DevSecOps)."
+      link_URL: "https://www.kaspersky.ru/enterprise-security/container-security"
+      ver_edition: "1.2.2"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["БДУ ФСТЭК","MITRE","NIST", "PCI"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security/Vulnerability scanning/Risk management"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'АО "Лаборатория Касперского"'
+      lic: 'Trial, Enrerprise (оплата за каждую ноду).'
   - name: Luntry
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Решение для защиты контейнеров и Kubernetes-сред от угроз на всех этапах жизненного цикла. Поддерживает отечественные ОС и БДу ФСТЭК, а также позволяет
+      работать с интеграцией других систем безопасности: SIEM, Policy engine, ASOC."
+      link_URL: "https://luntry.ru/"
+      ver_edition: "17.07.2024"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["PDF, HTML, XML, JSON, CSV"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security/Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: PT Container Security
+      vendor: 'Luntry'
+      lic: 'Enrerprise (оплата за каждую ноду)'
+  - name: PT Container Security (PT CS)
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Высокотехнологичное решение для комплексной защиты инфраструктуры гибридного облака. Обеспечивает безопасность разработки программных систем, использующих механизмы контейнерной виртуализации. Имеет собственную
+      базу уязвимостей. Продукт позволяет с высокой точностью выявлять уязвимости в ОС ALT, ASTRA, Ubuntu, Oracle, Red Hat, РЕД ОС. "
+      link_URL: "https://www.ptsecurity.com/products/cs/"
+      ver_edition: "0.7"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
-      detect_metods: []
+      detect_metods: ["NVD","БДУ ФСТЭК", "CIS", "NIST"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security/Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: НОТА КУПОЛ.Контейнеры
+      vendor: 'АО "Позитив Текнолоджиз"'
+      lic: 'Подписка'
+  - name: КУПОЛ.Контейнеры
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Программный продукт для обеспечения безопасности контейнерных сред разработки. Система позволяет обеспечить безопасность инфраструктуры с использованием контейнерных платформ, проводить
+      оценку рисков на всех этапах работы контейнеров и повысить отказоустойчивость разрабатываемых приложений."
+      link_URL: "https://kupol.nota.tech/kupol-container"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Security policy"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Vulnerability scanning/Risk management"
       class: ""
-      vendor: ''
-      lic: ''       
+      vendor: 'Nota tech (Т1)'
+      lic: 'Информация не найдена'
   - name: CrossTech Container Security
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Платформа контейнерной безопасности для Kubernetes и реестров образов с архитектурой однонаправленных соединений, подходящей для формирования zero trust архитектур."
+      link_URL: "https://ct-sg.ru/products/crosstech-container-security/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["SBOM(SPDX, CycloneDX", "PDF", "CSV"]
+      detect_metods: ["CIS", "NIST"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'ООО «Кросстех Солюшнс Групп»'
+      lic: 'Enterprise (лицензия по количеству нод)'
   - name: Snyk Container
     meta:
       description: ""
-      link_URL: ""
+      link_URL: "https://snyk.io/"
       ver_edition: ""
       FSTEK_cert: ""
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "Container Security"
       type: ""
       class: ""
-      vendor: ''
+      vendor: 'Snyk'
       lic: ''
-  - name: Red Hat Advanced Cluster Security for Kubernetes
+  - name: Red Hat Advanced Cluster Security for Kubernetes (RHACS)
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Платформа для обеспечения безопасности kubernetes сред. Позволяет проводить сканирование контейнеров и образов на всем протяжении жизненного цикла. Решение объединяет информацию по найденной уязвимости с данными Kubernetes и сведениями об этапе жизненного цикла, на который влияет уязвимость, чтобы количественно оценить риски безопасности этой уязвимости конкретно для вашей среды. Это также позволяет точно определить, какие поды, пространства имен, деплойменты и кластеры попадают под удар."
+      link_URL: "https://www.redhat.com/en/resources/advanced-cluster-security-for-kubernetes-datasheet"
+      ver_edition: "4.9"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
       detect_metods: []
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Red Hat'
+      lic: 'Trual, Информация не найдена'
   - name: Prisma Cloud
     meta:
-      description: ""
+      description: "платформа для управления средствами обеспечения облачной безопасности (CSPM) и защиты облачных рабочих нагрузок (CWPP)."
       link_URL: ""
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Realtime security/Risk management"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Aqua Security
+      vendor: 'Palo Alto networks'
+      lic: 'SaaS'
+  - name: Aqua Container Security
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Платформа для защиты Kubernetes-окружений, управления состоянием безопасности облака (CSPM) и защиты облачных рабочих нагрузок в режиме реального времени (CWPP).
+      Решение работает как с установкой, так и без установки агентов с использованием технологии eBPF."
+      link_URL: "https://www.aquasec.com/products/container-security/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
-      detect_metods: []
+      detect_metods: ["PCI, HIPAA, GDPR, NIST, CIS"]
       OSS: "false"
       division: "Container Security"
-      type: ""
+      type: "Runtime security/"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Aqua Security'
+      lic: 'Trial, Enterprise'
   - name: GitLab Container Scanning
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Встроенная функция безопасности в платформе GitLab, которая автоматически сканирует Docker-образы на наличие известных уязвимостей прямо в CI/CD pipeline"
+      link_URL: "https://docs.gitlab.com/user/application_security/container_scanning/"
+      ver_edition: "18.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "Container Security"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'GitLab'
+      lic: 'Free, Premium, Ultimate'

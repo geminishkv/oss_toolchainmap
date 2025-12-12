@@ -1,22 +1,5 @@
 Tools:
-  - name: Falco 
-    meta:
-      description: "Система мониторинга безопасности в режиме реального времени для контейнеров и облачной инфраструктуры.\
-       Она поддерживает Kubernetes, Docker, OpenShift и другие платформы, отслеживая поведение приложений и систем, выявляя аномалии и потенциальные угрозы с помощью правил и событий."
-      link_URL: "https://falco.org/, https://github.com/falcosecurity/falco"
-      ver_edition: "0.41"
-      FSTEK_cert: " Нет"
-      redaction: ["0.41.1", "0.41.2", "0.41.3"]
-      RUS_access: "Доступен"
-      report_formats: ["JSON", "Syslog", "File (запись в файлы на диске)", "Standard Output (stdout)", "HTTP", "gRPC"]
-      detect_metods: ["MITRE ATT&CK", "PCI DSS", "NIST"]
-      OSS: "true" 
-      division: "AppSec"
-      type: "RASP"
-      class: "Анализатор при Runtime"
-      vendor: 'Sysdig'
-      lic: 'Apache-2.0 License'
-  - name: Baiduʼs OpenRASP 
+  - name: OpenRASP
     meta:
       description: "набор инструментов RASP с открытым исходным кодом от Baidu, который использует перехватчики и инструменты во время выполнения для защиты веб-приложений.\
        Вместо того чтобы просто фильтровать входные данные, он анализирует потоки выполнения на предмет аномального поведения, которое может указывать на атаку.\
@@ -32,5 +15,21 @@ Tools:
       division: "AppSec"
       type: "RASP"
       class: "Анализатор при Runtime"
-      vendor: ''
+      vendor: 'Baidu'
       lic: 'Apache-2.0 License'
+  - name: Hdiv CE (RAST)
+    meta:
+      description: "Платформа, предоставляющая подробные отчеты о процессе работы приложения путем встраивания специального агента с целью снятия метрик."
+      link_URL: "https://github.com/hdiv/hdiv"
+      ver_edition: "3.5.2"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["OWASP Top 10","application agent"]
+      OSS: "true"
+      division: "AppSec"
+      type: "RASP"
+      class: "Интерактивный анализатор"
+      vendor: 'Hdiv security'
+      lic: 'Apache-2.0 license'

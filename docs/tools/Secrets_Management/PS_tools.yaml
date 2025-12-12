@@ -1,20 +1,20 @@
 Tools:
   - name: Hashicorp Vault
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Хранилище секретных данных, поддерживающее различные механизмы авторизации и политики доступа. Можно настроить в качестве сервера KPI."
+      link_URL: "https://www.hashicorp.com/en/products/vault"
+      ver_edition: "1.21"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс", "API"]
       detect_metods: []
       OSS: "false"
       division: "Secrets Management"
-      type: ""
+      type: "Secret vault"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'IBM'
+      lic: 'Trial, Enterprise(per secret)'
   - name: Senhasegura
     meta:
       description: ""
@@ -22,7 +22,7 @@ Tools:
       ver_edition: ""
       FSTEK_cert: ""
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
@@ -33,20 +33,20 @@ Tools:
       lic: ''
   - name: AppSec.Code
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Платформа для управления жизненным циклом разработки программного обеспечения. Включает в себя решение для управления секретами"
+      link_URL: "https://appsec-code.ru/"
+      ver_edition: "25.4.1"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'ООО"Аппсек Солюшенс"'
+      lic: 'Client license (за рабочее место)'
   - name: Cloud KMS
     meta:
       description: ""
@@ -54,79 +54,80 @@ Tools:
       ver_edition: ""
       FSTEK_cert: ""
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
+      vendor: 'Google'
       lic: ''
   - name: Keywhiz
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Решение от компании Square для хранения, распространения и управления секретами. С 2019 года продукт перестал поддерживаться, на данный момент доступен
+      в read-only репозитории github"
+      link_URL: "https://github.com/square/keywhiz"
+      ver_edition: "0.10.1"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
-      OSS: "false"
+      OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Square Open Source'
+      lic: 'Apache-2.0 license'
   - name: BitWarden
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "менеджер паролей, который помогает безопасно хранить и автоматически подставлять секреты, а также позволяет безопасно передавать их внутри команды"
+      link_URL: "https://bitwarden.com/"
+      ver_edition: "2025.11.1"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON", "CSV"]
       detect_metods: []
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Bitwarden Inc'
+      lic: 'Free, Premium, Teams, Enterprise'
   - name: Harbor
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Реестр артефактов, который защищает их с помощью политик и разграничения доступа на основе ролей, обеспечивает сканирование образов и контроль на отсутствие уязвимостей, а также подпись образов как доверенных."
+      link_URL: "https://goharbor.io/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
+      RUS_access: "Доступен"
+      report_formats: ["Веб-платформа"]
+      detect_metods: ["Информация не найдена"]
+      OSS: "true"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'CNCF'
+      lic: 'Apache-2.0 license/on-premise'
   - name: Spectral Secret Scanner
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
+      description: "Решение, предназначенное для автоматического поиска секретов и чувствительных данных в кодовой базе и DevOps‑процессах. Используется на всех стадиях SSDLC с целью предотвращения попадания секретов в production"
+      link_URL: "https://spectralops.io/resources-topic/secret-scanning/"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: ["Cli"]
+      RUS_access: "Доступен"
       report_formats: []
-      detect_metods: []
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Check Point software'
+      lic: 'Free/Подписка'
   - name: Azure Key Vault
     meta:
       description: ""
@@ -134,7 +135,7 @@ Tools:
       ver_edition: ""
       FSTEK_cert: ""
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
@@ -145,52 +146,37 @@ Tools:
       lic: ''
   - name: Knox
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Решение для хранения секретов с использованием распределенных баз данных, называемых проектами. Позволяет хранить большинство типов популярных секретов
+      и обращаться к ним с помощью GET запросов"
+      link_URL: "https://knox-app.com/documentation"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
-      OSS: "false"
+      OSS: "true"
       division: "Secrets Management"
-      type: ""
+      type: "Secrets vault"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Pinterest'
+      lic: 'Free, Startup, Enterprise'
   - name: Consul
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Инструмент для управления сервисами и конфигурациями, который интегрируется с HashiCorp Vault. Vault централизованно хранит и управляет секретами, а Consul служит для обнаружения сервисов и формирования безопасного доступа к этим секретам в любой среде"
+      link_URL: "https://developer.hashicorp.com/consul"
+      ver_edition: "1.22.1"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Tty"]
+      detect_metods: ["Service mesh, L7 traffic management"]
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
-  - name: CoSign
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "Secrets Management"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'HashiCorp'
+      lic: 'On-premise'
   - name: AWS Secrets Manager
     meta:
       description: ""
@@ -198,7 +184,7 @@ Tools:
       ver_edition: ""
       FSTEK_cert: ""
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
@@ -210,97 +196,65 @@ Tools:
       colspan: 2
   - name: Strongbox
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Менеджер паролей, разработанный под экосистему Apple для iPhone и Macbook"
+      link_URL: "https://strongboxsafe.com/"
+      ver_edition: "1.49.24"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
       detect_metods: []
-      OSS: "false"
+      OSS: "true"
       division: "Secrets Management"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
-  - name: CyberArk Conjur
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "Secrets Management"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
+      type: "Application"
+      class: "Password management"
+      vendor: 'Applause'
+      lic: 'Подписка'
   - name: Yandex Lockbox
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Сервис для создания и хранения секретов в инфраструктуре Yandex Cloud. Обеспечивает централизованное хранение, шифрование и разграничение доступа для секретов, а также позволяет управлять секретами через консоль или с помощью API"
+      link_URL: "https://yandex.cloud/ru/docs/lockbox/"
+      ver_edition: "10 марта 2025г."
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Confidant
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "Secrets Management"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Yandex Cloud'
+      lic: 'SaaS (по количеству секретов и запросов)'
   - name: Nexus Repository Management
     meta:
       description: ""
-      link_URL: ""
+      link_URL: "https://www.sonatype.com/products/sonatype-nexus-repository"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Недоступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
+      vendor: 'Sonatype'
       lic: ''
   - name: ЦУП 2.0
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Отечественное решение для управления инфраструктурными секретами организации. Обеспечивает безопасное хранение и распространение секретов, а также предоставляет контроль за использованием доступов в сложных, высоконагруженных IT-инфраструктурах."
+      link_URL: "https://security.at-consulting.ru/"
+      ver_edition: "2.0"
+      FSTEK_cert: "Есть, сертификат ФСТЭК России №4921 от 25.03.2025"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "false"
       division: "Secrets Management"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'ООО "АТ Консалтинг"'
+      lic: 'Enterprise  '

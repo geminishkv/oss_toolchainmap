@@ -1,36 +1,20 @@
 Tools:
-  - name: rezilion 
+  - name: Dynamic SBOM
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "платформа для управления уязвимостями и программной спецификацией (SBOM), включающая в себя инструменты BCA. Помогает определить, какие из обнаруженных уязвимостей действительно представляют угрозу."
+      link_URL: "https://aws.amazon.com/marketplace/pp/prodview-hlzqud6ccq75m"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Недоступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "BCA"
       class: "Бинарный анализатор"
-      vendor: ''
-      lic: ''
-  - name: Procyon 
-    meta:
-      description: ""
-      link_URL: "https://github.com/mstrobel/procyon?tab=readme-ov-file, https://bitbucket.org/mstrobel/procyon/downloads/ - указали в статье на хабре, но открыть не удалось"
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "false"
-      division: "AppSec"
-      type: "BCA"
-      class: "Бинарный анализатор"
-      vendor: ''
-      lic: ''
+      vendor: 'Rezilion'
+      lic: 'Enterprise'
   - name: IDAPRO
     meta:
       description: "дизассемблер, являющийся отраслевым стандартом для реверс-инжиниринга. Он поддерживает анализ бинарных файлов для множества архитектур (x86, ARM, MIPS и др.)\

@@ -1,160 +1,165 @@
 Tools:
-  - name: 42Crunch 
+  - name: 42Crunch API Security
     meta:
-      description: ""
+      description: "платформа для обеспечения безопасности API, позволяющая автоматизировать проверку безопасности API"
       link_URL: "https://github.com/42Crunch/apisecurity-tutorial"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["SARIF", "PDF", "JSON"]
+      detect_metods: ["OWASP Top 10 API"]
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: '42Crunch company'
+      lic: 'GPL-3.0 license'
   - name: API Security Empire 
     meta:
-      description: ""
+      description: "Набор практик, советов и графов, собранных для помощи в проведении penetration testing для API endpoint-ов"
       link_URL: "https://github.com/Cyber-Guy1/API-SecurityEmpire"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'Momen Eldawakhly (Cyber Guy)'
+      lic: 'GPL-3.0 licence'
   - name: Astra 
     meta:
-      description: ""
+      description: "программный комплекс для тестирования REST API на проникновение. Может принимать API collection в качестве входных данных
+      для тестирования решения на наличие известных уязвимостей"
       link_URL: "https://github.com/flipkart-incubator/Astra"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["OWASP Top 10 API", "JWT attacks", "Template Injection", "CORS Misconfigurations"]
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
-  - name: SSL Kill Switch 2 
+      vendor: 'Flipkart Incubator'
+      lic: 'Apache-2.0 license'
+  - name: SSL Kill Switch 2
     meta:
-      description: ""
+      description: "Blackbox решение для отключения проверки SSL/TLS сертификатов. После установки и внедрения решение патчит низкоуровневые функции, используемые
+       для проверки сертификатов, что приводит к нарушению процессов проверки подлинности."
       link_URL: "https://github.com/nabla-c0d3/ssl-kill-switch2"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "v0.14"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
       detect_metods: []
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'Alban Diquet a.k.a. nabla-c0d3'
+      lic: 'MIT license'
+  - name: gravitee-api-management
     meta:
-      description: ""
+      description: "Легковесное решение для реализации управления доступом к API. Позволяет регистрировать API, конфигурировать политики безопасности и отслеживать метрики с помощью дашбордов.
+      Имеет Enterprise версию (недоступна в РФ)."
       link_URL: "https://github.com/gravitee-io/gravitee-api-management"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "4.9.7"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'Gravitee-io'
+      lic: 'Apache-2.0 license'
   - name: LAST (latio)
     meta:
-      description: ""
-      link_URL: "https://github.com/latiotech/LAST"
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "AppSec решение, позволяющее проводить проверки безопасности кода с использованием LLM моделей, таких как OpenAI и Gemini для выявления уязвимостей."
+      link_URL: https://github.com/latiotech/LAST
+      ver_edition: "1.2.7"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["OpenAI", "Gemini"]
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'Latiotech'
+      lic: 'GPL-3.0 license'
   - name: UsageFinder 
     meta:
-      description: ""
+      description: "Инструмент для поиска уязвимостей, которые возникают в результате некорректного использования внутренних или внешних API. Входит в набор инструментов MATE, предназначенных для поиска багов в C/C++ коде."
       link_URL: "https://galoisinc.github.io/MATE/usagefinder.html"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
-  - name: WSO2
+      vendor: 'Galois Inc'
+      lic: 'BSD-3-Clause license '
+  - name: WSO2 API Manager
     meta:
-      description: ""
+      description: "комплексная, масштабируемая платформа, предназначенная для создания и управления. Позволяет прототипировать и создавать дизайн API, управлять его жизненным циклом и мониторить производительность интерфейса.
+      Продукт имеет Enterprise версию (недоступна в РФ)."
       link_URL: "https://github.com/wso2/product-apim"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "4.6.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Доступен"
+      report_formats: ["Graph analytics", "PDF"]
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'WSO2'
+      lic: 'Apache-2.0 license'
   - name: Probely
     meta:
-      description: ""
+      description: "Веб-сканер уязвимостей, позволяющий тестировать безопасность веб-приложений и API, обнаруживать уязвимости и предоставлять рекомендации по их устранению."
       link_URL: "https://probely.com/?ref=hackernoon.com"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      RUS_access: "Недоступен"
+      report_formats: ["PDF", "Docx"]
+      detect_metods: ["OWASP Top 10","PCI-DSS", "ISO-27001"]
       OSS: "true"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
-  - name: gcov
+      vendor: 'SNYK'
+      lic: 'BSD 3-Clause license'
+  - name: Akto
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Платформа обеспечения безопасности и тестирования API c использованием AI агентов. Доступна Enterprise версия."
+      link_URL: "https://github.com/akto-api-security/akto"
+      ver_edition: "1.75.8"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
-      detect_metods: []
-      OSS: "true"
+      detect_metods: ["OWASP Top10", "HackerOne Top10"]
+      OSS: "True"
       division: "AppSec"
       type: "API"
       class: "API Sec / WAF"
-      vendor: ''
-      lic: ''
+      vendor: 'Akto security'
+      lic: 'MIT license'

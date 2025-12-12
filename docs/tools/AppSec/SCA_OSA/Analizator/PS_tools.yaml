@@ -31,7 +31,7 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'Яндекс'
-    lic: ''
+    lic: 'Yandex custom license'
 - name: AppSec.Track
   meta:
     description: "Инструмент, реализующий практики OSA и SCA и предоставляющий сервис по предотвращению атак на цепочку поставок ПО через компоненты с открытым исходным кодом.\
@@ -48,7 +48,7 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'ООО «АппСек Солюшенс»'
-    lic: ''
+    lic: 'Trial, Enterprise'
 - name: Snyk
   meta:
     description: ""
@@ -68,7 +68,7 @@ Tools:
 - name: JFrog Xray
   meta:
     description: "Инструмент анализа состава ПО для сканирования бинарных файлов, контейнеров и зависимостей. Поддерживает языки: Java, Python, JavaScript, Go, C, C++. Интегрируется с JFrog Artifactory, обеспечивает проверку лицензий и выявление вредоносных пакетов."
-    link_URL: "https://jfrog.com/xray/, https://github.com/jfrog/jfrog-cli"
+    link_URL: "https://github.com/jfrog/jfrog-cli"
     ver_edition: "3.0"
     FSTEK_cert: "Нет"
     redaction: ["Self-Hosted - 3.118.24", "Cloud - 3.123.4"]
@@ -86,7 +86,7 @@ Tools:
     description: "Российский инструмент для анализа исходного кода и зависимостей, выявления уязвимостей и проверки лицензий. Поддерживает языки: Java, C, C++, Python, JavaScript, PHP. Интегрируется с CI/CD и соответствует требованиям российского законодательства."
     link_URL: "https://solarappscreener.com/"
     ver_edition: "3.15"
-    FSTEK_cert: "Сертификат № 4825 от 3.06.2024"
+    FSTEK_cert: "Есть, сертификат ФСТЭК России №4825 от 3.06.2024"
     redaction: ["3.15.1: исправлены ошибки в анализе JavaScript-зависимостей", "3.15.2: улучшена совместимость с CI/CD"]
     RUS_access: "Доступен"
     report_formats: ["html", "pdf", "xml"]
@@ -96,13 +96,13 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'АО «СОЛАР СЕКЬЮРИТИ»'
-    lic: ''
+    lic: 'Подписка'
 - name: PT Application Inspector
   meta:
     description: "Российский инструмент для анализа кода и зависимостей, выявления уязвимостей и обеспечения соответствия требованиям безопасности. Поддерживает языки: Java, C#, Python, JavaScript, PHP, Go. Отличается поддержкой локальных стандартов и интеграцией с CI/CD."
     link_URL: "https://www.ptsecurity.com/ru-ru/products/ai/"
     ver_edition: "5.0.0"
-    FSTEK_cert: "Сертификат ФСТЭК России №4000 от 03.09.2018"
+    FSTEK_cert: "Есть, сертификат ФСТЭК России №4000 от 03.09.2018"
     redaction: []
     RUS_access: "Доступен"
     report_formats: ["JSON", "XML", "HTML"]
@@ -112,11 +112,11 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'Positive Technologies'
-    lic: ''
-- name: Spectral
+    lic: 'Подписка'
+- name: Spectral Mend SCA
   meta:
     description: "Инструмент для анализа состава ПО и защиты цепочки поставок, с акцентом на DevOps. Поддерживает языки: JavaScript, Python, Go, Java, Ruby. Предоставляет настраиваемые правила и интеграцию с CI/CD."
-    link_URL: "https://www.spectralops.io/, https://github.com/SpectralOps/spectral-cli"
+    link_URL: "https://spectralops.io/sca/"
     ver_edition: "1.7.0"
     FSTEK_cert: "Нет"
     redaction: ["1.7.1"]
@@ -127,8 +127,8 @@ Tools:
     division: "AppSec"
     type: "SCA/OSA"
     class: "Анализатор"
-    vendor: 'Spectral'
-    lic: ''
+    vendor: 'Check Point'
+    lic: 'Информация не найдена'
 - name: Azul
   meta:
     description: "Инструмент для управления безопасностью Java-приложений и зависимостей. Поддерживает язык: Java. Специализируется на анализе JVM и оптимизации безопасности Java-экосистемы."
@@ -144,11 +144,11 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'Azul Systems'
-    lic: ' Azul Zulu для OpenJDK (OSS), Core, Prime'
+    lic: 'Azul Zulu для OpenJDK (OSS), Core, Prime'
 - name: BlackDuck
   meta:
     description: "Инструмент анализа состава ПО для управления рисками open-source и стороннего кода. Поддерживает языки: Java, C#, Python, JavaScript, C, C++. Обеспечивает глубокий анализ зависимостей и лицензий, интегрируется с SDLC."
-    link_URL: "https://www.blackducksoftware.com/, https://github.com/blackducksoftware"
+    link_URL: "https://github.com/blackducksoftware"
     ver_edition: "2025.10"
     FSTEK_cert: "Нет"
     redaction: ["2025.10.1: исправлены баги в анализе C/C++ кода", "2025.10.2: улучшена интеграция с CI/CD"]
@@ -160,11 +160,11 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'Synopsys'
-    lic: ''
+    lic: 'Enterprise'
 - name: Mend SCA
   meta:
     description: "Инструмент для анализа open-source зависимостей и управления безопасностью ПО. Поддерживает языки: Java, JavaScript, Python, Ruby, Go, .NET, PHP. Автоматизирует исправление уязвимостей и проверку лицензий, интегрируется с CI/CD."
-    link_URL: "https://www.mend.io/sca/, https://github.com/mend-toolkit"
+    link_URL: "https://www.mend.io/sca/"
     ver_edition: "Информация не найдена"
     FSTEK_cert: "Нет"
     redaction: []
@@ -176,7 +176,7 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'Mend.io'
-    lic: ''
+    lic: 'Trial, Подписка'
 - name: Sonatype Repository Firewall
   meta:
     description: "Инструмент для защиты цепочки поставок ПО, блокирующий небезопасные компоненты. Поддерживает языки: Java, JavaScript, Python, Ruby, .NET, Go, PHP. Интегрируется с Nexus Repository, обеспечивает проверку лицензий и блокировку вредоносных пакетов."
@@ -192,4 +192,4 @@ Tools:
     type: "SCA/OSA"
     class: "Анализатор"
     vendor: 'Sonatype'
-    lic: ''
+    lic: 'Trial, Enterprise'

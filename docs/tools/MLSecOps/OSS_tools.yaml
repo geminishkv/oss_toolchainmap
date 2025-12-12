@@ -1,721 +1,707 @@
 Tools:
   - name: Advbox
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Набор инструментов для генерации целенаправленных примеров, обманывающих нейронные сети, использующие библиотеки PaddlePaddle, PyTorch, Caffe2, MxNet, Keras и TensorFlow.
+      Является утилитой командной строки для генерации примеров без написания кода"
+      link_URL: "https://github.com/advboxes/AdvBox"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Терминал"]
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: ARX
+      vendor: 'Baidu Open Source'
+      lic: 'Apache-2.0 license'
+  - name: ARX deidentifier
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      description: "Решение для сокрытия чувствительной информации (персональных данных). В решении используются синтаксические (k-anonymity, ℓ-diversity, t-closeness, δ-presence) и семантические ((ɛ, δ)-differential privacy) модели приватности"
+      link_URL: "https://github.com/arx-deidentifier/arx"
+      ver_edition: "3.9"
+      FSTEK_cert: "Нет"
+      redaction: ["3.9.1","3.9.2"]
+      RUS_access: "Доступен"
+      report_formats: ["Графический интерфейс"]
+      detect_metods: ["k-anonymity, ℓ-diversity, t-closeness, δ-presence, (ɛ, δ)-differential privacy"]
       OSS: "true"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'ARX'
+      lic: 'Apache-2.0 license'
   - name: Foolbox
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      description: "Библиотека Python, которая упрощает проведение атак на модели машинного обучения (глубокие нейронные сети). Основана на фреймворке EagerPy и работает с моделями в PyTorch, TensorFlow и JAX."
+      link_URL: "https://github.com/bethgelab/foolbox"
+      ver_edition: "3.3"
+      FSTEK_cert: "Нет"
+      redaction: ["3.3.1", "3.3.2", "3.3.3", "3.3.4"]
+      RUS_access: "Доступен"
+      report_formats: ["Терминал"]
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Models-are-code
-    meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
-      OSS: "true"
-      division: "MLSecOps"
-      type: ""
-      class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Bethgelab'
+      lic: 'MIT license'
   - name: PyRIT
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Библиотека для оценки LLM‑эндпоинтов на уязвимость к prompt инъекциям и другим рискам, связанным с LLM."
+      link_URL: "https://github.com/Azure/PyRIT"
+      ver_edition: "0.10.0rc0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
-      detect_metods: []
+      detect_metods: [""]
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Azure'
+      lic: 'MIT license'
   - name: Adversarial_ml_ctf
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Репозиторий позволяющий развернуть лабораторное задание в рамках CTF. Основная задача - залогиниться на уязвимый веб-сайт путем взлома нейронной модели, вшитой в backend, которая позволяет аутентифицировать пользователей по их изображению."
+      link_URL: "https://github.com/arturmiller/adversarial_ml_ctf"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "CTF"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Artur Miller a.k.a. arturmiller'
+      lic: 'Отсутствует'
   - name: AugLy
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Библиотека аугментаций данных, поддерживающая аудио, видео, текст и изображения в качестве типов данных. Используется для аугментации данных при обучении моделей, а также оценки пробелов в их устойчивости"
+      link_URL: "https://github.com/facebookresearch/AugLy"
+      ver_edition: "1.0.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Meta'
+      lic: 'Meta custom license'
   - name: Garak
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
-      report_formats: []
-      detect_metods: []
+      description: "Blackbox сканер уязвимостей для LLM моделей. Комбинирует статические, динамические и адаптивные попытки для отказа нейронных сетей во время диалога с пользователем"
+      link_URL: "https://github.com/leondz/garak"
+      ver_edition: "0.13"
+      FSTEK_cert: "Нет"
+      redaction: ["0.13.1", "0.13.2"]
+      RUS_access: "Доступен"
+      report_formats: ["Терминал"]
+      detect_metods: ["Информация не найдена"]
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'NVIDIA'
+      lic: 'Apache-2.0 license'
   - name: ModelScan
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Инструмент для обнаружения уязвимостей и ошибок, связанных с сериализацией в моделях машинного обучения"
+      link_URL: "https://github.com/protectai/modelscan"
+      ver_edition: "0.8.7"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Protect AI'
+      lic: 'Apache-2.0 license'
   - name: Raze_to_the_ground_aisec23
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Решение, представленное на конференции AISec 2023. Необходимо для создания HTML атак на детекторы фишинговых веб-страниц с использованием моделей машинного обучения"
+      link_URL: "https://github.com/advmlphish/raze_to_the_ground_aisec23"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'AdvMLPhish'
+      lic: 'Отсутствует'
   - name: Advertorch
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Набор Python инструментов для исследований в области устойчивости LLM к атакам . Основные функциональные возможности реализованы в PyTorch."
+      link_URL: "https://github.com/BorealisAI/advertorch"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Toolbox"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'RBC Borealis'
+      lic: 'LGPL-3.0/GPL-3.0 licenses'
   - name: Awesome-MLSecOps
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Список open-source решений, ресурсов и обучающих материалов в области MLSecOps"
+      link_URL: "https://github.com/RiccardoBiosas/awesome-MLSecOps"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'RiccardoBiosas'
+      lic: 'MIT license'
   - name: Giskard
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
+      description: "Python библиотека, которая автоматически выявляет уязвимости в моделях ИИ — от табличных моделей до LLM, включая ошибки производительности, утечки данных, ложные корреляции, галлюцинации и токсичность"
+      link_URL: "https://github.com/Giskard-AI/giskard"
+      ver_edition: "2.18"
+      FSTEK_cert: "Нет"
+      redaction: ["2.18.1"]
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Giskard-AI'
+      lic: 'Apache-2.0 license'
   - name: NB Defense
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Сканер для Jupyter Notebook, который позволяет обнаруживать секреты и уязвимости (CVE) во импортируемых библиотеках, а также неверные конфигурации в файлах 'ipynb'"
+      link_URL: "https://github.com/protectai/nbdefense"
+      ver_edition: "1.0.5"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Protect AI'
+      lic: 'Apache-2.0 license'
   - name: Safetensors
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Новый формат для сериализации произвольных объектов, разработанный Huggingface. Является альтернативой pickle"
+      link_URL: "https://github.com/huggingface/safetensors"
+      ver_edition: "0.7.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Serialization method   "
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Huggingface'
+      lic: 'Apache-2.0 license'
   - name: Advmlthreatmatrix
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "База уязвимостей LLM от MITRE organisation. Проект заключается в создании матрицы угроз на ML процессы аналогичной MITRE ATT&CK"
+      link_URL: "https://github.com/mitre/advmlthreatmatrix"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Attack matrix"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'MITRE'
+      lic: 'Отсутствует'
   - name: CleverHans
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Библиотека Python содержащая примеры для построения LLM атак, разработки защиты от них и бенчмаркинга угроз."
+      link_URL: "https://github.com/cleverhans-lab/cleverhans"
+      ver_edition: "4.0.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'CleverHans lab'
+      lic: 'MIT license'
   - name: Knockoffnets
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "PoC решение созданное для проведения Blackbox атак на генеративные модели с целью кражи данных об их внутреннем строении и используемой семантике"
+      link_URL: "https://github.com/tribhuvanesh/knockoffnets"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Data stealing"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: NeMo Guardrails
+      vendor: 'tribhuvanesh'
+      lic: 'LGPL-3.0 license'
+  - name: Guardrails
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Набор инструментов для добавления защитных ограничений (guardrails) в диалоговые LLM системы. Такими ограничениями могут являться защита вывода от нежелательных вопросов (например, политика), предотвращение нарушения предопределенных путей диалога, обработка специфический запросов пользователей и т.д."
+      link_URL: "https://github.com/NVIDIA-NeMo/Guardrails"
+      ver_edition: "0.19.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "LLM security"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Stealing_DL_Models
+      vendor: 'NVIDIA-NeMo'
+      lic: 'NVIDIA custom license'
+  - name: Stealing_DL_Models (Copycat CNN)
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Репозиторий, в котором подробно рассматривается Copycat CNN - атаки с целью кражи нейросетевых моделей методом черного ящика, не имея доступа ни к весам, ни к обучающим данным.
+      Атака строится на возможности массовой отправки различных изображений модели на обработку с целью их последующего использования для создания датасета и получения копии атакуемой модели"
+      link_URL: "https://github.com/jeiks/Stealing_DL_Models"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Полезные материалы"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Jeiks'
+      lic: 'Отсутствует'
   - name: Ai-exploits
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Набор практик атак и известных уязвимостей инструментов, фреймворков и библиотек, используемых для построения LLM моделей. Собран специалистами Protect AI и участниками bug-bounty программы 'Huntr'"
+      link_URL: "https://github.com/protectai/ai-exploits"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Полезные материалы"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Protect AI'
+      lic: 'Apache-2.0 license'
   - name: DamnVulnerableLLMProject
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Уязвимый проект на базе LLM, сделанный для обучения и практики в области безопасности LLM‑систем."
+      link_URL: "https://github.com/ReversecLabs/damn-vulnerable-llm-agent"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "CTF"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Reversec Labs'
+      lic: 'Apache-2.0 license'
   - name: LintML
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Приложение, использующее статический анализ кода для поиска потенциальных рисков безопасности в проектах машинного обучения"
+      link_URL: "https://github.com/JosephTLucas/lintML"
+      ver_edition: "0.0.5"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["cli"]
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'JosephTLucas'
+      lic: 'GPL-3.0 license'
   - name: OpenAttack
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Набор инструментов, написанных на Python, для реализации всего процесса атак путем зломанеренного манипулирования данными (включая предобрабоику текста, доступ к атакуемой модели, генерацию адверсариальных атак и их оценку)"
+      link_URL: "https://github.com/thunlp/OpenAttack"
+      ver_edition: "2.1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Toolbox"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Thunlp'
+      lic: 'MIT license'
   - name: Tensorflow Model-analysis
     meta:
-      description: ""
-      link_URL: ""
+      description: "Библиотека для проверки моделей, созданных с помощью Tensorflow. Позволяет оценить поведение модели при вводе большого количества данных в случайном порядке"
+      link_URL: "https://github.com/tensorflow/model-analysis"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
-  - name: Ai-goat
+      vendor: 'Tensorflow'
+      lic: 'Apache-2.0 license'
+  - name: AiGoat
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Специально уязвимая AI инфраструктура, развернутая на AWS, с целью симуляции уязвимостей, описанных в OWASP ML Top 10 "
+      link_URL: "https://github.com/orcasecurity-research/AIGoat"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "CTF"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'orcasecurity'
+      lic: 'Apache-2.0 license'
   - name: Deep-pwning
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "легковесный фреймворк для экспериментов с моделями машинного обучения с целью оценки их устойчивости перед потенциальным злоумышленником. В данный момент продукт все еще доводится до ума"
+      link_URL: "https://github.com/cchio/deep-pwning"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Cchio'
+      lic: 'MIT license'
   - name: ML_security_study_map
     meta:
-      description: ""
-      link_URL: ""
+      description: "Полноценнный гайд и дорожная карта (roadmap), посвященные развитию навыков и компетенций в области AI security"
+      link_URL: "https://github.com/wearetyomsmnv/AI-LLM-ML_security_study_map"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Полезные материалы"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Артем Семенов a.k.a. wearetyomsmnv'
+      lic: 'Отсутствует'
   - name: Pallms
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Payloads for Attacking Large Language Models или PALLMs - собранный набор полезных нагрузок (payloads) для проведжения атак на  LLM сети"
+      link_URL: "https://github.com/mik0w/pallms "
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Полезные материалы"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Mik0w'
+      lic: 'MIT license'
   - name: TensorFlow Privacy
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Python библиотека, содержащая оптимизаторы Tensorflow для обучения моделей машинного обучения с использованием подхода дифференциальной приватности. В данный момент библиотека развивается и дорабатывается"
+      link_URL: "https://github.com/tensorflow/privacy"
+      ver_edition: "0.8.12"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Tensorflow'
+      lic: 'Apache-2.0 license'
   - name: AnonLLM
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Python пакет, разработанный для анонимизации персональных данных в тексте перед их отправкой в API диалоговых LLM моделей"
+      link_URL: "https://github.com/fsndzomga/anonLLM"
+      ver_edition: "0.1.10"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Data security"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Fsndzomga'
+      lic: 'Отсутствует'
   - name: Differential-privacy-library
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
+      description: "Библиотека от IBM для применения дифференциальной приватности в анализе данных и классическом ML"
+      link_URL: "https://github.com/IBM/differential-privacy-library"
+      ver_edition: "0.6"
+      FSTEK_cert: "Нет"
+      redaction: ["0.6.6"]
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'IBM'
+      lic: 'MIT license'
   - name: MLSploit
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Облачная система, позволяющая исследователям быстро оценивать и сравнивать передовые методы атаки и методы защиты для моделей машинного обучения"
+      link_URL: "https://github.com/mlsploit"
+      ver_edition: "0.1.3"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Веб-интерфейс"]
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability management"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Georgia Tech & Intel'
+      lic: 'BSD-3-Clause license'
   - name: Privacy Meter
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Библиотека, предназначенная для аудита приватности данных. Инструмент позволяет проводить оценку влияния на защиту данных на основе передовых атак по определению принадлежности к обучающему набору"
+      link_URL: "https://github.com/privacytrustlab/ml_privacy_meter"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'privacytrustlab (National university of Singapore)'
+      lic: 'MIT license'
   - name: TextAttack
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Python‑фреймворк для проведения атак на модели, аугментации данных и обучения моделей в задачах обработки естественного языка (NLP)."
+      link_URL: "https://github.com/QData/TextAttack"
+      ver_edition: "0.3.10"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Tty"]
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Framework"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'QData'
+      lic: 'MIT license'
   - name: ART(Adversarial-robustness-toolbox)
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
-      redaction: []
-      RUS_access: ""
+      description: "Python‑библиотека для обеспечения безопасности моделей машинного обучения. Поддерживает все популярные фреймворки машинного обучения (TensorFlow, Keras, PyTorch, scikit-learn, XGBoost, LightGBM, CatBoost, GPy)"
+      link_URL: "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
+      ver_edition: "1.20"
+      FSTEK_cert: "Нет"
+      redaction: ["1.20.1"]
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Library"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Trusted-AI'
+      lic: 'MIT license'
   - name: Fml-security
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Репозиторий, связанный с докладом «Secure Machine Learning at Scale with MLSecOps». Описывает лучшие практики обеспечения безопасности, применяемые на всех стадиях машинного обучения"
+      link_URL: "https://github.com/EthicalML/fml-security"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Полезные материалы"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'EthicalML'
+      lic: 'Отсутствует'
   - name: Model-Inversion-Attack-ToolBox
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Бенчмарк на Python предназначенный для моделирования инверсивных атак. "
+      link_URL: "https://github.com/ffhibnese/Model-Inversionм-Attack-ToolBox"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Benchmark"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Ffhibnese'
+      lic: 'Отсутствует'
   - name: PromptInject
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Фреймворк, который модульным образом конструирует промпты, чтобы проводить количественный анализ устойчивости больших языковых моделей (LLM) к атакующим промпт‑атакам"
+      link_URL: "https://github.com/agencyenterprise/PromptInject"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Framework"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'AE enterprise'
+      lic: 'MIT license'
   - name: TextFooler
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Инструмент для проведения адверсариальных атак на текстовые модели (в основном для задач NLP"
+      link_URL: "https://github.com/jind11/TextFooler"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Toolbox"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Di Jin a.k.a. jind11'
+      lic: 'MIT license'
   - name: Vger
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Консольное приложение для постэксплуатации аутентифицированных инстансов Jupyter с фокусом на атаки в области ИИ/машинного обучения."
+      link_URL: "https://github.com/JosephTLucas/vger"
+      ver_edition: "0.2.6"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
-      report_formats: []
+      RUS_access: "Доступен"
+      report_formats: ["Терминал"]
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'JosephTLucas'
+      lic: 'GPL-3.0 license'
   - name: Vigil-llm
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Совокупность Python библиотеки и REST API для оценки промптов и ответов больших языковых моделей. Позволяет обнаруживать prompt injection, jailbreak‑атак и другие потенциальные угрозы."
+      link_URL: "https://github.com/deadbits/vigil-llm"
+      ver_edition: "0.10.3"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Vulnerability scanning"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'Deadbits'
+      lic: 'Apache-2.0 license'
   - name: Watchtower
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Решение для обновления запущенных контейнеров в инфраструктуре путем операции push для нового образа сразу в Docker Hub или локальный registry"
+      link_URL: "https://github.com/containrrr/watchtower"
+      ver_edition: "1.7.1"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'containrrr '
+      lic: 'Apache-2.0 license'
   - name: Аudit-ai
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Python библиотека построенная поверх pandas и sklearn, которая реализует алгоритмы машинного обучения с учетом справедливости (fairness-aware)"
+      link_URL: "https://github.com/pymetrics/audit-ai"
+      ver_edition: "0.1.1"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
       type: ""
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'pymetrics'
+      lic: 'MIT license'
   - name: awesome-security-for-ai
     meta:
-      description: ""
-      link_URL: ""
-      ver_edition: ""
-      FSTEK_cert: ""
+      description: "Cтруктурированный каталог материалов по безопасности и защите AI/ML‑систем"
+      link_URL: "https://github.com/TalEliyahu/Awesome-AI-Security"
+      ver_edition: "v1.0"
+      FSTEK_cert: "Нет"
       redaction: []
-      RUS_access: ""
+      RUS_access: "Доступен"
       report_formats: []
       detect_metods: []
       OSS: "true"
       division: "MLSecOps"
-      type: ""
+      type: "Полезные материалы"
       class: ""
-      vendor: ''
-      lic: ''
+      vendor: 'TalEliyahu'
+      lic: 'MIT license'

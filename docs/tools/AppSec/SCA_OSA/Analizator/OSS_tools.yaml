@@ -2,10 +2,10 @@ Tools:
   - name: Grype
     meta:
       description: "Сканер уязвимостей для контейнерных образов и файловых систем, разработанный Anchore. Поддерживает анализ SBOM, созданных Syft, и сканирование в форматах Docker, OCI и Singularity. Поддерживает языки: Go, Python, Java, JavaScript, Ruby, PHP. Отличается высокой скоростью сканирования контейнеров и поддержкой локальных и удаленных реестров."
-      link_URL: "https://github.com/anchore/grype, https://anchore.com/"
-      ver_edition: "0.95.0"
+      link_URL: "https://github.com/anchore/grype"
+      ver_edition: "0.104"
       FSTEK_cert: "Нет"
-      redaction: []
+      redaction: ["0.104.0","0.104.1"]
       RUS_access: "Доступен"
       report_formats: ["json", "table", "cyclonedx"]
       detect_methods: ["CVE", "CVSS"]
@@ -19,12 +19,12 @@ Tools:
   - name: OpenSCAP
     meta:
       description: "Фреймворк с открытым исходным кодом для проверки соответствия и управления уязвимостями, поддерживает сканирование контейнерных образов и оценку безопасности. Хорошо интегрируется с экосистемой Red Hat и имеет модульную структуру для расширения функциональности."
-      link_URL: "https://www.open-scap.org/, https://github.com/OpenSCAP/openscap"
+      link_URL: "https://github.com/OpenSCAP/openscap"
       ver_edition: "1.4.0"
       FSTEK_cert: "Нет"
-      redaction: ["1.4.1", "1.4.2"]
+      redaction: ["1.4.1", "1.4.2", "1.4.3"]
       RUS_access: "Доступен"
-      report_formats: ["xia", "html", "json"]
+      report_formats: ["xia", "html", "json", "XCCDF"]
       detect_methods: ["SCAP", "CVE", "CVSS"]
       OSS: "true"
       division: "AppSec"
@@ -36,10 +36,10 @@ Tools:
   - name: Dependency Track
     meta:
       description: "Платформа OWASP для анализа компонентов и управления рисками цепочки поставок ПО, использующая SBOM для мониторинга уязвимостей в портфеле приложений. Поддерживает языки: Java, JavaScript, Python, Ruby, .NET, Go, PHP. Обеспечивает визуализацию цепочек зависимостей и управление политиками безопасности."
-      link_URL: "https://dependencytrack.org/, https://github.com/DependencyTrack/dependency-track"
+      link_URL: "https://github.com/DependencyTrack/dependency-track"
       ver_edition: "4.13.0"
       FSTEK_cert: "Нет"
-      redaction: ["4.13.1", "4.13.2"]
+      redaction: ["4.13.1", "4.13.2", "4.13.3", "4.13.4", "4.13.5", "4.13.6"]
       RUS_access: "Доступен"
       report_formats: ["json", "xml", "csv"]
       detect_methods: ["CVE", "CVSS", "OWASP Top 10"]
@@ -87,10 +87,10 @@ Tools:
   - name: Trivy
     meta:
       description: "Комплексный сканер уязвимостей для контейнеров, репозиториев кода и облачных сред, поддерживающий создание SBOM и интеграцию с CI/CD. Поддерживает языки: Go, Java, JavaScript, Python, Ruby, PHP, Rust. Отличается высокой производительностью и поддержкой сканирования инфраструктуры как кода."
-      link_URL: "https://trivy.dev/, https://github.com/aquasecurity/trivy"
-      ver_edition: "0.64.0"
+      link_URL: "https://github.com/aquasecurity/trivy"
+      ver_edition: "0.68"
       FSTEK_cert: "Нет"
-      redaction: ["0.64.1: устранены баги"]
+      redaction: ["0.68.1"]
       RUS_access: "Доступен"
       report_formats: ["json", "table", "cyclonedx", "spdx"]
       detect_methods: ["CVE", "CVSS"]
@@ -98,5 +98,5 @@ Tools:
       division: "AppSec"
       type: "SCA/OSA"
       class: "Анализатор"
-      vendor: ""
+      vendor: "Aqua security"
       lic: "Apache-2.0 License"

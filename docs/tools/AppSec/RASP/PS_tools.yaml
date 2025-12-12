@@ -1,20 +1,20 @@
 Tools:
   - name: Fortify
     meta:
-      description: ""
+      description: "Технология самозащиты приложений в реальном времени, которая интегрируется в приложение для обнаружения и блокировки атак, отслеживая его поведение и перехватывая попытки эксплуатации уязвимостей"
       link_URL: "https://www.microfocus.com/ru-ru/documentation/fortify-application-defender/"
-      ver_edition: ""
-      FSTEK_cert: ""
+      ver_edition: "20.3.0"
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
-      report_formats: []
-      detect_metods: []
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["Информация не найдена"]
       OSS: "false"
       division: "AppSec"
       type: "RASP"
       class: "Анализатор при Runtime"
-      vendor: ''
-      lic: ''
+      vendor: 'Microfocus'
+      lic: 'Enterprise'
   - name: Jscrambler
     meta:
       description: "Платформа для защиты JavaScript-кода, предлагающая инструменты для обфускации кода, защиты от реверс-инжиниринга и мониторинга клиентской части веб-приложений."
@@ -33,20 +33,20 @@ Tools:
       lic: 'Code Integrity: Starter, Enterprise, managed Services; Webpage Integrity: Visibility, PCI DSS v4, Forms Control, Managed Services'
   - name: Signal Sciences
     meta:
-      description: ""
+      description: "Решение компании Fastly сочетающее в себе WAF и RASP платформу комбинированные в целях защиты в реальном времени приложений от хакерских атак."
       link_URL: "https://www.fastly.com/products/web-application-api-protection"
       ver_edition: ""
-      FSTEK_cert: ""
+      FSTEK_cert: "Нет"
       redaction: []
       RUS_access: "Недоступен"
-      report_formats: []
-      detect_metods: []
+      report_formats: ["Веб-интерфейс"]
+      detect_metods: ["информация недоступна"]
       OSS: "false"
       division: "AppSec"
       type: "RASP"
       class: "Анализатор при Runtime"
-      vendor: ''
-      lic: ''
+      vendor: 'Fastly'
+      lic: 'Подписка'
   - name: Appdome
     meta:
       description: "No-code платформа для внедрения защиты в мобильные приложения на Android и iOS.\
@@ -114,4 +114,21 @@ Tools:
       type: "RASP"
       class: "Анализатор при Runtime"
       vendor: 'DoveRunner'
-      lic: 'Android: Free Trial,	Professional,	Enterprise; IOS: Professional,	Enterprise'
+      lic: 'Android: Free Trial, Professional, Enterprise; IOS: Professional'
+  - name: Falco
+    meta:
+      description: "Система мониторинга безопасности в режиме реального времени для контейнеров и облачной инфраструктуры.\
+       Она поддерживает Kubernetes, Docker, OpenShift и другие платформы, отслеживая поведение приложений и систем, выявляя аномалии и потенциальные угрозы с помощью правил и событий."
+      link_URL: "https://falco.org/"
+      ver_edition: "0.42"
+      FSTEK_cert: " Нет"
+      redaction: [ "0.42.1" ]
+      RUS_access: "Доступен"
+      report_formats: [ "JSON", "Syslog", "File (запись в файлы на диске)", "Standard Output (stdout)", "HTTP", "gRPC" ]
+      detect_metods: [ "MITRE ATT&CK", "PCI DSS", "NIST" ]
+      OSS: "true"
+      division: "AppSec"
+      type: "RASP"
+      class: "Анализатор при Runtime"
+      vendor: 'Sysdig'
+      lic: 'Enterprise'

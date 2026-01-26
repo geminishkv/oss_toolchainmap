@@ -105,8 +105,8 @@ nav:
       - "Toolchain Map": toolchain_map.md
       - "Интерактивная карта": map.md
       - "Поиск по карте": search.md
-      - "Православные вендора": vendor_rf.md
-      - "Зарубежные вендора": vendor_external.md
+      - "Российские вендоры": vendor_rf.md
+      - "Зарубежные вендоры": vendor_external.md
       - "Open Source Projects": OSS.md
   - "Дополнения":
         - "Лицензии ПО": licenses.md

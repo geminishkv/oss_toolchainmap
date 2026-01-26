@@ -9655,6 +9655,1002 @@
     "file": "docs/tools/AppSec/SAST/OSS_tools.yaml"
   },
   {
+    "id": "PS_tools-PS-Acunetix Premium 14",
+    "name": "Acunetix Premium 14",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Acunetix",
+    "description": "DAST сканер с расширенными возможностями IAST: инструмент позволяет установить в сканируемое приложение легковесный агент. Во время проведения динамического сканирования агент видит, как атака обрабатывается изнутри приложения.",
+    "link_URL": "https://www.acunetix.com/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [],
+    "detect_methods": [],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-PT Black Box",
+    "name": "PT Black Box",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "АО «Позитив Текнолоджиз»",
+    "description": "Cканер приложений, который ищет уязвимости и риски,  связанные с безопасностью, и помогает защитить приложения от действий  злоумышленников. PT BlackBox сканирует приложения, используя метод черного ящика",
+    "link_URL": "https://ptsecurity.com/ru-ru/products/blackbox/",
+    "ver_edition": "3.1",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard",
+      "JSON",
+      "",
+      "HTML",
+      "SARIF",
+      "OWASP Top 10 2021",
+      "OWASP Mobile Top 10 2016",
+      "SANS Top 25",
+      "NIST 800-53 Rev. 4",
+      "ОУД4 (ГОСТ 15408-3)",
+      "PCI DSS 3.2"
+    ],
+    "detect_methods": [
+      "CVE",
+      "CVSS"
+    ],
+    "OSS": "false",
+    "lic": "On-premise, Online",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-SolidPoint DAST",
+    "name": "SolidPoint DAST",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "ООО «СолидСофт»",
+    "description": "Решение для динамического анализа веб-приложений на наличие уязвимостей информационной безопасности,использующее интеллектуальные алгоритмы для повышения вероятности обнаружения скрытых недостатков и снижения количества ложных срабатываний.Решение поддерживает максимально широкий спектр технологий по обнаружению точек ввода данных, как традиционных (crawling, dirbusting), так и альтернативных (статико-динамический анализ JavaScript, FAST, загрузка описаний Open API).",
+    "link_URL": "https://www.solidlab.ru/resheniya/solidpoint-dast.html",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Веб-интерфейс",
+      "TXT"
+    ],
+    "detect_methods": [
+      "Информация не найдена"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-HCL AppScan",
+    "name": "HCL AppScan",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "HCL Technologies Limited",
+    "description": "Комплексная платформа для тестирования безопасности приложений (SAST, DAST, IAST, SCA),которая помогает выявлять и устранять уязвимости на всех этапах жизненного цикла разработки ПО (SDLC).Инструмент поддерживает более 30 языков, включая Java, C/C++, Python, .NET, JavaScript, PHP, Ruby, Swift и Go,а также фреймворки (Angular, React, Node.js) и инфраструктурные технологии (Docker, Kubernetes, Terraform) ",
+    "link_URL": "https://www.hcl-software.com/appscan",
+    "ver_edition": "AppScan Enterprise - 10.8.1, AppScan Standard - 10.9.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "DOCX",
+      "PDF",
+      "HTML",
+      "RTX",
+      "TXT"
+    ],
+    "detect_methods": [
+      "PCI",
+      "HIPAA",
+      "OWASP Top 10",
+      "OWASP API Security Top 10",
+      "SANS 25"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Burp Suite EE (Intruder)",
+    "name": "Burp Suite EE (Intruder)",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "PortSwigger Ltd",
+    "description": "инструмент для динамического тестирования безопасности веб-приложений и API,который автоматически обнаруживает уязвимости (XSS, SQL-инъекции, CSRF и др.)с минимальным количеством ложных срабатываний. Он поддерживает анализ приложений на любых языках (например, Java, .NET, Python, PHP)и фреймворках, так как работает на уровне HTTP/HTTPS-трафика, не требуя доступа к исходному коду",
+    "link_URL": "https://portswigger.net/burp/dast",
+    "ver_edition": "2025.6",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard",
+      "HTML",
+      "PDF",
+      "XML"
+    ],
+    "detect_methods": [
+      "OWASP Top 10: 2021",
+      "PCI DSS v4.0.1"
+    ],
+    "OSS": "false",
+    "lic": "Подписка",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-InsightAppSec",
+    "name": "InsightAppSec",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Rapid7",
+    "description": "Инструмент для динамического тестирования безопасности приложений (DAST),который автоматически выявляет уязвимости в веб-приложениях и API, сокращая ложные срабатывания и ускоряя исправление проблем.Он поддерживает различные технологии, включая современные веб-приложения и API (REST, SOAP, GraphQL).",
+    "link_URL": "https://www.rapid7.com/products/insightappsec/",
+    "ver_edition": "July 21, 2025",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard",
+      "CSV",
+      "JSON"
+    ],
+    "detect_methods": [
+      "CVE",
+      "OWASP Top 10 for LLM Applications",
+      "OWASP TOP 10 API Security Risks"
+    ],
+    "OSS": "false",
+    "lic": "Подписка, зависит от количества приложений",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Solar AppScreener",
+    "name": "Solar AppScreener",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "АО «СОЛАР СЕКЬЮРИТИ»",
+    "description": "Комплексное решение, сочетающее возможности статического (SAST), динамического (DAST) анализа, анализа состава ПО (SCA) и анализа цепочки поставок (SCS).  Помогает найти уязвимости и недекларированные возможности в исходном коде мобильных и веб-приложений на раннем этапе разработки.   Технологии анализа исполняемых файлов позволяют применять SAST,  даже когда разработка закончена и нет возможности проанализировать исходный код проекта. Поддерживает следующие языки: Java, JavaScript, Java for Android, Solidity, Ruby, VBScript, Rust, Dart, TypeScript, Groovy, ABAP, Perl, Scala, Apex, PL/SQL, HTML5, Python, T/SQL, C/C++, Objective-C, COBOL, Pascal,   Go, JSP, Kotlin, Visual Basic 6.0, VBA, PHP, Delphi, , 1С, C#, LotusScript, Swift, , Vyper",
+    "link_URL": "https://rt-solar.ru/products/solar_appscreener/",
+    "ver_edition": "3.15.0",
+    "FSTEK_cert": "Сертификат № 4825 от 3.06.2024",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "HTML",
+      "PDF",
+      "CSV",
+      "DOCX",
+      "SARIF",
+      "JSON",
+      "отправка по почте"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "БДУ ФСТЭК России",
+      "PCI Security Standards Council",
+      "HIPAA Compliance",
+      "SANS CWE",
+      "ОУД4",
+      "CWE"
+    ],
+    "OSS": "false",
+    "lic": "Подписка",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Checkmarx DAST",
+    "name": "Checkmarx DAST",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Checkmarx Ltd.",
+    "description": "Инструмент является частью платформы Chackmarx one,для динамического тестирования безопасности веб-приложений и API, который автоматически выявляет уязвимости  в работающих приложениях, интегрируясь в CI/CD-процессы.Он поддерживает REST, SOAP и GraphQL API,а также работает с любыми языками программирования, так как анализирует HTTP-трафик, а не исходный код.",
+    "link_URL": "https://checkmarx.com/checkmarx-dast/",
+    "ver_edition": "Checkmarx one: Single-Tenant - 3.40, Multi-Tenant Version - 3.42",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard",
+      "PDF",
+      "JSON",
+      "CSV"
+    ],
+    "detect_methods": [
+      "CVSS",
+      "PCI DSS version 4",
+      "OWASP Top 10 API 2023"
+    ],
+    "OSS": "false",
+    "lic": "professional, enterprise, установка в качестве дополнительного инструмента",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Veracode DAST",
+    "name": "Veracode DAST",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Veracode",
+    "description": "Решение для динамического анализа безопасности веб-приложений и API,которое автоматически выявляет уязвимости (включая OWASP Top 10) без доступа к исходному коду.Инструмент поддерживает веб-приложения на Java, ASP.NET, Ruby on Rails, JavaScript, Perl, PHP, Python,а также SPA и фреймворки и REST API, анализируя поведение через браузерный интерфейс.",
+    "link_URL": "https://www.veracode.com/products/dynamic-analysis-dast",
+    "ver_edition": "June 30, 2025",
+    "FSTEK_cert": "",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard",
+      "CSV"
+    ],
+    "detect_methods": [
+      "CWE",
+      "OWASP Top 10"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Invicti",
+    "name": "Invicti",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Invicti Security",
+    "description": "DAST‑решение для автоматизированного сканирования веб‑приложений и API, использующее proof‑based scanning: инструмент безопасно эксплуатирует найденные уязвимости и предоставляет доказательства их реальной эксплуатации для снижения числа ложных срабатываний.",
+    "link_URL": "https://www.invicti.com/online-web-application-security-scanner/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "Dashboard",
+      "HTML",
+      "PDF",
+      "CSV",
+      "JSON"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "CVE",
+      "Proof-based scanning"
+    ],
+    "OSS": "false",
+    "lic": "SaaS, On-premise, Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-FortiDAST",
+    "name": "FortiDAST",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Fortinet",
+    "description": "Платформа динамического анализа безопасности веб‑приложений от Fortinet, выполняющая black‑box тестирование с продвинутым краулингом и фуззингом, основанным на базе знаний FortiGuard Labs.",
+    "link_URL": "https://www.fortinet.com/products/dynamic-application-security-testing",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "Dashboard",
+      "HTML",
+      "PDF",
+      "CSV"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "CVSS-based risk scoring",
+      "Fuzzing"
+    ],
+    "OSS": "false",
+    "lic": "SaaS, Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-AppSpider",
+    "name": "AppSpider",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Rapid7",
+    "description": "DAST‑сканер от Rapid7 (предшественник InsightAppSec), предназначенный для тестирования веб‑приложений и сервисов, поддерживающий аутентифицированный скан, сложные сценарии и интеграцию в CI/CD.",
+    "link_URL": "https://www.rapid7.com/products/appspider/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "HTML",
+      "PDF",
+      "CSV"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "CVE"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-AppCheck",
+    "name": "AppCheck",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "AppCheck Ltd.",
+    "description": "Коммерческий DAST‑сканер из Великобритании, ориентированный на регулярное сканирование веб‑приложений и инфраструктуры с упором на интеграцию в процессы безопасности и отчётность для соответствия требованиям.",
+    "link_URL": "https://appcheck-ng.com/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "HTML",
+      "PDF",
+      "CSV"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "CVE"
+    ],
+    "OSS": "false",
+    "lic": "SaaS, подписка",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Netsparker Enterprise",
+    "name": "Netsparker Enterprise",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Invicti Security",
+    "description": "Облачное DAST‑решение (ранее Netsparker, теперь часть Invicti), предназначенное для масштабного сканирования веб‑приложений и API с автоматической валидацией уязвимостей и широкой интеграцией в DevSecOps.",
+    "link_URL": "https://www.invicti.com/products/invicti-enterprise/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "Dashboard",
+      "HTML",
+      "PDF",
+      "CSV",
+      "JSON"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "CVE",
+      "Proof-based scanning"
+    ],
+    "OSS": "false",
+    "lic": "SaaS, Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Probely",
+    "name": "Probely",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Probely",
+    "description": "DAST‑сервис, ориентированный на DevSecOps и малый/средний бизнес: предоставляет автоматическое сканирование веб‑приложений и API, интеграцию с CI/CD и тикет‑системами, а также понятные рекомендации для разработчиков.",
+    "link_URL": "https://probely.com/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "Dashboard",
+      "HTML",
+      "JSON"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "CVE"
+    ],
+    "OSS": "false",
+    "lic": "SaaS, подписка",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-OWASP ZAP",
+    "name": "OWASP ZAP",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Checkmarx",
+    "description": "Инструмент для динамического тестирования безопасности веб-приложений (DAST), который обнаруживает уязвимости, такие как SQL-инъекции, XSS и CSRF, работая как прокси между браузером и сервером. Он поддерживает веб-приложения на любых языках (включая JavaScript, Python, Java, PHP и другие), так как анализирует HTTP-трафик, а также REST API, SOAP и GraphQL",
+    "link_URL": "https://www.zaproxy.org/, https://github.com/zaproxy/zaproxy",
+    "ver_edition": "2.16.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "HTML",
+      "JSON",
+      "XML",
+      "Markdown",
+      "PDF"
+    ],
+    "detect_methods": [
+      "OWASP Top 10 (2021)"
+    ],
+    "OSS": "true",
+    "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Burp Suite CE",
+    "name": "Burp Suite CE",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "PortSwigger Ltd.",
+    "description": "Бесплатная версия набора инструментов для тестирования безопасности веб-приложений, включающая базовые функции вроде прокси-перехвата, ручного тестирования и анализа запросов. Он работает с любыми веб-технологиями и языками (PHP, Java, Python, .NET, JavaScript и др.), так как анализирует HTTP/S-трафик, но имеет ограничения по сравнению с Pro-версией (например, нет автоматического сканера).",
+    "link_URL": "https://portswigger.net/burp/communitydownload",
+    "ver_edition": "2025.6",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard",
+      "HTML",
+      "PDF",
+      "XML"
+    ],
+    "detect_methods": [
+      "OWASP Top 10: 2021",
+      "PCI DSS v4.0.1"
+    ],
+    "OSS": "true",
+    "lic": "Burp Suite Community Edition Licence Agreement",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-OpenVAS",
+    "name": "OpenVAS",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Greenbone",
+    "description": "Фреймворк с открытым исходным кодом для сканирования уязвимостей и анализа безопасности, который позволяет выявлять и устранять угрозы в сетевых системах. Он включает обширную базу данных уязвимостей и предоставляет инструменты для автоматизированного тестирования безопасности.",
+    "link_URL": "https://github.com/greenbone/openvas-scanner, https://openvas.org/",
+    "ver_edition": "23.22.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "XML",
+      "CSV",
+      "CPE",
+      "HTML",
+      "GSR (OpenVAS custom)",
+      "PDF",
+      "TXT"
+    ],
+    "detect_methods": [
+      "CVE",
+      "NIST NVD",
+      "CISA"
+    ],
+    "OSS": "true",
+    "lic": "GPL-2.0 license, GNU GPL-2+",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Wapiti",
+    "name": "Wapiti",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "",
+    "description": "Веб-сканер уязвимостей с открытым исходным кодом, который проверяет сайты на наличие таких угроз,как SQL-инъекции, XSS и файловые включения.Он поддерживает Python и может анализировать веб-приложения, написанные на PHP, Java, ASP и других языках.",
+    "link_URL": "https://github.com/wapiti-scanner/wapiti",
+    "ver_edition": "3.2.4",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "HTML",
+      "XML",
+      "JSON",
+      "TXT",
+      "CSV"
+    ],
+    "detect_methods": [
+      "CVE"
+    ],
+    "OSS": "true",
+    "lic": "GPL-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Nuclei",
+    "name": "Nuclei",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Project discovery",
+    "description": "Cканер уязвимостей с открытым исходным кодом, использующий YAML-шаблоны для обнаружения уязвимостей в веб-приложениях,API, сетях и облачных сервисах. Он поддерживает множество протоколов,включая HTTP, DNS, TCP, SSL, а также позволяет создавать шаблоны на YAML для кастомных проверок",
+    "link_URL": "https://github.com/projectdiscovery/nuclei",
+    "ver_edition": "3.5.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "cli",
+      "JSON",
+      "JSONL",
+      "SARIF"
+    ],
+    "detect_methods": [
+      "CVE"
+    ],
+    "OSS": "true",
+    "lic": "MIT license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-RESTler",
+    "name": "RESTler",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Microsoft",
+    "description": "Инструмент для stateful фаззинга REST API, разработанный Microsoft, который автоматически тестирует облачные сервисы на наличие уязвимостей и ошибок, анализируя их спецификации OpenAPI/Swagger 18.Он поддерживает языки, используемые в описании API (например, JSON для OpenAPI)",
+    "link_URL": "https://github.com/microsoft/restler-fuzzer",
+    "ver_edition": "9.3.1",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "JSON",
+      "TXT",
+      "Log formats"
+    ],
+    "detect_methods": [
+      "Информация не найдена"
+    ],
+    "OSS": "true",
+    "lic": "MIT license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Nikto",
+    "name": "Nikto",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Sullo, community",
+    "description": "Сканер уязвимостей веб‑серверов, проверяющий на наличие опасных файлов и CGI‑скриптов, устаревшего ПО, неправильных конфигураций и слабых HTTP‑заголовков на основе обширной базы плагинов.",
+    "link_URL": "https://github.com/sullo/nikto",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "TXT",
+      "HTML",
+      "XML",
+      "CSV"
+    ],
+    "detect_methods": [
+      "CVE",
+      "Own vulnerability database"
+    ],
+    "OSS": "true",
+    "lic": "GPL-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Arachni",
+    "name": "Arachni",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Arachni",
+    "description": "Фреймворк для динамического тестирования безопасности веб‑приложений, поддерживающий модульную архитектуру, распределённое сканирование и обнаружение уязвимостей вроде XSS, SQLi и RFI.",
+    "link_URL": "https://github.com/Arachni/arachni",
+    "ver_edition": "1.5.1",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "HTML",
+      "XML",
+      "JSON",
+      "YAML"
+    ],
+    "detect_methods": [
+      "OWASP Top 10",
+      "CWE (частично)"
+    ],
+    "OSS": "true",
+    "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Akto OSS",
+    "name": "Akto OSS",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Akto",
+    "description": "Open‑source DAST и API‑security инструмент, выполняющий автоматическое обнаружение API и сканирование REST/GraphQL/gRPC‑интерфейсов на уязвимости с интеграцией в CI/CD.",
+    "link_URL": "https://github.com/akto-api-security/Akto",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "JSON",
+      "Интерфейс"
+    ],
+    "detect_methods": [
+      "OWASP API Security Top 10"
+    ],
+    "OSS": "true",
+    "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Skipfish",
+    "name": "Skipfish",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Michal Zalewski (lcamtuf)",
+    "description": "Высокопроизводительный веб‑сканер уязвимостей, использующий активный краулинг и эвристики для обнаружения XSS, SQL‑инъекций и других ошибок, формируя интерактивные HTML‑отчёты.",
+    "link_URL": "https://code.google.com/archive/p/skipfish/",
+    "ver_edition": "2.10b",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "HTML"
+    ],
+    "detect_methods": [
+      "Информация не найдена"
+    ],
+    "OSS": "true",
+    "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-arachni-rest",
+    "name": "arachni-rest",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "Arachni",
+    "description": "REST‑обёртка и инфраструктура вокруг движка Arachni для автоматизированного DAST‑сканирования веб‑приложений и интеграции с пайплайнами CI/CD.",
+    "link_URL": "https://github.com/Arachni/arachni-ui-web",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Интерфейс",
+      "JSON"
+    ],
+    "detect_methods": [
+      "OWASP Top 10"
+    ],
+    "OSS": "true",
+    "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Crusher",
+    "name": "Crusher",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "ИСП РАН",
+    "description": "программный комплекс, комбинирующий несколько методов динамического и статического анализав частности, фаззинг (ИСП Fuzzer) и символьное выполнение (в качестве одного из движков может выступать Sydr).  В основе комплекса ИСП Crusher находится ИСП Fuzzer – инструмент проведения фаззинг-тестирования",
+    "link_URL": "https://www.ispras.ru/technologies/crusher/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "XML",
+      "JSON"
+    ],
+    "detect_methods": [
+      "БДУ ФСТЭК"
+    ],
+    "OSS": "false",
+    "lic": "Информация не найдена",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-CI Fuzz",
+    "name": "CI Fuzz",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "Code Intelligence",
+    "description": "Платформа white‑box fuzz‑тестирования от Code Intelligence, использующая покрытие и обратную связь из кода для генерации тестов, автоматического поиска уязвимостей и интеграции фаззинга в CI/CD и IDE.",
+    "link_URL": "https://www.code-intelligence.com/ci-fuzz",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "Dashboard",
+      "HTML",
+      "JSON"
+    ],
+    "detect_methods": [
+      "Coverage-guided fuzzing",
+      "White-box fuzzing"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Peach Fuzzer",
+    "name": "Peach Fuzzer",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "Peach Tech (Synopsys)",
+    "description": "Коммерческий протокольный фаззер, поддерживающий генерацию тестов на основе моделей протоколов и форматов данных, с функциями coverage‑guided и white‑box тестирования для поиска логических и эксплуатационных уязвимостей.",
+    "link_URL": "https://www.peach.tech/products/peach-fuzzer/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "HTML",
+      "XML",
+      "TXT"
+    ],
+    "detect_methods": [
+      "Model-based fuzzing",
+      "Coverage-guided fuzzing"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Synopsys Defensics",
+    "name": "Synopsys Defensics",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "Synopsys",
+    "description": "Платформа для протокольного фаззинга, предоставляющая более 300 готовых тестовых наборов и возможность моделирования новых протоколов, применяющая генеративный и coverage‑guided подход для поиска ошибок в реализации.",
+    "link_URL": "https://www.synopsys.com/software-integrity/security-testing/fuzz-testing.html",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "HTML",
+      "XML",
+      "CSV"
+    ],
+    "detect_methods": [
+      "Model-based fuzzing",
+      "Coverage-guided fuzzing"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Fortra Enterprise Fuzzing",
+    "name": "Fortra Enterprise Fuzzing",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "Fortra",
+    "description": "Решение корпоративного уровня для фаззинг‑тестирования приложений, файловых форматов и протоколов, использующее приоритизацию входов и комбинирующее white‑box и black‑box техники для масштабного поиска уязвимостей.",
+    "link_URL": "https://www.fortra.com/resources/guides/enterprise-fuzzing",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "HTML",
+      "PDF"
+    ],
+    "detect_methods": [
+      "Coverage-guided fuzzing",
+      "Model-based fuzzing"
+    ],
+    "OSS": "false",
+    "lic": "Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Fernflower",
+    "name": "Fernflower",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "JetBrains",
+    "description": "Декомпилятор ИЗ Java Bytecode в Java, на текущий момент разрабатываемый и поддерживаемый компанией JetBrains",
+    "link_URL": "https://github.com/JetBrains/fernflower",
+    "ver_edition": "pycharm/253.28294.256",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Информация не найдена"
+    ],
+    "detect_methods": [
+      "Информация не найдена"
+    ],
+    "OSS": "true",
+    "lic": "Apache License Version 2.0",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-BinSide",
+    "name": "BinSide",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "ИСП РАН",
+    "description": "платформа для анализа бинарного кода, разрабатываемая на основе фреймворка BinNavi, который переводит  ассемблерный код в представление REIL. Данное представление позволяет анализировать код независимо от процессорной архитектуры и операционной системы. Интегрирован  с дизассемблерами IDA PRO и Ghidra, которые используются для обратной разработки.",
+    "link_URL": "https://www.ispras.ru/technologies/binside/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Информация не найдена"
+    ],
+    "detect_methods": [
+      "CWE"
+    ],
+    "OSS": "true",
+    "lic": "Информация не найдена",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Sydr/Sydr-fuzz",
+    "name": "Sydr/Sydr-fuzz",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "ИСП РАН",
+    "description": "Инструмент для гибридного фаззинга и динамического анализа, сочетающий символьное выполнение (Sydr) с современными фаззерами (libFuzzer, AFL++, Honggfuzz) для поиска уязвимостей в ПО.Он поддерживает языки C/C++, Python (Atheris), Java (Jazzer), JavaScript (Jazzer.js), Lua (luzer) и C# (Sharpfuzz), а также автоматизирует сбор покрытия и анализ ошибок",
+    "link_URL": "https://github.com/ispras/oss-sydr-fuzz",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "html",
+      "JSON",
+      "lcov"
+    ],
+    "detect_methods": [
+      "CVE",
+      "CWE"
+    ],
+    "OSS": "true",
+    "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-JQF + Zest",
+    "name": "JQF + Zest",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "Rohan Padhye a.k.a. rohanpadhye",
+    "description": "Фреймворк для покрытийно-ориентированного фаззинга Java-приложений, сочетающий генеративное тестирование (QuickCheck) с алгоритмом Zest для автоматического создания семантически корректных входных данных. Позволяет выявлять логические ошибки, уязвимости безопасности и случаи аварийного завершения в JVM-программах.",
+    "link_URL": "https://github.com/rohanpadhye/JQF",
+    "ver_edition": "2.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "JSON"
+    ],
+    "detect_methods": [
+      "Информация не найдена"
+    ],
+    "OSS": "true",
+    "lic": "BSD-2-Clause license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-SharpFuzz",
+    "name": "SharpFuzz",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "Nemanja Mijailovic a.k.a. Metalnem",
+    "description": "Инструмент для AFL-based fuzz-тестирования .NET-приложений, интегрирующийся с afl-fuzz для white-box fuzzing, выявляя краши и уязвимости в C# и других .NET-совместимых языках. Поддерживает in-process и out-of-process тестирование для эффективного анализа кода.",
+    "link_URL": "https://github.com/Metalnem/sharpfuzz",
+    "ver_edition": "2.2.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "TXT"
+    ],
+    "detect_methods": [
+      "CVE",
+      "CWE"
+    ],
+    "OSS": "true",
+    "lic": "MIT license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-LLVM libFuzzer",
+    "name": "LLVM libFuzzer",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "",
+    "description": "Библиотека для in-process fuzz-тестирования, выявляющая уязвимости и краши в программах на C, C++ и других языках, поддерживаемых LLVM.Использует coverage-guided подход и интегрируется с Clang для эффективного анализа кода.",
+    "link_URL": "https://llvm.org/docs/LibFuzzer.html",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "TXT"
+    ],
+    "detect_methods": [
+      "CVE",
+      "CWE"
+    ],
+    "OSS": "true",
+    "lic": "Apache License v2.0 with LLVM Exceptions",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-cargo-fuzz",
+    "name": "cargo-fuzz",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "WhiteBox Fuzzing",
+    "vendor": "Rust Fuzzing Authority",
+    "description": "Инструмент для фаззинга Rust-кода, который предоставляет удобный интерфейс для работы с libFuzzer. Он автоматизирует процесс создания,запуска и управления фаззинг-таргетами, включая генерацию покрытия кода, минимизацию корпуса тестов и анализ ошибок ",
+    "link_URL": "https://github.com/rust-fuzz/cargo-fuzz",
+    "ver_edition": "0.13.1",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "TXT"
+    ],
+    "detect_methods": [
+      "CVE",
+      "CWE"
+    ],
+    "OSS": "true",
+    "lic": "Apache-2.0 license, MIT license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
+  },
+  {
     "id": "PS_tools-PS-Spectral",
     "name": "Spectral",
     "division": "AppSec",
@@ -10985,1001 +11981,5 @@
     "lic": "BSD-2-Clause License",
     "kind": "OSS",
     "file": "docs/tools/AppSec/SCA_OSA/Analizator/OSS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Acunetix Premium 14",
-    "name": "Acunetix Premium 14",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Acunetix",
-    "description": "DAST сканер с расширенными возможностями IAST: инструмент позволяет установить в сканируемое приложение легковесный агент. Во время проведения динамического сканирования агент видит, как атака обрабатывается изнутри приложения.",
-    "link_URL": "https://www.acunetix.com/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [],
-    "detect_methods": [],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-PT Black Box",
-    "name": "PT Black Box",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "АО «Позитив Текнолоджиз»",
-    "description": "Cканер приложений, который ищет уязвимости и риски,  связанные с безопасностью, и помогает защитить приложения от действий  злоумышленников. PT BlackBox сканирует приложения, используя метод черного ящика",
-    "link_URL": "https://ptsecurity.com/ru-ru/products/blackbox/",
-    "ver_edition": "3.1",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Dashboard",
-      "JSON",
-      "",
-      "HTML",
-      "SARIF",
-      "OWASP Top 10 2021",
-      "OWASP Mobile Top 10 2016",
-      "SANS Top 25",
-      "NIST 800-53 Rev. 4",
-      "ОУД4 (ГОСТ 15408-3)",
-      "PCI DSS 3.2"
-    ],
-    "detect_methods": [
-      "CVE",
-      "CVSS"
-    ],
-    "OSS": "false",
-    "lic": "On-premise, Online",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-SolidPoint DAST",
-    "name": "SolidPoint DAST",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "ООО «СолидСофт»",
-    "description": "Решение для динамического анализа веб-приложений на наличие уязвимостей информационной безопасности,использующее интеллектуальные алгоритмы для повышения вероятности обнаружения скрытых недостатков и снижения количества ложных срабатываний.Решение поддерживает максимально широкий спектр технологий по обнаружению точек ввода данных, как традиционных (crawling, dirbusting), так и альтернативных (статико-динамический анализ JavaScript, FAST, загрузка описаний Open API).",
-    "link_URL": "https://www.solidlab.ru/resheniya/solidpoint-dast.html",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Веб-интерфейс",
-      "TXT"
-    ],
-    "detect_methods": [
-      "Информация не найдена"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-HCL AppScan",
-    "name": "HCL AppScan",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "HCL Technologies Limited",
-    "description": "Комплексная платформа для тестирования безопасности приложений (SAST, DAST, IAST, SCA),которая помогает выявлять и устранять уязвимости на всех этапах жизненного цикла разработки ПО (SDLC).Инструмент поддерживает более 30 языков, включая Java, C/C++, Python, .NET, JavaScript, PHP, Ruby, Swift и Go,а также фреймворки (Angular, React, Node.js) и инфраструктурные технологии (Docker, Kubernetes, Terraform) ",
-    "link_URL": "https://www.hcl-software.com/appscan",
-    "ver_edition": "AppScan Enterprise - 10.8.1, AppScan Standard - 10.9.0",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "DOCX",
-      "PDF",
-      "HTML",
-      "RTX",
-      "TXT"
-    ],
-    "detect_methods": [
-      "PCI",
-      "HIPAA",
-      "OWASP Top 10",
-      "OWASP API Security Top 10",
-      "SANS 25"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Burp Suite EE (Intruder)",
-    "name": "Burp Suite EE (Intruder)",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "PortSwigger Ltd",
-    "description": "инструмент для динамического тестирования безопасности веб-приложений и API,который автоматически обнаруживает уязвимости (XSS, SQL-инъекции, CSRF и др.)с минимальным количеством ложных срабатываний. Он поддерживает анализ приложений на любых языках (например, Java, .NET, Python, PHP)и фреймворках, так как работает на уровне HTTP/HTTPS-трафика, не требуя доступа к исходному коду",
-    "link_URL": "https://portswigger.net/burp/dast",
-    "ver_edition": "2025.6",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Dashboard",
-      "HTML",
-      "PDF",
-      "XML"
-    ],
-    "detect_methods": [
-      "OWASP Top 10: 2021",
-      "PCI DSS v4.0.1"
-    ],
-    "OSS": "false",
-    "lic": "Подписка",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-InsightAppSec",
-    "name": "InsightAppSec",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Rapid7",
-    "description": "Инструмент для динамического тестирования безопасности приложений (DAST),который автоматически выявляет уязвимости в веб-приложениях и API, сокращая ложные срабатывания и ускоряя исправление проблем.Он поддерживает различные технологии, включая современные веб-приложения и API (REST, SOAP, GraphQL).",
-    "link_URL": "https://www.rapid7.com/products/insightappsec/",
-    "ver_edition": "July 21, 2025",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Dashboard",
-      "CSV",
-      "JSON"
-    ],
-    "detect_methods": [
-      "CVE",
-      "OWASP Top 10 for LLM Applications",
-      "OWASP TOP 10 API Security Risks"
-    ],
-    "OSS": "false",
-    "lic": "Подписка, зависит от количества приложений",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Solar AppScreener",
-    "name": "Solar AppScreener",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "АО «СОЛАР СЕКЬЮРИТИ»",
-    "description": "Комплексное решение, сочетающее возможности статического (SAST), динамического (DAST) анализа, анализа состава ПО (SCA) и анализа цепочки поставок (SCS).  Помогает найти уязвимости и недекларированные возможности в исходном коде мобильных и веб-приложений на раннем этапе разработки.   Технологии анализа исполняемых файлов позволяют применять SAST,  даже когда разработка закончена и нет возможности проанализировать исходный код проекта. Поддерживает следующие языки: Java, JavaScript, Java for Android, Solidity, Ruby, VBScript, Rust, Dart, TypeScript, Groovy, ABAP, Perl, Scala, Apex, PL/SQL, HTML5, Python, T/SQL, C/C++, Objective-C, COBOL, Pascal,   Go, JSP, Kotlin, Visual Basic 6.0, VBA, PHP, Delphi, , 1С, C#, LotusScript, Swift, , Vyper",
-    "link_URL": "https://rt-solar.ru/products/solar_appscreener/",
-    "ver_edition": "3.15.0",
-    "FSTEK_cert": "Сертификат № 4825 от 3.06.2024",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "HTML",
-      "PDF",
-      "CSV",
-      "DOCX",
-      "SARIF",
-      "JSON",
-      "отправка по почте"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "БДУ ФСТЭК России",
-      "PCI Security Standards Council",
-      "HIPAA Compliance",
-      "SANS CWE",
-      "ОУД4",
-      "CWE"
-    ],
-    "OSS": "false",
-    "lic": "Подписка",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Checkmarx DAST",
-    "name": "Checkmarx DAST",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Checkmarx Ltd.",
-    "description": "Инструмент является частью платформы Chackmarx one,для динамического тестирования безопасности веб-приложений и API, который автоматически выявляет уязвимости  в работающих приложениях, интегрируясь в CI/CD-процессы.Он поддерживает REST, SOAP и GraphQL API,а также работает с любыми языками программирования, так как анализирует HTTP-трафик, а не исходный код.",
-    "link_URL": "https://checkmarx.com/checkmarx-dast/",
-    "ver_edition": "Checkmarx one: Single-Tenant - 3.40, Multi-Tenant Version - 3.42",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Dashboard",
-      "PDF",
-      "JSON",
-      "CSV"
-    ],
-    "detect_methods": [
-      "CVSS",
-      "PCI DSS version 4",
-      "OWASP Top 10 API 2023"
-    ],
-    "OSS": "false",
-    "lic": "professional, enterprise, установка в качестве дополнительного инструмента",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Veracode DAST",
-    "name": "Veracode DAST",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Veracode",
-    "description": "Решение для динамического анализа безопасности веб-приложений и API,которое автоматически выявляет уязвимости (включая OWASP Top 10) без доступа к исходному коду.Инструмент поддерживает веб-приложения на Java, ASP.NET, Ruby on Rails, JavaScript, Perl, PHP, Python,а также SPA и фреймворки и REST API, анализируя поведение через браузерный интерфейс.",
-    "link_URL": "https://www.veracode.com/products/dynamic-analysis-dast",
-    "ver_edition": "June 30, 2025",
-    "FSTEK_cert": "",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Dashboard",
-      "CSV"
-    ],
-    "detect_methods": [
-      "CWE",
-      "OWASP Top 10"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Invicti",
-    "name": "Invicti",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Invicti Security",
-    "description": "DAST‑решение для автоматизированного сканирования веб‑приложений и API, использующее proof‑based scanning: инструмент безопасно эксплуатирует найденные уязвимости и предоставляет доказательства их реальной эксплуатации для снижения числа ложных срабатываний.",
-    "link_URL": "https://www.invicti.com/online-web-application-security-scanner/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "Dashboard",
-      "HTML",
-      "PDF",
-      "CSV",
-      "JSON"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "CVE",
-      "Proof-based scanning"
-    ],
-    "OSS": "false",
-    "lic": "SaaS, On-premise, Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-FortiDAST",
-    "name": "FortiDAST",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Fortinet",
-    "description": "Платформа динамического анализа безопасности веб‑приложений от Fortinet, выполняющая black‑box тестирование с продвинутым краулингом и фуззингом, основанным на базе знаний FortiGuard Labs.",
-    "link_URL": "https://www.fortinet.com/products/dynamic-application-security-testing",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "Dashboard",
-      "HTML",
-      "PDF",
-      "CSV"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "CVSS-based risk scoring",
-      "Fuzzing"
-    ],
-    "OSS": "false",
-    "lic": "SaaS, Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-AppSpider",
-    "name": "AppSpider",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Rapid7",
-    "description": "DAST‑сканер от Rapid7 (предшественник InsightAppSec), предназначенный для тестирования веб‑приложений и сервисов, поддерживающий аутентифицированный скан, сложные сценарии и интеграцию в CI/CD.",
-    "link_URL": "https://www.rapid7.com/products/appspider/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "HTML",
-      "PDF",
-      "CSV"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "CVE"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-AppCheck",
-    "name": "AppCheck",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "AppCheck Ltd.",
-    "description": "Коммерческий DAST‑сканер из Великобритании, ориентированный на регулярное сканирование веб‑приложений и инфраструктуры с упором на интеграцию в процессы безопасности и отчётность для соответствия требованиям.",
-    "link_URL": "https://appcheck-ng.com/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "HTML",
-      "PDF",
-      "CSV"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "CVE"
-    ],
-    "OSS": "false",
-    "lic": "SaaS, подписка",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Netsparker Enterprise",
-    "name": "Netsparker Enterprise",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Invicti Security",
-    "description": "Облачное DAST‑решение (ранее Netsparker, теперь часть Invicti), предназначенное для масштабного сканирования веб‑приложений и API с автоматической валидацией уязвимостей и широкой интеграцией в DevSecOps.",
-    "link_URL": "https://www.invicti.com/products/invicti-enterprise/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "Dashboard",
-      "HTML",
-      "PDF",
-      "CSV",
-      "JSON"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "CVE",
-      "Proof-based scanning"
-    ],
-    "OSS": "false",
-    "lic": "SaaS, Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Probely",
-    "name": "Probely",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Probely",
-    "description": "DAST‑сервис, ориентированный на DevSecOps и малый/средний бизнес: предоставляет автоматическое сканирование веб‑приложений и API, интеграцию с CI/CD и тикет‑системами, а также понятные рекомендации для разработчиков.",
-    "link_URL": "https://probely.com/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "Dashboard",
-      "HTML",
-      "JSON"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "CVE"
-    ],
-    "OSS": "false",
-    "lic": "SaaS, подписка",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/DAST/PS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-OWASP ZAP",
-    "name": "OWASP ZAP",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Checkmarx",
-    "description": "Инструмент для динамического тестирования безопасности веб-приложений (DAST), который обнаруживает уязвимости, такие как SQL-инъекции, XSS и CSRF, работая как прокси между браузером и сервером. Он поддерживает веб-приложения на любых языках (включая JavaScript, Python, Java, PHP и другие), так как анализирует HTTP-трафик, а также REST API, SOAP и GraphQL",
-    "link_URL": "https://www.zaproxy.org/, https://github.com/zaproxy/zaproxy",
-    "ver_edition": "2.16.0",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "HTML",
-      "JSON",
-      "XML",
-      "Markdown",
-      "PDF"
-    ],
-    "detect_methods": [
-      "OWASP Top 10 (2021)"
-    ],
-    "OSS": "true",
-    "lic": "Apache-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Burp Suite CE",
-    "name": "Burp Suite CE",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "PortSwigger Ltd.",
-    "description": "Бесплатная версия набора инструментов для тестирования безопасности веб-приложений, включающая базовые функции вроде прокси-перехвата, ручного тестирования и анализа запросов. Он работает с любыми веб-технологиями и языками (PHP, Java, Python, .NET, JavaScript и др.), так как анализирует HTTP/S-трафик, но имеет ограничения по сравнению с Pro-версией (например, нет автоматического сканера).",
-    "link_URL": "https://portswigger.net/burp/communitydownload",
-    "ver_edition": "2025.6",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Dashboard",
-      "HTML",
-      "PDF",
-      "XML"
-    ],
-    "detect_methods": [
-      "OWASP Top 10: 2021",
-      "PCI DSS v4.0.1"
-    ],
-    "OSS": "true",
-    "lic": "Burp Suite Community Edition Licence Agreement",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-OpenVAS",
-    "name": "OpenVAS",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Greenbone",
-    "description": "Фреймворк с открытым исходным кодом для сканирования уязвимостей и анализа безопасности, который позволяет выявлять и устранять угрозы в сетевых системах. Он включает обширную базу данных уязвимостей и предоставляет инструменты для автоматизированного тестирования безопасности.",
-    "link_URL": "https://github.com/greenbone/openvas-scanner, https://openvas.org/",
-    "ver_edition": "23.22.0",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "XML",
-      "CSV",
-      "CPE",
-      "HTML",
-      "GSR (OpenVAS custom)",
-      "PDF",
-      "TXT"
-    ],
-    "detect_methods": [
-      "CVE",
-      "NIST NVD",
-      "CISA"
-    ],
-    "OSS": "true",
-    "lic": "GPL-2.0 license, GNU GPL-2+",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Wapiti",
-    "name": "Wapiti",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "",
-    "description": "Веб-сканер уязвимостей с открытым исходным кодом, который проверяет сайты на наличие таких угроз,как SQL-инъекции, XSS и файловые включения.Он поддерживает Python и может анализировать веб-приложения, написанные на PHP, Java, ASP и других языках.",
-    "link_URL": "https://github.com/wapiti-scanner/wapiti",
-    "ver_edition": "3.2.4",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "HTML",
-      "XML",
-      "JSON",
-      "TXT",
-      "CSV"
-    ],
-    "detect_methods": [
-      "CVE"
-    ],
-    "OSS": "true",
-    "lic": "GPL-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Nuclei",
-    "name": "Nuclei",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Project discovery",
-    "description": "Cканер уязвимостей с открытым исходным кодом, использующий YAML-шаблоны для обнаружения уязвимостей в веб-приложениях,API, сетях и облачных сервисах. Он поддерживает множество протоколов,включая HTTP, DNS, TCP, SSL, а также позволяет создавать шаблоны на YAML для кастомных проверок",
-    "link_URL": "https://github.com/projectdiscovery/nuclei",
-    "ver_edition": "3.5.0",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "cli",
-      "JSON",
-      "JSONL",
-      "SARIF"
-    ],
-    "detect_methods": [
-      "CVE"
-    ],
-    "OSS": "true",
-    "lic": "MIT license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-RESTler",
-    "name": "RESTler",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Microsoft",
-    "description": "Инструмент для stateful фаззинга REST API, разработанный Microsoft, который автоматически тестирует облачные сервисы на наличие уязвимостей и ошибок, анализируя их спецификации OpenAPI/Swagger 18.Он поддерживает языки, используемые в описании API (например, JSON для OpenAPI)",
-    "link_URL": "https://github.com/microsoft/restler-fuzzer",
-    "ver_edition": "9.3.1",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "JSON",
-      "TXT",
-      "Log formats"
-    ],
-    "detect_methods": [
-      "Информация не найдена"
-    ],
-    "OSS": "true",
-    "lic": "MIT license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Nikto",
-    "name": "Nikto",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Sullo, community",
-    "description": "Сканер уязвимостей веб‑серверов, проверяющий на наличие опасных файлов и CGI‑скриптов, устаревшего ПО, неправильных конфигураций и слабых HTTP‑заголовков на основе обширной базы плагинов.",
-    "link_URL": "https://github.com/sullo/nikto",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "TXT",
-      "HTML",
-      "XML",
-      "CSV"
-    ],
-    "detect_methods": [
-      "CVE",
-      "Own vulnerability database"
-    ],
-    "OSS": "true",
-    "lic": "GPL-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Arachni",
-    "name": "Arachni",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Arachni",
-    "description": "Фреймворк для динамического тестирования безопасности веб‑приложений, поддерживающий модульную архитектуру, распределённое сканирование и обнаружение уязвимостей вроде XSS, SQLi и RFI.",
-    "link_URL": "https://github.com/Arachni/arachni",
-    "ver_edition": "1.5.1",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "HTML",
-      "XML",
-      "JSON",
-      "YAML"
-    ],
-    "detect_methods": [
-      "OWASP Top 10",
-      "CWE (частично)"
-    ],
-    "OSS": "true",
-    "lic": "Apache-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Akto OSS",
-    "name": "Akto OSS",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Akto",
-    "description": "Open‑source DAST и API‑security инструмент, выполняющий автоматическое обнаружение API и сканирование REST/GraphQL/gRPC‑интерфейсов на уязвимости с интеграцией в CI/CD.",
-    "link_URL": "https://github.com/akto-api-security/Akto",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "JSON",
-      "Интерфейс"
-    ],
-    "detect_methods": [
-      "OWASP API Security Top 10"
-    ],
-    "OSS": "true",
-    "lic": "Apache-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Skipfish",
-    "name": "Skipfish",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Michal Zalewski (lcamtuf)",
-    "description": "Высокопроизводительный веб‑сканер уязвимостей, использующий активный краулинг и эвристики для обнаружения XSS, SQL‑инъекций и других ошибок, формируя интерактивные HTML‑отчёты.",
-    "link_URL": "https://code.google.com/archive/p/skipfish/",
-    "ver_edition": "2.10b",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "HTML"
-    ],
-    "detect_methods": [
-      "Информация не найдена"
-    ],
-    "OSS": "true",
-    "lic": "Apache-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-arachni-rest",
-    "name": "arachni-rest",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "DAST",
-    "vendor": "Arachni",
-    "description": "REST‑обёртка и инфраструктура вокруг движка Arachni для автоматизированного DAST‑сканирования веб‑приложений и интеграции с пайплайнами CI/CD.",
-    "link_URL": "https://github.com/Arachni/arachni-ui-web",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Интерфейс",
-      "JSON"
-    ],
-    "detect_methods": [
-      "OWASP Top 10"
-    ],
-    "OSS": "true",
-    "lic": "Apache-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Crusher",
-    "name": "Crusher",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "ИСП РАН",
-    "description": "программный комплекс, комбинирующий несколько методов динамического и статического анализав частности, фаззинг (ИСП Fuzzer) и символьное выполнение (в качестве одного из движков может выступать Sydr).  В основе комплекса ИСП Crusher находится ИСП Fuzzer – инструмент проведения фаззинг-тестирования",
-    "link_URL": "https://www.ispras.ru/technologies/crusher/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "XML",
-      "JSON"
-    ],
-    "detect_methods": [
-      "БДУ ФСТЭК"
-    ],
-    "OSS": "false",
-    "lic": "Информация не найдена",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-CI Fuzz",
-    "name": "CI Fuzz",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "Code Intelligence",
-    "description": "Платформа white‑box fuzz‑тестирования от Code Intelligence, использующая покрытие и обратную связь из кода для генерации тестов, автоматического поиска уязвимостей и интеграции фаззинга в CI/CD и IDE.",
-    "link_URL": "https://www.code-intelligence.com/ci-fuzz",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "Dashboard",
-      "HTML",
-      "JSON"
-    ],
-    "detect_methods": [
-      "Coverage-guided fuzzing",
-      "White-box fuzzing"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Peach Fuzzer",
-    "name": "Peach Fuzzer",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "Peach Tech (Synopsys)",
-    "description": "Коммерческий протокольный фаззер, поддерживающий генерацию тестов на основе моделей протоколов и форматов данных, с функциями coverage‑guided и white‑box тестирования для поиска логических и эксплуатационных уязвимостей.",
-    "link_URL": "https://www.peach.tech/products/peach-fuzzer/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "HTML",
-      "XML",
-      "TXT"
-    ],
-    "detect_methods": [
-      "Model-based fuzzing",
-      "Coverage-guided fuzzing"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Synopsys Defensics",
-    "name": "Synopsys Defensics",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "Synopsys",
-    "description": "Платформа для протокольного фаззинга, предоставляющая более 300 готовых тестовых наборов и возможность моделирования новых протоколов, применяющая генеративный и coverage‑guided подход для поиска ошибок в реализации.",
-    "link_URL": "https://www.synopsys.com/software-integrity/security-testing/fuzz-testing.html",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "HTML",
-      "XML",
-      "CSV"
-    ],
-    "detect_methods": [
-      "Model-based fuzzing",
-      "Coverage-guided fuzzing"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
-  },
-  {
-    "id": "PS_tools-PS-Fortra Enterprise Fuzzing",
-    "name": "Fortra Enterprise Fuzzing",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "Fortra",
-    "description": "Решение корпоративного уровня для фаззинг‑тестирования приложений, файловых форматов и протоколов, использующее приоритизацию входов и комбинирующее white‑box и black‑box техники для масштабного поиска уязвимостей.",
-    "link_URL": "https://www.fortra.com/resources/guides/enterprise-fuzzing",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Недоступен",
-    "report_formats": [
-      "HTML",
-      "PDF"
-    ],
-    "detect_methods": [
-      "Coverage-guided fuzzing",
-      "Model-based fuzzing"
-    ],
-    "OSS": "false",
-    "lic": "Enterprise",
-    "kind": "PS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/PS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Fernflower",
-    "name": "Fernflower",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "JetBrains",
-    "description": "Декомпилятор ИЗ Java Bytecode в Java, на текущий момент разрабатываемый и поддерживаемый компанией JetBrains",
-    "link_URL": "https://github.com/JetBrains/fernflower",
-    "ver_edition": "pycharm/253.28294.256",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Информация не найдена"
-    ],
-    "detect_methods": [
-      "Информация не найдена"
-    ],
-    "OSS": "true",
-    "lic": "Apache License Version 2.0",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-BinSide",
-    "name": "BinSide",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "ИСП РАН",
-    "description": "платформа для анализа бинарного кода, разрабатываемая на основе фреймворка BinNavi, который переводит  ассемблерный код в представление REIL. Данное представление позволяет анализировать код независимо от процессорной архитектуры и операционной системы. Интегрирован  с дизассемблерами IDA PRO и Ghidra, которые используются для обратной разработки.",
-    "link_URL": "https://www.ispras.ru/technologies/binside/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "Информация не найдена"
-    ],
-    "detect_methods": [
-      "CWE"
-    ],
-    "OSS": "true",
-    "lic": "Информация не найдена",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-Sydr/Sydr-fuzz",
-    "name": "Sydr/Sydr-fuzz",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "ИСП РАН",
-    "description": "Инструмент для гибридного фаззинга и динамического анализа, сочетающий символьное выполнение (Sydr) с современными фаззерами (libFuzzer, AFL++, Honggfuzz) для поиска уязвимостей в ПО.Он поддерживает языки C/C++, Python (Atheris), Java (Jazzer), JavaScript (Jazzer.js), Lua (luzer) и C# (Sharpfuzz), а также автоматизирует сбор покрытия и анализ ошибок",
-    "link_URL": "https://github.com/ispras/oss-sydr-fuzz",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "html",
-      "JSON",
-      "lcov"
-    ],
-    "detect_methods": [
-      "CVE",
-      "CWE"
-    ],
-    "OSS": "true",
-    "lic": "Apache-2.0 license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-JQF + Zest",
-    "name": "JQF + Zest",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "Rohan Padhye a.k.a. rohanpadhye",
-    "description": "Фреймворк для покрытийно-ориентированного фаззинга Java-приложений, сочетающий генеративное тестирование (QuickCheck) с алгоритмом Zest для автоматического создания семантически корректных входных данных. Позволяет выявлять логические ошибки, уязвимости безопасности и случаи аварийного завершения в JVM-программах.",
-    "link_URL": "https://github.com/rohanpadhye/JQF",
-    "ver_edition": "2.0",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "JSON"
-    ],
-    "detect_methods": [
-      "Информация не найдена"
-    ],
-    "OSS": "true",
-    "lic": "BSD-2-Clause license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-SharpFuzz",
-    "name": "SharpFuzz",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "Nemanja Mijailovic a.k.a. Metalnem",
-    "description": "Инструмент для AFL-based fuzz-тестирования .NET-приложений, интегрирующийся с afl-fuzz для white-box fuzzing, выявляя краши и уязвимости в C# и других .NET-совместимых языках. Поддерживает in-process и out-of-process тестирование для эффективного анализа кода.",
-    "link_URL": "https://github.com/Metalnem/sharpfuzz",
-    "ver_edition": "2.2.0",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "TXT"
-    ],
-    "detect_methods": [
-      "CVE",
-      "CWE"
-    ],
-    "OSS": "true",
-    "lic": "MIT license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-LLVM libFuzzer",
-    "name": "LLVM libFuzzer",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "",
-    "description": "Библиотека для in-process fuzz-тестирования, выявляющая уязвимости и краши в программах на C, C++ и других языках, поддерживаемых LLVM.Использует coverage-guided подход и интегрируется с Clang для эффективного анализа кода.",
-    "link_URL": "https://llvm.org/docs/LibFuzzer.html",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "TXT"
-    ],
-    "detect_methods": [
-      "CVE",
-      "CWE"
-    ],
-    "OSS": "true",
-    "lic": "Apache License v2.0 with LLVM Exceptions",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
-  },
-  {
-    "id": "OSS_tools-OSS-cargo-fuzz",
-    "name": "cargo-fuzz",
-    "division": "AppSec",
-    "type": "DAST",
-    "tool_class": "WhiteBox Fuzzing",
-    "vendor": "Rust Fuzzing Authority",
-    "description": "Инструмент для фаззинга Rust-кода, который предоставляет удобный интерфейс для работы с libFuzzer. Он автоматизирует процесс создания,запуска и управления фаззинг-таргетами, включая генерацию покрытия кода, минимизацию корпуса тестов и анализ ошибок ",
-    "link_URL": "https://github.com/rust-fuzz/cargo-fuzz",
-    "ver_edition": "0.13.1",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "TXT"
-    ],
-    "detect_methods": [
-      "CVE",
-      "CWE"
-    ],
-    "OSS": "true",
-    "lic": "Apache-2.0 license, MIT license",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/DAST/Whitbox_fuzzing/OSS_tools.yaml"
   }
 ]

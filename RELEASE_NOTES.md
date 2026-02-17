@@ -1,5 +1,34 @@
 # Release Notes
 
+## v2.0.1
+
+### Общий пул проведенных работ
+
+* Добавлены новые инструменты в карту
+* Доработана генерация PDF карты инструментов
+* Изменены элементы нейминга
+* Внесены мелкие правки в структуре файлов директории tools
+* Доработаны материалы "о проекте"
+
+### Следующие инструменты были добавлены в карту:
+* DAST
+  * Shelling
+  * Command-injection-attacker
+
+* SAST
+  * Shellcheck
+  * Shell CGI Static code analysis
+  * Xygeni SAST 
+
+* MAST
+  * Appsec.Cryptex
+
+* MLSECOPS
+  * Appsec.GenAi
+
+* SCA
+  * Xygeni SCA
+
 ## v2.0.0
 
 ### Общий пул проведенных работ

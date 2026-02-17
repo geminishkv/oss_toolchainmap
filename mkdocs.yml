@@ -105,8 +105,8 @@ nav:
       - "Toolchain Map": toolchain_map.md
       - "Интерактивная карта": map.md
       - "Поиск по карте": search.md
-      - "Российские вендоры": vendor_rf.md
-      - "Зарубежные вендоры": vendor_external.md
+      - "Российские вендора": vendor_rf.md
+      - "Зарубежные вендора": vendor_external.md
       - "Open Source Projects": OSS.md
   - "Дополнения":
         - "Лицензии ПО": licenses.md
@@ -116,10 +116,6 @@ nav:
   - "О проекте": about.md
   - "Правила внесения изменений": rules.md
   - "Кодекс поведения": codeofconduct.md
-  - "АО ЛАНИТ": "https://www.lanit.ru"
-  - "Лидеры сообщества": liders.md
-  - "FinDevSecOps": "https://findevsecops.ru/"
-  - "Карта сертификации ГОСТ 56939-2024": "https://storage.yandexcloud.net/aft-tilda/%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%84%D0%B8%D0%BD%D1%82%D0%B5%D1%85%D0%B0.pdf"
 
 extra:
   social:

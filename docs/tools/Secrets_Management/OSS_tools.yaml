@@ -80,7 +80,7 @@ Tools:
       vendor: 'Gitleaks'
       lic: 'MIT License.'
       
-- name: Trufflehog
+  - name: Trufflehog
     meta:
       description: "Мощный инструмент для обнаружения, классификации, проверки и анализа секретов. В данном контексте секрет — это учетные данные, которые машина использует для аутентификации перед другой машиной. Сюда входят ключи API, пароли к базам данных, закрытые ключи шифрования и другое."
       link_URL: "https://github.com/trufflesecurity/trufflehog"

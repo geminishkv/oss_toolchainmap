@@ -180,3 +180,35 @@ Tools:
       class: "DAST"
       vendor: "Arachni"
       lic: "Apache-2.0 license"
+  - name: Shelling
+    meta:
+      description: "это генератор payload-ов для OS command injection, поддерживающий множество платформ (Linux, Windows, BSD), техник обхода фильтров (base64, hex, Unicode, пробелы через ${IFS}, pipe chaining) и типов инъекций (reverse/bind shells, file read/write, privilege escalation). Работает как утилита на Python, с фокусом на создание сложных цепочек команд для Burp Suite."
+      link_URL: "https://github.com/ewilded/shelling"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["CLI"]
+      detect_metods: ["Custom payload"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: "ewilded"
+      lic: "Custom license"
+  - name: command-injection-attacker
+    meta:
+      description: "форк Shelling от PortSwigger. Добавляет Burp-расширения для автоматизированного fuzzing параметров ввода на command injection, генерацией и выполнением payload'ов прямо из Burp Intruder/Scanner в реальном времени."
+      link_URL: "https://github.com/PortSwigger/command-injection-attacker"
+      ver_edition: ""
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["Custom payload"]
+      OSS: "true"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: "PortSwigger"
+      lic: "Custom license"

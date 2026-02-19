@@ -403,3 +403,19 @@ Tools:
       class: "Анализатор"
       vendor: "Arnica"
       lic: "SaaS, Enterprise"
+  - name: StaticReviewer
+    meta:
+      description: "SAST модуль в составе продукта 'Security Reviewer suite'. Позволяет искать уязвимости в исходном коде и используемых библиотеках, а также проводить проверки DAST/MAST. Для отображения результатов используется встроенное ASPM решение."
+      link_URL: "https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer"
+      ver_edition: "Информация не найдена"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Недоступен"
+      report_formats: ["Dashboard"]
+      detect_metods: ["CWE", "OWASP Top 10", "SQALE", "CISQ", "CVE", "WASC", "MISRA", "CERT", "NIST"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SCA/OSA"
+      class: "Анализатор"
+      vendor: "Security Reviewer(Italy)"
+      lic: "On Premise, Cloud, Container"

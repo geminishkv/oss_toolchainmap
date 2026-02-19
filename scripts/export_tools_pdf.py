@@ -24,7 +24,7 @@ def main() -> None:
 <html>
   <head>
     <meta charset="utf-8">
-    <title>AppSec Toolchain Map</title>
+    <title>Карта инструментов безопасной разработки</title>
   </head>
   <body>
   <h1>DevSecOps Toolchain Map</h1>
@@ -48,11 +48,16 @@ class="footer-logo" />
       </div>
       <div class="page-footer_copyright">
         <div class="footer-copyright">© \
-<a href="https://geminishkv.github.io/gpages_intro/" target="_blank">AppSecTA \
-</a> &amp; <a href="https://findevsecops.ru" target="_blank">FinDevSecOps</a>
-</div>
+          <a href="https://geminishkv.github.io/gpages_intro/" target="_blank">
+          2026 FinDevSecOps Community collaborated with geminishkv
+          </a>
+          &amp;
+          <a href="https://findvesecops.ru/" target="_blank">
+          FinDevSecOps
+          </a>
       </div>
-      """
+    </div>
+    """
     full_html = f"{full_html}{html_content}\n  </body>\n</html>\n"
 
     css_path = BASE_DIR / "docs" / "stylesheets" / "tools-pdf.css"

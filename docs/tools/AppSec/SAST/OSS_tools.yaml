@@ -427,3 +427,35 @@ Tools:
       class: "Статический анализатор"
       vendor: "Node Security (NSP)"
       lic: "Apache-2.0 license"
+  - name: ShellCheck
+    meta:
+      description: "Статический анализатор для bash/sh скриптов, позволяющий выявлять синтаксические и семантические ошибки: некорректное экранирование, ошибки в Conditionals, некорректное использование команд, проблемы при вводе/обработке данных и др. "
+      link_URL: "https://github.com/koalaman/shellcheck"
+      ver_edition: ""
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["tty"]
+      detect_methods: ["Custom rules"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: "koalaman"
+      lic: "GPL-3.0 license"
+  - name: Shell CGI Static code analysis
+    meta:
+      description: "Решение Onekey для поиска RCE в CGI скриптах. Позволяет находить атаки вида Command Injection в автоматическом режиме."
+      link_URL: "https://www.onekey.com/resource/shell-cgi-static-code-analysis---automatic-discovery-of-rces#how-shell-cgi-works"
+      ver_edition: "0.11.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard"]
+      detect_methods: ["Custom rules"]
+      OSS: "true"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: "OneKey"
+      lic: "Unknown license"

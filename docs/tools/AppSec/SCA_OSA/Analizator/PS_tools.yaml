@@ -419,3 +419,35 @@ Tools:
       class: "Анализатор"
       vendor: "Security Reviewer(Italy)"
       lic: "On Premise, Cloud, Container"
+  - name: Platform V Orchestrator for Security Services
+    meta:
+      description: "Набор модулей в составе решения Platform V Orchestrator for Security Services, который позволяет исследовать компоненты и зависимости на наличие уязвимостей, который автоматически анализирует безопасность приложений. Поддерживает анализ кода на языках, таких как Java, C#, Python, JavaScript, Go, Ruby, PHP, а также интеграцию с CI/CD-инструментами для DevSecOps-практик, поддерживает генерацию SBOM с приоритизацией уязвимостей по контексту эксплуатации, а также поиск секретов внутри исследуемых объектов."
+      link_URL: "https://platformv.sbertech.ru/products/servisy-bezopasnosti/laboratoriya-proverki-po"
+      ver_edition: "1.0.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "cli", "PDF"]
+      detect_methods: ["CVE", "CVSS", "license compliance", "policy rules", "CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SCA/OSA"
+      class: "Анализатор"
+      vendor: "Сбертех"
+      lic: "on premise/SaaS"
+  - name: Platform V SCA Master 
+    meta:
+      description: "Модуль композиционного анализа в составе решения Platform V ASOC Control Center, который позволяет проводить анализ open-source компонент на всех этапах жизненного цикла производства программных продуктов."
+      link_URL: " https://sbertech.ru/documents/platform-v-asoc-control-center"
+      ver_edition: "2.0.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["CSV", "XML", "PDF", "VDR"]
+      detect_methods: ["CVE", "CVSS", "BDU", "NVD", "OSV", "GHA"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SCA/OSA"
+      class: "Анализатор"
+      vendor: "Сбертех"
+      lic: "Enterprise"

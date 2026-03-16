@@ -239,3 +239,19 @@ Tools:
       class: "API Sec / WAF"
       vendor: "Wallarm"
       lic: "Enterprise"
+  - name: Platform V SOWA
+    meta:
+      description: "Шлюз безопасности API. Platform V SOWA обеспечивает защиту API и контроль взаимодействия между сервисами и внешними системами."
+      link_URL: "https://platformv.sbertech.ru/products/servisy-bezopasnosti/sowa"
+      ver_edition: "5.4.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: []
+      detect_metods: ["OWASP Top 10", "OWASP API Security Top 10"]
+      OSS: "false"
+      division: "AppSec"
+      type: "API"
+      class: "ApiSec_WAF"
+      vendor: "АО "Сбертех""
+      lic: "Enterprise"

@@ -438,7 +438,7 @@ Tools:
   - name: Platform V SCA Master 
     meta:
       description: "Модуль композиционного анализа в составе решения Platform V ASOC Control Center, который позволяет проводить анализ open-source компонент на всех этапах жизненного цикла производства программных продуктов."
-      link_URL: " https://sbertech.ru/documents/platform-v-asoc-control-center"
+      link_URL: "https://sbertech.ru/documents/platform-v-asoc-control-center"
       ver_edition: "2.0.0"
       FSTEK_cert: "Нет"
       redaction: []

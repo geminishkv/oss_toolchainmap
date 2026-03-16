@@ -193,3 +193,19 @@ Tools:
       class: ""
       vendor: 'DefectDojo'
       lic: 'Pro'
+  - name: Platform V ASOC Control Center
+    meta:
+      description: "Комплекс технических решений которое интегрирует в существующие CI/CD-пайплайны инструменты тестирования безопасности. За счет этого создаются конвейеры ИБ и реализуется переход от DevOps к DevSecOps."
+      link_URL: "https://sbertech.ru/documents/platform-v-asoc-control-center"
+      ver_edition: "2.0.0"
+      FSTEK_cert: "Нет"
+      redaction: [""]
+      RUS_access: "Доступен"
+      report_formats: ["Dashboard", "HTML", "SARIF", "JSON", "CSV", "XML", "PDF", "VDR"]
+      detect_metods: ["OWASP Top 10", "CWE", "CVE", "CVSS", "BDU", "NVD", "OSV", "GHA"]
+      OSS: "false"
+      division: "Application Security Posture Management"
+      type: ""
+      class: ""
+      vendor: 'АО "Сбертех"'
+      lic: 'Enterprise'

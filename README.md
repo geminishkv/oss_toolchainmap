@@ -56,7 +56,6 @@
 │   │   │   ├── logotypemd.jpg
 │   │   │   └── site
 │   │   │       ├── favicon.ico
-│   │   │       ├── LANIT_logo.png
 │   │   │       ├── logo_pdf.png
 │   │   │       └── logo.png
 │   │   └── search

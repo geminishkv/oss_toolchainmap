@@ -101,8 +101,8 @@ extra_javascript:
 nav:
   - "Главная страница": index.md
   - "Материалы":
-      - "Toolchain Map": toolchain_map.md
-      - "Интерактивная карта": map.md
+      - "Карта инструментов РБПО": toolchain_map.md
+      - "Интерактивная карта инструментов": map.md
       - "Поиск по карте": search.md
       - "Российские вендоры": vendor_rf.md
       - "Зарубежные вендоры": vendor_external.md

@@ -1,15 +1,24 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var topic = document.querySelector(".md-header__title .md-header__topic");
+document.addEventListener("DOMContentLoaded", () => {
+  const topic = document.querySelector(".md-header__title .md-header__topic");
+  if (!topic) return;
 
-  if (topic) {
-    topic.textContent = "";
+  topic.textContent = "";
 
-    var link = document.createElement("a");
-    link.href = "https://t.me/shmakovis_appsec";
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = "2026 FinDevSecOps Community collaborated with geminishkv";
+  const link1 = Object.assign(document.createElement("a"), {
+    href: "https://findevsecops.ru",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    textContent: "2026 FinDevSecOps"
+  });
 
-    topic.appendChild(link);
-  }
+  const separator = document.createTextNode(" · ");
+
+  const link2 = Object.assign(document.createElement("a"), {
+    href: "https://t.me/shmakovis_appsec",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    textContent: "collaborated with geminishkv (c)"
+  });
+
+  topic.append(link1, separator, link2);
 });

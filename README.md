@@ -25,9 +25,7 @@
 
 <br>Салют :wave:,</br> 
 
-**MkDocs Material** - фреймворк для создания документации, работающий в связке со статическим генератором сайтов [MkDocs](https://www.mkdocs.org/).
-
-**Лицензия MkDocs Material:** MIT License.
+**MkDocs Material** - фреймворк для создания документации, работающий в связке со статическим генератором сайтов [MkDocs](https://www.mkdocs.org/). **Лицензия MkDocs Material:** MIT License.
 
 Карта дает возможность выбрать выгодные для себя инструменты под все необходимые ситуации: когда нет денег, когда не можем интегрировать большой инструмент, когда никого нет и приходится делать все одному и тд. **[Live site](https://geminishkv.github.io/oss_toolchainmap/)**
 
@@ -286,6 +284,6 @@ $ mkdocs build --strict --clean --config-file mkdocs.yml --site-dir /tmp/mkdocs-
 
 ***
 
-Copyright (c) 2026 Elijah S Shmakov
+Copyright FinDevSecOps Community collaborated with Elijah S Shmakov (c) 2026
 
 ![Logo](docs/assets/logotype/logotypemd.jpg)

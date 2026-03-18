@@ -1,18 +1,19 @@
 <div align="center">
 <h1><a id="intro"> DevSecOps Toolchain Map </a><br></h1>
+
+**[Live site](https://geminishkv.github.io/oss_toolchainmap/)**
+
 <a href="https://docs.github.com/en"><img src="https://img.shields.io/static/v1?logo=github&logoColor=fff&label=&message=Docs&color=36393f&style=flat" alt="GitHub Docs"></a>
-<a href="https://symbl.cc/en/unicode-table"><img src="https://img.shields.io/static/v1?logo=unicode&logoColor=fff&label=&message=Unicode&color=36393f&style=flat" alt="Unicode"></a> 
+<a href="https://symbl.cc/en/unicode-table"><img src="https://img.shields.io/static/v1?logo=unicode&logoColor=fff&label=&message=Unicode&color=36393f&style=flat" alt="Unicode"></a>
 <a href="https://shields.io"><img src="https://img.shields.io/static/v1?logo=shieldsdotio&logoColor=fff&label=&message=Shields&color=36393f&style=flat" alt="Shields"></a>
-<a href="https://img.shields.io/badge/Risk_Analyze-2448a2"><img src="https://img.shields.io/badge/Course-Risk_Analysis-2448a2" alt= "RA"></a> <img src="https://img.shields.io/badge/AppSec-2448a2" alt= "RA"></a> <img src="https://img.shields.io/badge/Contributor-Шмаков_И._С.-8b9aff" alt="Contributor Badge"></a>
+<img src="https://img.shields.io/badge/AppSec-2448a2" alt="AppSec">
+<img src="https://img.shields.io/badge/Contributor-%D0%A8%D0%BC%D0%B0%D0%BA%D0%BE%D0%B2_%D0%98._%D0%A1.-8b9aff" alt="Contributor Badge">
 <img src="https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white" alt="Git">
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3670A0.svg?logo=python&logoColor=ffdd54" alt="Python"></a>
 <a href="https://mypy-lang.org/"><img src="https://img.shields.io/badge/type_checked-mypy-039dfc?style=flat" alt="mypy"></a>
 <a href="https://flake8.pycqa.org/"><img src="https://img.shields.io/badge/Code%20style-flake8-orange?style=flat" alt="flake8"></a>
-<a href="https://pylint.readthedocs.io/"><img src="https://img.shields.io/badge/linting-pylint-1254a0?style=flat" alt="pylint"></a>
 <a href="https://www.mkdocs.org/"><img src="https://img.shields.io/badge/MkDocs-326ce5.svg?logo=MaterialForMkDocs&logoColor=white" alt="MkDocs"></a>
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white" alt="Markdown"></a>
-<a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
-<a href="https://github.com/pycqa/flake8"><img src="https://img.shields.io/badge/flake8-code%20style-blue?logo=python&logoColor=white" alt="flake8"></a>
 
 </div>
 
@@ -28,7 +29,7 @@
 
 **MkDocs Material** - фреймворк для создания документации, работающий в связке со статическим генератором сайтов [MkDocs](https://www.mkdocs.org/).
 
-<u>**Лицензия MCDocs Material:**</u> [MIT License](https://wiki.lanit.ru/display/DKSOIRSUDSEC/Permissive+Licenses#tab-MIT+License).    
+**Лицензия MkDocs Material:** MIT License.
 
 Карта дает возможность выбрать выгодные для себя инструменты под все необходимые ситуации: когда нет денег, когда не можем интегрировать большой инструмент, когда никого нет и приходится делать все одному и тд.
 
@@ -39,18 +40,16 @@
 > * Предыдущая версия карты находится [тут](https://storage.yandexcloud.net/aft-tilda/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20DevSecOps.pdf)
 > * Агрегируются 'meta' данные о наличии сертификации, типе лицензии ПО, может ли быть импортозамещено, какой язык программирования, какие виды отчетов и иное
 > * вся верстка натянута на 'material'
-> * Мы принимаем 'pull requeste' на изменения для того, что бы эта карта шарилась и мы могли работать в едином поле с комьюнити
+> * Мы принимаем 'pull request' на изменения для того, что бы эта карта шарилась и мы могли работать в едином поле с комьюнити
 > * Имеется фильтрация по 'meta' данным
 > * Убрали некоторые инструменты, которые не поддерживаются или пользуются меньшей популярностью, вследствие чего они не обновляются
-> * Актуализировали списки инструментов, на сейчас готовятся правки по ткстам и добавление материалов описания
+> * Актуализировали списки инструментов, на сейчас готовятся правки по текстам и добавление материалов описания
 
 ***
 
 ### Структура репозитория
 
 ```bash
-├── __pycache__
-│   └── main.cpython-314.pyc
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── docs
@@ -65,7 +64,6 @@
 │   │   │       ├── logo_pdf.png
 │   │   │       └── logo.png
 │   │   └── search
-│   │       └── tools.json
 │   ├── codeofconduct.md
 │   ├── index.md
 │   ├── javascripts
@@ -83,8 +81,6 @@
 │   ├── map.md
 │   ├── materials_iso.md
 │   ├── OSS.md
-│   ├── pdf_table
-│   │   └── tools-map.pdf
 │   ├── release-notes.md
 │   ├── rules.md
 │   ├── search.md
@@ -170,14 +166,6 @@
 ├── ruff.toml
 ├── scripts
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-314.pyc
-│   │   ├── build_search_data.cpython-314.pyc
-│   │   ├── export_tools_pdf.cpython-314.pyc
-│   │   ├── render_tools_popups_from_table.cpython-314.pyc
-│   │   ├── render_tools_with_popups.cpython-314.pyc
-│   │   ├── table_data.cpython-314.pyc
-│   │   └── table_render.cpython-314.pyc
 │   ├── build_search_data.py
 │   ├── export_tools_pdf.py
 │   ├── render_tools_popups_from_table.py
@@ -197,9 +185,9 @@
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
-$ python scripts/build_search_data.py
-$ python -m mkdocs build -v > build.log 2>&1 # debug
-$ python -m mkdocs serve --livereload
+$ PYTHONPATH=. python scripts/build_search_data.py
+$ mkdocs build -v > build.log 2>&1 # debug
+$ mkdocs serve --livereload
 # or
 $ mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адреса
 ```
@@ -207,7 +195,7 @@ $ mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адре�
 * Генерация карты в PDF
 
 ```bash
-$ python -m scripts.export_tools_pdf
+$ PYTHONPATH=. python scripts/export_tools_pdf.py --output docs/pdf_table/tools-map.pdf
 ```
 
 * Очистка локального репозитория
@@ -249,20 +237,11 @@ $ act pull_request -j docs-preview -b # docs-preview и все зависимы�
 * Тестирование
 
 ```bash
-$ abandit -r labs
-$ aruff check .
+$ bandit -r main.py scripts -ll
+$ flake8 .
 
-$ anpx eslint "docs/**/*.js" "javascripts/**/*.js"
-npx stylelint "docs/**/*.css" "stylesheets/**/*.css"
-
-$ agit ls-files '*.sh' \
-  | grep -v 'labs/lab08/dast/zap_scan.sh' \
-  | grep -v 'labs/lab07/sca/dependency-check.sh' \
-  | grep -v 'labs/lab06/audit.sh' \
-  | xargs -r shellcheck -e SC2086,SC1090,SC1091
-
-$ ayamllint .github/workflows mkdocs.yml
-$ anpx markdownlint-cli2 "docs/**/*.md" "labs/**/*.md" "README.md"
+$ npx eslint "docs/javascripts/**/*.js"
+$ npx stylelint "docs/stylesheets/**/*.css"
 
 $ mkdocs build --strict --clean --config-file mkdocs.yml --site-dir /tmp/mkdocs-check
 ```
@@ -295,7 +274,7 @@ $ mkdocs build --strict --clean --config-file mkdocs.yml --site-dir /tmp/mkdocs-
 	*	соберёт site;
 	*	задеплоит на Pages через Actions
 	*	ставит зависимости из requirements.txt
-	*	прогоняет ruff (линтинг)
+	*	прогоняет flake8 (линтинг)
 	*	прогоняет bandit
 	*	билдит search data
 	*	билдит mkdocs
@@ -309,6 +288,6 @@ $ mkdocs build --strict --clean --config-file mkdocs.yml --site-dir /tmp/mkdocs-
 
 ***
 
-Copyright (c) 2025 Elijah S Shmakov
+Copyright (c) 2026 Elijah S Shmakov
 
 ![Logo](docs/assets/logotype/logotypemd.jpg)

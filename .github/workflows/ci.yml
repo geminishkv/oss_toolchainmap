@@ -34,13 +34,13 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+          key: pip-${{ runner.os }}-${{ hashFiles('**/requirements-dev.txt') }}
           restore-keys: pip-${{ runner.os }}-
 
       - name: Install development dependencies
         run: |
           pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
 
 #      - name: Lint and format with ruff
 #        run: |
@@ -130,7 +130,8 @@ jobs:
 
       - run: |
           pip install --upgrade pip
-          pip install -r requirements.txt pip-audit
+          pip install -r requirements.txt
+          pip install pip-audit
           pip-audit -r requirements.txt
 
   security_py_dependency_checks:
@@ -151,7 +152,7 @@ jobs:
       - name: Install Python security tools
         run: |
           pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
 
       - name: Security scan with bandit
         run: |
@@ -159,7 +160,7 @@ jobs:
 
       - name: Dependency security check with safety
         run: |
-          safety check -r requirements.txt
+          safety check -r requirements-dev.txt
 
 #  security_secrets_checks:
 #    runs-on: ubuntu-latest

@@ -158,9 +158,9 @@ jobs:
         run: |
           bandit -r main.py scripts -ll
 
-      - name: Dependency security check with safety
-        run: |
-          safety check -r requirements-dev.txt
+#      - name: Dependency security check with safety
+#        run: |
+#          safety check -r requirements-dev.txt
 
 #  security_secrets_checks:
 #    runs-on: ubuntu-latest

@@ -79,6 +79,5 @@ assets/search
 .env
 .env.*
 *.env
-
-# Node.js
 node_modules/
+.claude/

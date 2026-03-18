@@ -48,7 +48,6 @@ markdown_extensions:
   - md_in_html
   - attr_list
   - fenced_code
-  - attr_list
   - admonition
   - pymdownx.highlight:
       anchor_linenums: true

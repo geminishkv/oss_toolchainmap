@@ -12,11 +12,18 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 BASE_DIR = ROOT
-OUTPUT = BASE_DIR / "docs" / "pdf_table" / "tools-map.pdf"
+_DEFAULT_OUTPUT = BASE_DIR / "docs" / "pdf_table" / "tools-map.pdf"
 
 
 def main() -> None:
     """Render HTML with tools table and save it as PDF"""
+    output = _DEFAULT_OUTPUT
+    args = sys.argv[1:]
+    if "--output" in args:
+        idx = args.index("--output")
+        if idx + 1 < len(args):
+            output = Path(args[idx + 1])
+
     html_content = render_tools_html()
 
     full_html = """\
@@ -52,7 +59,7 @@ class="footer-logo" />
           2026 FinDevSecOps Community collaborated with geminishkv
           </a>
           &amp;
-          <a href="https://findvesecops.ru/" target="_blank">
+          <a href="https://findevsecops.ru/" target="_blank">
           FinDevSecOps
           </a>
       </div>
@@ -62,12 +69,12 @@ class="footer-logo" />
 
     css_path = BASE_DIR / "docs" / "stylesheets" / "tools-pdf.css"
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    output.parent.mkdir(parents=True, exist_ok=True)
     HTML(string=full_html, base_url=str(BASE_DIR)).write_pdf(
-        str(OUTPUT),
+        str(output),
         stylesheets=[CSS(filename=str(css_path))],
     )
-    print(f"PDF saved to {OUTPUT}")
+    print(f"PDF saved to {output}")
 
 
 if __name__ == "__main__":

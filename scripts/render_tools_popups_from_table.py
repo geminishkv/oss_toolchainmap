@@ -242,6 +242,9 @@ def _load_tools_for_entry(
                 oss_tools_path = tool_type.get("OSS_tools")
                 ps_tools_path = tool_type.get("PS_tools")
 
+                oss_tools = []
+                ps_tools = []
+
                 if oss_tools_path:
                     oss_raw = _load_yaml_absolute(env, oss_tools_path)
                     oss_tools = _normalize_tools(oss_raw)
@@ -261,6 +264,9 @@ def _load_tools_for_entry(
     else:
         oss_tools_path = entry.get("OSS_tools")
         ps_tools_path = entry.get("PS_tools")
+
+        oss_tools = []
+        ps_tools = []
 
         if oss_tools_path:
             oss_raw = _load_yaml_absolute(env, oss_tools_path)

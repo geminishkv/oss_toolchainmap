@@ -204,7 +204,7 @@ Tools:
   - name: js-x-ray
     meta:
       description: "Статический анализатор безопасности JavaScript-кода. Обнаруживает подозрительные шаблоны, небезопасные зависимости и потенциальные уязвимости."
-      link_URL: "https://github.co  m/NodeSecure/js-x-ray"
+      link_URL: "https://github.com/NodeSecure/js-x-ray"
       ver_edition: "10.2.0"
       FSTEK_cert: "Нет"
       redaction: ["10.2.1"]
@@ -244,7 +244,7 @@ Tools:
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["json", "junit-xml", "sarif", "text"]
-      detect_metods: ["CWE", "OWASP Top 10", "SANS Top 25", "PCI DSS"]
+      detect_methods: ["CWE", "OWASP Top 10", "SANS Top 25", "PCI DSS"]
       OSS: "true"
       division: "AppSec"
       type: "SAST"
@@ -260,7 +260,7 @@ Tools:
       redaction: []
       RUS_access: "Доступен"
       report_formats: ["json", "html","txt"]
-      detect_metods: ["CWE", "OWASP Top 10"]
+      detect_methods: ["CWE", "OWASP Top 10"]
       OSS: "true"
       division: "AppSec"
       type: "SAST"

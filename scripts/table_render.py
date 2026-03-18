@@ -192,10 +192,12 @@ def render_table(data: Dict[str, Any]) -> str:
                 )
 
             if i == 0 or row["type"] != flat_rows[i - 1]["type"]:
-                type_span = (
-                    sum(1 for r in flat_rows if r["type"] == row["type"])
-                    or 1
-                )
+                type_span = 1
+                for j in range(i + 1, len(flat_rows)):
+                    if flat_rows[j]["type"] == row["type"]:
+                        type_span += 1
+                    else:
+                        break
                 html.append(
                     (
                         f'<td rowspan="{type_span}" style="font-weight:700;">'
@@ -204,10 +206,12 @@ def render_table(data: Dict[str, Any]) -> str:
                 )
 
             if i == 0 or row["class"] != flat_rows[i - 1]["class"]:
-                class_span = (
-                    sum(1 for r in flat_rows if r["class"] == row["class"])
-                    or 1
-                )
+                class_span = 1
+                for j in range(i + 1, len(flat_rows)):
+                    if flat_rows[j]["class"] == row["class"]:
+                        class_span += 1
+                    else:
+                        break
                 html.append(
                     (
                         f'<td rowspan="{class_span}" style="font-weight:700;">'

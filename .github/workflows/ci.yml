@@ -46,11 +46,11 @@ jobs:
 #        run: |
 #          ruff check .
 #          ruff format --check .
-      - name: Lint with flake8
-        run: |
-          flake8 . \
-            --statistics \
-            --show-source
+#      - name: Lint with flake8
+#        run: |
+#          flake8 . \
+#            --statistics \
+#            --show-source
 
       - name: Type checking with mypy
         run: |

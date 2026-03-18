@@ -24,5 +24,4 @@ flake8==7.1.1
 bandit==1.7.10
 mypy==1.11.0
 safety==3
-safety<3
 typer<0.17.0

@@ -135,7 +135,7 @@
     colRight,
     "tools-filter-fstek",
     "Сертификат ФСТЭК",
-    "Поиск наличия сертификата" // переделать логику и доьавить атрибут "true", "false"
+    "Поиск наличия сертификата" // переделать логику и добавить атрибут "true", "false"
     );
     fieldInputs.RUS_access = createFieldFilter(
     colRight,
@@ -240,7 +240,7 @@
     });
     input.addEventListener("input", applyFilterAndSearch);
 
-        if (getToolsData().length) {
+    if (getToolsData().length) {
       applyFilterAndSearch();
     }
 

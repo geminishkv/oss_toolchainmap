@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const text = "Sic Parvis Magna. Auxilio Divino. Stay tuned ;) The most interesting part is just ahead";
   const el = document.getElementById("typewriter-target");
+  if (!el) return;
 
   const typeSpeed = 100;
   const pauseEnd  = 1250;

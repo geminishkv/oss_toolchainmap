@@ -14,7 +14,7 @@
     redaction: "Редакции",
     RUS_access: "Доступность в РФ",
     report_formats: "Форматы отчётов",
-    detect_metods: "Методы обнаружения",
+    detect_methods: "Методы обнаружения",
     OSS: "Есть ли версия OSS?"
   };
 
@@ -74,7 +74,7 @@
       addLine(li, labels.report_formats, tool.report_formats, false);
 
       const detect = tool.detect_methods || tool.detect_metods || [];
-      addLine(li, labels.detect_metods, detect, false);
+      addLine(li, labels.detect_methods, detect, false);
 
       if (typeof tool.OSS !== "undefined") {
         addLine(li, labels.OSS, String(tool.OSS), false);

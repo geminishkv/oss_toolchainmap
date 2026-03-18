@@ -1009,6 +1009,29 @@
     "file": "docs/tools/Secrets_Management/OSS_tools.yaml"
   },
   {
+    "id": "OSS_tools-OSS-Trufflehog",
+    "name": "Trufflehog",
+    "division": "Secrets Management",
+    "type": "",
+    "tool_class": "",
+    "vendor": "Truffle Security Co",
+    "description": "Мощный инструмент для обнаружения, классификации, проверки и анализа секретов. В данном контексте секрет — это учетные данные, которые машина использует для аутентификации перед другой машиной. Сюда входят ключи API, пароли к базам данных, закрытые ключи шифрования и другое.",
+    "link_URL": "https://github.com/trufflesecurity/trufflehog",
+    "ver_edition": "3.93.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "JSON"
+    ],
+    "detect_methods": [
+      "Secrets detection"
+    ],
+    "OSS": "true",
+    "lic": "AGPL 3 license",
+    "kind": "OSS",
+    "file": "docs/tools/Secrets_Management/OSS_tools.yaml"
+  },
+  {
     "id": "OSS_tools-OSS-Spring Cloud Config",
     "name": "Spring Cloud Config",
     "division": "Secrets Management",
@@ -3463,6 +3486,32 @@
     ],
     "OSS": "false",
     "lic": "Trial, Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/MLSecOps/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-AppSec.GenAI",
+    "name": "AppSec.GenAI",
+    "division": "MLSecOps",
+    "type": "",
+    "tool_class": "",
+    "vendor": "ООО «АппСек Солюшенс»",
+    "description": "Умный сканер обнаружения уязвимостей для защиты данных и моделей машинного обучения. Он разработан для повышения киберустойчивости взаимодействий с большими языковыми моделями на всех этапах их жизненного цикла (SSDLC).",
+    "link_URL": "https://appsec-genai.ru/",
+    "ver_edition": "25.4.2",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "JSON",
+      "CSV",
+      "DOCX",
+      "PDF"
+    ],
+    "detect_methods": [
+      "Информация не найдена"
+    ],
+    "OSS": "false",
+    "lic": "SaaS, On-Premise",
     "kind": "PS",
     "file": "docs/tools/MLSecOps/PS_tools.yaml"
   },
@@ -6829,6 +6878,29 @@
     "file": "docs/tools/AppSec/RASP/PS_tools.yaml"
   },
   {
+    "id": "PS_tools-PS-AppSec.Cryptex",
+    "name": "AppSec.Cryptex",
+    "division": "AppSec",
+    "type": "RASP",
+    "tool_class": "Анализатор при Runtime",
+    "vendor": "ООО «АппСек Солюшенс»",
+    "description": "Решение для шифрования и защиты мобильных приложений от запуска в небезопасной среде.",
+    "link_URL": "https://appsec-cryptex.ru/",
+    "ver_edition": "",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Веб-интерфейс"
+    ],
+    "detect_methods": [
+      "Информация не найдена"
+    ],
+    "OSS": "false",
+    "lic": "SaaS, On-Premise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/RASP/PS_tools.yaml"
+  },
+  {
     "id": "PS_tools-PS-Jscrambler",
     "name": "Jscrambler",
     "division": "AppSec",
@@ -8602,6 +8674,33 @@
     "file": "docs/tools/AppSec/SAST/PS_tools.yaml"
   },
   {
+    "id": "PS_tools-PS-AppSec.Wave",
+    "name": "AppSec.Wave",
+    "division": "AppSec",
+    "type": "SAST",
+    "tool_class": "Статический анализатор",
+    "vendor": "ООО \"АппСек Солюшенс\"",
+    "description": "Скоростной аудит безопасности кода с помощью искусственного интеллекта",
+    "link_URL": "https://appsec-wave.ru/",
+    "ver_edition": "25.4.5",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Да",
+    "report_formats": [
+      "HTML",
+      "PDF",
+      "JSON",
+      "SARIF"
+    ],
+    "detect_methods": [
+      "CWE",
+      "OWASP Top 10"
+    ],
+    "OSS": "false",
+    "lic": "Trial, Подписка",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/SAST/PS_tools.yaml"
+  },
+  {
     "id": "PS_tools-PS-Microfocus Fortify",
     "name": "Microfocus Fortify",
     "division": "AppSec",
@@ -8918,6 +9017,31 @@
     ],
     "OSS": "false",
     "lic": "SaaS, Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/SAST/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-Xygeni SAST",
+    "name": "Xygeni SAST",
+    "division": "AppSec",
+    "type": "SAST",
+    "tool_class": "Статический анализатор",
+    "vendor": "Xygeni",
+    "description": "Выявление уязвимостей в коде",
+    "link_URL": "https://xygeni.io/ru/xygeni-code-security/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Ограничен (проверить у вендора соответствие санкциям)",
+    "report_formats": [
+      "table"
+    ],
+    "detect_methods": [
+      "CWE",
+      "OWASP Top 10",
+      "Secrets detection"
+    ],
+    "OSS": "false",
+    "lic": "Trial, Подписка",
     "kind": "PS",
     "file": "docs/tools/AppSec/SAST/PS_tools.yaml"
   },
@@ -9287,7 +9411,7 @@
     "tool_class": "Статический анализатор",
     "vendor": "NodeSecure",
     "description": "Статический анализатор безопасности JavaScript-кода. Обнаруживает подозрительные шаблоны, небезопасные зависимости и потенциальные уязвимости.",
-    "link_URL": "https://github.co  m/NodeSecure/js-x-ray",
+    "link_URL": "https://github.com/NodeSecure/js-x-ray",
     "ver_edition": "10.2.0",
     "FSTEK_cert": "Нет",
     "RUS_access": "Доступен",
@@ -9651,6 +9775,52 @@
     ],
     "OSS": "true",
     "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/SAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-ShellCheck",
+    "name": "ShellCheck",
+    "division": "AppSec",
+    "type": "SAST",
+    "tool_class": "Статический анализатор",
+    "vendor": "koalaman",
+    "description": "Статический анализатор для bash/sh скриптов, позволяющий выявлять синтаксические и семантические ошибки: некорректное экранирование, ошибки в Conditionals, некорректное использование команд, проблемы при вводе/обработке данных и др. ",
+    "link_URL": "https://github.com/koalaman/shellcheck",
+    "ver_edition": "",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "tty"
+    ],
+    "detect_methods": [
+      "Custom rules"
+    ],
+    "OSS": "true",
+    "lic": "GPL-3.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/SAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Shell CGI Static code analysis",
+    "name": "Shell CGI Static code analysis",
+    "division": "AppSec",
+    "type": "SAST",
+    "tool_class": "Статический анализатор",
+    "vendor": "OneKey",
+    "description": "Решение Onekey для поиска RCE в CGI скриптах. Позволяет находить атаки вида Command Injection в автоматическом режиме.",
+    "link_URL": "https://www.onekey.com/resource/shell-cgi-static-code-analysis---automatic-discovery-of-rces#how-shell-cgi-works",
+    "ver_edition": "0.11.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard"
+    ],
+    "detect_methods": [
+      "Custom rules"
+    ],
+    "OSS": "true",
+    "lic": "Unknown license",
     "kind": "OSS",
     "file": "docs/tools/AppSec/SAST/OSS_tools.yaml"
   },
@@ -10536,6 +10706,32 @@
     "file": "docs/tools/AppSec/SCA_OSA/Analizator/PS_tools.yaml"
   },
   {
+    "id": "PS_tools-PS-Debricked",
+    "name": "Debricked",
+    "division": "AppSec",
+    "type": "SCA/OSA",
+    "tool_class": "Анализатор",
+    "vendor": "OpenText",
+    "description": "Инструмент анализа состава ПО для сканирования зависимостей с открытым исходным кодом, обнаружения уязвимостей и проверки лицензий с интеграцией в CI/CD. Поддерживает языки: JavaScript, TypeScript, Python, Java, PHP, Ruby, Go, .NET, C, C++, Rust. Предлагает автоматизированное исправление уязвимостей и облачную архитектуру.",
+    "link_URL": "https://debricked.com/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "json",
+      "pdf",
+      "csv"
+    ],
+    "detect_methods": [
+      "CVE",
+      "CVSS"
+    ],
+    "OSS": "false",
+    "lic": "Proprietary",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/SCA_OSA/Analizator/PS_tools.yaml"
+  },
+  {
     "id": "PS_tools-PS-Aikido SCA",
     "name": "Aikido SCA",
     "division": "AppSec",
@@ -10692,6 +10888,31 @@
     "file": "docs/tools/AppSec/SCA_OSA/Analizator/PS_tools.yaml"
   },
   {
+    "id": "PS_tools-PS-Xygeni SCA",
+    "name": "Xygeni SCA",
+    "division": "AppSec",
+    "type": "SCA/OSA",
+    "tool_class": "Анализатор",
+    "vendor": "Xygeni",
+    "description": "Выявление уязвимостей, управление лицензиями и предотвращение рисков",
+    "link_URL": "https://xygeni.io/open-source-security/",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Ограничен (проверить у вендора соответствие санкциям)",
+    "report_formats": [
+      "table",
+      "cyclonedx",
+      "SPDX"
+    ],
+    "detect_methods": [
+      "CVE"
+    ],
+    "OSS": "false",
+    "lic": "Trial, Подписка",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/SCA_OSA/Analizator/PS_tools.yaml"
+  },
+  {
     "id": "PS_tools-PS-Arnica SCA",
     "name": "Arnica SCA",
     "division": "AppSec",
@@ -10714,6 +10935,37 @@
     ],
     "OSS": "false",
     "lic": "SaaS, Enterprise",
+    "kind": "PS",
+    "file": "docs/tools/AppSec/SCA_OSA/Analizator/PS_tools.yaml"
+  },
+  {
+    "id": "PS_tools-PS-StaticReviewer",
+    "name": "StaticReviewer",
+    "division": "AppSec",
+    "type": "SCA/OSA",
+    "tool_class": "Анализатор",
+    "vendor": "Security Reviewer(Italy)",
+    "description": "SAST модуль в составе продукта 'Security Reviewer suite'. Позволяет искать уязвимости в исходном коде и используемых библиотеках, а также проводить проверки DAST/MAST. Для отображения результатов используется встроенное ASPM решение.",
+    "link_URL": "https://securityreviewer.atlassian.net/wiki/spaces/KC/pages/196633/Static+Reviewer",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Недоступен",
+    "report_formats": [
+      "Dashboard"
+    ],
+    "detect_methods": [
+      "CWE",
+      "OWASP Top 10",
+      "SQALE",
+      "CISQ",
+      "CVE",
+      "WASC",
+      "MISRA",
+      "CERT",
+      "NIST"
+    ],
+    "OSS": "false",
+    "lic": "On Premise, Cloud, Container",
     "kind": "PS",
     "file": "docs/tools/AppSec/SCA_OSA/Analizator/PS_tools.yaml"
   },
@@ -10799,32 +11051,6 @@
     "file": "docs/tools/AppSec/SCA_OSA/Analizator/OSS_tools.yaml"
   },
   {
-    "id": "OSS_tools-OSS-Debricked",
-    "name": "Debricked",
-    "division": "AppSec",
-    "type": "SCA/OSA",
-    "tool_class": "Анализатор",
-    "vendor": "Debricked",
-    "description": "Инструмент анализа состава ПО для сканирования зависимостей с открытым исходным кодом, обнаружения уязвимостей и проверки лицензий с интеграцией в CI/CD. Поддерживает языки: JavaScript, TypeScript, Python, Java, PHP, Ruby, Go, .NET, C, C++, Rust. Предлагает автоматизированное исправление уязвимостей и облачную архитектуру.",
-    "link_URL": "https://debricked.com/",
-    "ver_edition": "Информация не найдена",
-    "FSTEK_cert": "Нет",
-    "RUS_access": "Доступен",
-    "report_formats": [
-      "json",
-      "pdf",
-      "csv"
-    ],
-    "detect_methods": [
-      "CVE",
-      "CVSS"
-    ],
-    "OSS": "true",
-    "lic": "Proprietary",
-    "kind": "OSS",
-    "file": "docs/tools/AppSec/SCA_OSA/Analizator/OSS_tools.yaml"
-  },
-  {
     "id": "OSS_tools-OSS-Dependency Check",
     "name": "Dependency Check",
     "division": "AppSec",
@@ -10849,6 +11075,33 @@
     ],
     "OSS": "true",
     "lic": "Apache-2.0 License",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/SCA_OSA/Analizator/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Depscan",
+    "name": "Depscan",
+    "division": "AppSec",
+    "type": "SCA/OSA",
+    "tool_class": "Анализатор",
+    "vendor": "OWASP",
+    "description": "Инструмент аудита безопасности и рисков нового поколения, основанный на известных уязвимостях, рекомендациях и ограничениях лицензий для зависимостей проекта.",
+    "link_URL": "https://github.com/owasp-dep-scan/dep-scan",
+    "ver_edition": "6.1.0",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "JSON",
+      "table",
+      "cyclonedx",
+      "PDF"
+    ],
+    "detect_methods": [
+      "CVSS",
+      "CVE"
+    ],
+    "OSS": "true",
+    "lic": "MIT license",
     "kind": "OSS",
     "file": "docs/tools/AppSec/SCA_OSA/Analizator/OSS_tools.yaml"
   },
@@ -11685,6 +11938,52 @@
     ],
     "OSS": "true",
     "lic": "Apache-2.0 license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-Shelling",
+    "name": "Shelling",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "ewilded",
+    "description": "это генератор payload-ов для OS command injection, поддерживающий множество платформ (Linux, Windows, BSD), техник обхода фильтров (base64, hex, Unicode, пробелы через ${IFS}, pipe chaining) и типов инъекций (reverse/bind shells, file read/write, privilege escalation). Работает как утилита на Python, с фокусом на создание сложных цепочек команд для Burp Suite.",
+    "link_URL": "https://github.com/ewilded/shelling",
+    "ver_edition": "Информация не найдена",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "CLI"
+    ],
+    "detect_methods": [
+      "Custom payload"
+    ],
+    "OSS": "true",
+    "lic": "Custom license",
+    "kind": "OSS",
+    "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
+  },
+  {
+    "id": "OSS_tools-OSS-command-injection-attacker",
+    "name": "command-injection-attacker",
+    "division": "AppSec",
+    "type": "DAST",
+    "tool_class": "DAST",
+    "vendor": "PortSwigger",
+    "description": "форк Shelling от PortSwigger. Добавляет Burp-расширения для автоматизированного fuzzing параметров ввода на command injection, генерацией и выполнением payload'ов прямо из Burp Intruder/Scanner в реальном времени.",
+    "link_URL": "https://github.com/PortSwigger/command-injection-attacker",
+    "ver_edition": "",
+    "FSTEK_cert": "Нет",
+    "RUS_access": "Доступен",
+    "report_formats": [
+      "Dashboard"
+    ],
+    "detect_methods": [
+      "Custom payload"
+    ],
+    "OSS": "true",
+    "lic": "Custom license",
     "kind": "OSS",
     "file": "docs/tools/AppSec/DAST/DAST/OSS_tools.yaml"
   },

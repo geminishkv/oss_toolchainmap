@@ -1,8 +1,6 @@
 <div align="center">
 <h1><a id="intro"> DevSecOps Toolchain Map </a><br></h1>
 
-**[Live site](https://geminishkv.github.io/oss_toolchainmap/)**
-
 <a href="https://docs.github.com/en"><img src="https://img.shields.io/static/v1?logo=github&logoColor=fff&label=&message=Docs&color=36393f&style=flat" alt="GitHub Docs"></a>
 <a href="https://symbl.cc/en/unicode-table"><img src="https://img.shields.io/static/v1?logo=unicode&logoColor=fff&label=&message=Unicode&color=36393f&style=flat" alt="Unicode"></a>
 <a href="https://shields.io"><img src="https://img.shields.io/static/v1?logo=shieldsdotio&logoColor=fff&label=&message=Shields&color=36393f&style=flat" alt="Shields"></a>
@@ -25,13 +23,13 @@
 
 ***
 
-<br>Салют :wave:,</br>
+<br>Салют :wave:,</br> 
 
 **MkDocs Material** - фреймворк для создания документации, работающий в связке со статическим генератором сайтов [MkDocs](https://www.mkdocs.org/).
 
 **Лицензия MkDocs Material:** MIT License.
 
-Карта дает возможность выбрать выгодные для себя инструменты под все необходимые ситуации: когда нет денег, когда не можем интегрировать большой инструмент, когда никого нет и приходится делать все одному и тд.
+Карта дает возможность выбрать выгодные для себя инструменты под все необходимые ситуации: когда нет денег, когда не можем интегрировать большой инструмент, когда никого нет и приходится делать все одному и тд. **[Live site](https://geminishkv.github.io/oss_toolchainmap/)**
 
 Отмечу основные моменты:
 
@@ -186,10 +184,10 @@ $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ PYTHONPATH=. python scripts/build_search_data.py
-$ mkdocs build -v > build.log 2>&1 # debug
-$ mkdocs serve --livereload
+$ PYTHONPATH=. mkdocs build -v > build.log 2>&1 # debug
+$ PYTHONPATH=. mkdocs serve --livereload
 # or
-$ mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адреса
+$ PYTHONPATH=. mkdocs serve -a 127.0.0.1:8001 # прямое обозначение адреса
 ```
 
 * Генерация карты в PDF

@@ -1,5 +1,14 @@
 """MkDocs render"""
 
+import sys
+import os
+
+# Ensure project root is in sys.path so `scripts.*` imports work
+# regardless of how mkdocs is invoked (with or without PYTHONPATH=.)
+_ROOT = os.path.dirname(os.path.abspath(__file__))
+if _ROOT not in sys.path:
+    sys.path.insert(0, _ROOT)
+
 from typing import Any, Dict, List
 
 from scripts.table_data import (

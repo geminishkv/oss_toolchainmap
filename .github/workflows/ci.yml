@@ -11,7 +11,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  packages: write
   deployments: write
 
 concurrency:
@@ -49,13 +48,12 @@ jobs:
 #          ruff format --check .
       - name: Lint with flake8
         run: |
-          pip install flake8
           flake8 . \
             --statistics \
             --show-source
+
       - name: Type checking with mypy
         run: |
-          pip install mypy
           mypy . --config-file mypy.ini
 
 #  docs_linter_checks:
@@ -144,8 +142,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -155,7 +151,7 @@ jobs:
       - name: Install Python security tools
         run: |
           pip install --upgrade pip
-          pip install bandit safety -r requirements.txt
+          pip install -r requirements.txt
 
       - name: Security scan with bandit
         run: |
@@ -163,7 +159,7 @@ jobs:
 
       - name: Dependency security check with safety
         run: |
-          safety check -r requirements.txt || true
+          safety check -r requirements.txt
 
 #  security_secrets_checks:
 #    runs-on: ubuntu-latest
@@ -178,6 +174,7 @@ jobs:
 #        uses: gitleaks/gitleaks-action@v2
 #        with:
 #          config-path: .gitleaks.toml
+
   docs-preview:
     if: github.event_name == 'pull_request'
     needs:
@@ -215,12 +212,6 @@ jobs:
         env:
           PYTHONPATH: .
 
-      - name: Validate MkDocs config (preview)
-        run: |
-          mkdocs build --clean --config-file mkdocs.yml --site-dir /tmp/mkdocs-check
-        env:
-          PYTHONPATH: .
-
       - name: Ensure pdf_table directory exists (preview)
         run: |
           mkdir -p docs/pdf_table
@@ -229,6 +220,8 @@ jobs:
         run: |
           python scripts/export_tools_pdf.py \
             --output docs/pdf_table/tools-map.pdf
+        env:
+          PYTHONPATH: .
 
       - name: Build MkDocs site (preview)
         run: |
@@ -279,12 +272,6 @@ jobs:
         env:
           PYTHONPATH: .
 
-      - name: Validate MkDocs config
-        run: |
-          mkdocs build --clean --config-file mkdocs.yml --site-dir /tmp/mkdocs-check
-        env:
-          PYTHONPATH: .
-
       - name: Ensure pdf_table directory exists
         run: |
           mkdir -p docs/pdf_table
@@ -306,24 +293,17 @@ jobs:
         run: |
           python scripts/generate_sitemap.py || echo "No sitemap generator, skipping."
 
-      - name: Ensure site directory exists
-        run: |
-          if [ ! -d "site" ]; then
-            echo "site directory is missing"
-            exit 1
-          fi
-
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
       - name: Check links with lychee
         uses: lycheeverse/lychee-action@v1
         with:
           args: ./site/**/*.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
 
   deploy:
     name: Deploy to GitHub Pages
@@ -338,12 +318,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Create GitHub Deployment
-        uses: chrnorm/deployment-action@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          environment: production
-          environment-url: ${{ steps.deployment.outputs.page_url }}
-          transient-environment: false
-          production-environment: true

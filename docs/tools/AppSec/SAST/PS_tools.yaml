@@ -414,3 +414,19 @@ Tools:
       class: "Статический анализатор"
       vendor: "Wiz"
       lic: "SaaS, Enterprise"
+ - name: Platform V SAST Master
+    meta:
+      description: "Модуль статического анализа в составе решения Platform V ASOC Control Center, который позволяет искать ошибки и дефекты безопасности в исходном коде. Поддерживает языки: Java, Go, C, C++, Objective C."
+      link_URL: "https://sbertech.ru/documents/platform-v-asoc-control-center/1.0.0"
+      ver_edition: "1.0.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["SARIF"]
+      detect_methods: ["OWASP Top 10", "CWE"]
+      OSS: "false"
+      division: "AppSec"
+      type: "SAST"
+      class: "Статический анализатор"
+      vendor: "АО "Сбертех""
+      lic: "Enterprise"

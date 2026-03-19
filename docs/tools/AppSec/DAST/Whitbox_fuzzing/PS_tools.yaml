@@ -81,3 +81,19 @@ Tools:
       class: "WhiteBox Fuzzing"
       vendor: "Fortra"
       lic: "Enterprise"
+  - name: Platform V FUZZ Master
+    meta:
+      description: "Модуль фаззинг тестирования в составе решения Platform V ASOC Control Center, который позволяет централизовать управление процессами и инструментами фаззинг тестирования. Представляет собой единую точку для запуска и контроля тестов, а также автоматизирует сопутствующие задачи."
+      link_URL: "https://sbertech.ru/documents/platform-v-asoc-control-center/1.0.0"
+      ver_edition: "1.0.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["JSON"]
+      detect_metods: ["Coverage-guided fuzzing"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "WhiteBox Fuzzing"
+      vendor: "АО "Сбертех""
+      lic: "Enterprise"

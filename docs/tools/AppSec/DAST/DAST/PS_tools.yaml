@@ -264,3 +264,19 @@ Tools:
       class: "DAST"
       vendor: "Probely"
       lic: "SaaS, подписка"
+  - name: Platform V DAST Master
+    meta:
+      description: "Модуль динамического анализа в составе решения Platform V ASOC Control Center, который имитирует атаки на сервера с развернутыми приложениями для поиска небезопасных мест."
+      link_URL: "https://sbertech.ru/documents/platform-v-asoc-control-center/1.0.0"
+      ver_edition: "1.0.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["HTML@, @PDF"]
+      detect_metods: ["OWASP Top 10"]
+      OSS: "false"
+      division: "AppSec"
+      type: "DAST"
+      class: "DAST"
+      vendor: "АО "Сбертех""
+      lic: "Enterprise"

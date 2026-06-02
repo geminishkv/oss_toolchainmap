@@ -396,3 +396,19 @@ Tools:
       OSS: "false"
       division: "Container Security"
       type: "Runtime security / CSPM / KSPM"
+  - name: Platform V Orchestrator for Security Services (модуль Container Security)
+    meta:
+      description: "Компонент Container Security исследует в статике и динамике контейнеры на уязвимости, наличие подозрительного трафика, вредоносного поведения, оценивает конфигурации образов контейнеров с точки зрения безопасности, а также анализирует в статике и динамике ПО, входящее в состав контейнера до его попадания в периметр."
+      link_URL: "https://platformv.sbertech.ru/products/servisy-bezopasnosti/laboratoriya-proverki-po"
+      ver_edition: "1.0.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: ["json", "cli", "PDF", "html"]
+      detect_methods: ["CVE", "CVSS", "OWASP Top 10", "BDU", "NVD", "OSV", "GHA", "лицензии", "политики", "параметры конфигурации", "NVD/OSV источники"]
+      OSS: "false"
+      division: "Container Security"
+      type: ""
+      class: ""
+      vendor: "Сбертех"
+      lic: "on premise/SaaS"

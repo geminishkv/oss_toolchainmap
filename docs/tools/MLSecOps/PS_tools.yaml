@@ -383,3 +383,19 @@ Tools:
       class: ""
       vendor: "Securiti"
       lic: "SaaS, Enterprise"
+  - name: Platform V SOWA AI
+    meta:
+      description: "Компонент продукта Platform V SOWA, который обеспечивает защиту чувствительных и конфиденциальных данных, контроль доступа к AI-моделям, минимизацию несанкционированного использования, прозрачность AI-трафика."
+      link_URL: "https://platformv.sbertech.ru/products/servisy-bezopasnosti/sowa"
+      ver_edition: "6.0"
+      FSTEK_cert: "Нет"
+      redaction: []
+      RUS_access: "Доступен"
+      report_formats: []
+      detect_metods: ["machine learning models", "toxicity & PII detection"]
+      OSS: "false"
+      division: "MLSecOps"
+      type: ""
+      class: ""
+      vendor: "АО "Сбертех""
+      lic: "Enterprise, on-premise"

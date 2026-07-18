@@ -16,14 +16,14 @@ description:
 <a href="https://mypy-lang.org/"><img src="https://img.shields.io/badge/type_checked-mypy-039dfc?style=flat" alt="mypy"></a>
 <a href="https://flake8.pycqa.org/"><img src="https://img.shields.io/badge/Code%20style-flake8-orange?style=flat" alt="flake8"></a>
 <a href="https://pylint.readthedocs.io/"><img src="https://img.shields.io/badge/linting-pylint-1254a0?style=flat" alt="pylint"></a>
-<a href="https://github.com/geminishkv/oss_toolchainmap/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/geminishkv/oss_toolchainmap/ci.yml?branch=develop&label=GitHub%20Actions&logo=githubactions&logoColor=white" alt="CI" /></a>
+<a href="https://github.com/geminishkv/oss_toolchainmap/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/geminishkv/oss_toolchainmap/ci.yml?branch=master&label=GitHub%20Actions&logo=githubactions&logoColor=white" alt="CI" /></a>
 <a href="https://github.com/geminishkv/oss_toolchainmap/releases"><img src="https://img.shields.io/github/v/release/geminishkv/oss_toolchainmap?label=Release" alt="Latest release" /></a>
 <a href="https://github.com/geminishkv/oss_toolchainmap"><img src="https://img.shields.io/github/repo-size/geminishkv/oss_toolchainmap?label=Repo%20size" alt="Repo size" /></a></div>
 
 ***
 
 
-**AppSec Toolchain Map** — это интерактивная карта инструментов по направлению разработки безопасного ПО, которая помогает специалисту выбрать необходимые инструменты под свои ззадачи с учетом ограничений: бюджет, санкции, стэк, размер команды и зрелость процессов.
+**AppSec Toolchain Map** — это интерактивная карта инструментов по направлению разработки безопасного ПО, которая помогает специалисту выбрать необходимые инструменты под свои задачи с учетом ограничений: бюджет, санкции, стэк, размер команды и зрелость процессов.
 
 Проект задуман как открытый справочник и рабочий инструмент сообщества в котором возможно посмотреть, изучить различные классы решений, их отличия, доступность инструментов, и как выстроить из них понятную архитектуру безопасности разработки.
 
